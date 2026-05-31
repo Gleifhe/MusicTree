@@ -1,0 +1,31 @@
+---
+title: "World Sick"
+artist: "Broken Social Scene"
+artist_slug: "broken-social-scene"
+album: "Forgiveness Rock Record"
+album_slug: "forgiveness-rock-record"
+year: 2010
+credits:
+  - person_slug: "kevin-drew"
+    person: "Kevin Drew"
+    role: "Performer"
+  - person_slug: "brendan-canning"
+    person: "Brendan Canning"
+    role: "Performer"
+  - person_slug: "emily-haines"
+    person: "Emily Haines"
+    role: "Performer"
+  - person_slug: "leslie-feist"
+    person: "Leslie Feist"
+    role: "Performer"
+  - person_slug: "jason-collett"
+    person: "Jason Collett"
+    role: "Performer"
+  - person_slug: "andrew-whiteman"
+    person: "Andrew Whiteman"
+    role: "Performer"
+  - person_slug: "charles-spearin"
+    person: "Charles Spearin"
+    role: "Performer"
+draft: false
+---

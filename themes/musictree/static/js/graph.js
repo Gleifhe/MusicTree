@@ -141,7 +141,7 @@
       if (n.scene) (sceneMap[n.scene] = sceneMap[n.scene] || []).push(n);
     });
     const sceneData = Object.entries(sceneMap)
-      .filter(([, nodes]) => nodes.length >= 2)
+      .filter(([, nodes]) => nodes.length >= 1)
       .map(([scene, nodes]) => ({ scene, nodes }));
 
     const gSceneLabels = gRoot.append('g').attr('class', 'cluster-scene-labels');
@@ -203,14 +203,49 @@
       .attr('text-anchor', 'middle')
       .text(d => d.label.length > 20 ? d.label.slice(0, 18) + '…' : d.label);
 
+    // ── Scene clustering force ────────────────────────────────────────────
+    // Assign fixed scene "home" positions arranged in a circle around center
+    const sceneNames = [...new Set(artistNodes.map(n => n.scene).filter(Boolean))];
+    const sceneAngle = {};
+    sceneNames.forEach((s, i) => {
+      sceneAngle[s] = (i / sceneNames.length) * 2 * Math.PI;
+    });
+    const clusterRadius = Math.min(width, height) * 0.32;
+    const sceneCenters = {};
+    sceneNames.forEach(s => {
+      sceneCenters[s] = {
+        x: width  / 2 + clusterRadius * Math.cos(sceneAngle[s]),
+        y: height / 2 + clusterRadius * Math.sin(sceneAngle[s]),
+      };
+    });
+
+    // Seed initial positions near scene center so simulation converges faster
+    nodeData.forEach(n => {
+      const sc = n.scene && sceneCenters[n.scene];
+      if (sc && !n.x) {
+        n.x = sc.x + (Math.random() - 0.5) * 80;
+        n.y = sc.y + (Math.random() - 0.5) * 80;
+      }
+    });
+
+    function sceneClusterForce(alpha) {
+      const strength = 0.12 * alpha;
+      nodeData.forEach(n => {
+        if (n.type === 'artist' && n.scene && sceneCenters[n.scene]) {
+          n.vx += (sceneCenters[n.scene].x - n.x) * strength;
+          n.vy += (sceneCenters[n.scene].y - n.y) * strength;
+        }
+      });
+    }
+
     simulation = d3.forceSimulation(nodeData)
       .force('link', d3.forceLink(linkData).id(d => d.id).distance(d => {
-        // Longer distance for song–album links to reduce clutter
         return d.relation === 'appears-on' ? 70 : 110;
       }))
       .force('charge', d3.forceManyBody().strength(-220))
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide().radius(d => (NODE_RADIUS[d.type] || 12) + 18))
+      .force('sceneCluster', sceneClusterForce)
       .on('tick', () => {
         linkEls
           .attr('x1', d => d.source.x)
@@ -231,16 +266,10 @@
           .attr('x', d => { const n = posById[d.id]; return n ? n.x : 0; })
           .attr('y', d => { const n = posById[d.id]; return n ? n.y + 24 : 0; });
 
-        // Move scene labels to centroid of each scene's artist nodes
+        // Move scene labels to the scene's fixed cluster center
         gSceneLabels.selectAll('text')
-          .attr('x', d => {
-            const xs = d.nodes.map(n => (posById[n.id] || n).x);
-            return xs.reduce((a, b) => a + b, 0) / xs.length;
-          })
-          .attr('y', d => {
-            const ys = d.nodes.map(n => (posById[n.id] || n).y);
-            return ys.reduce((a, b) => a + b, 0) / ys.length;
-          });
+          .attr('x', d => sceneCenters[d.scene] ? sceneCenters[d.scene].x : 0)
+          .attr('y', d => sceneCenters[d.scene] ? sceneCenters[d.scene].y : 0);
       });
   }
 
