@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Butch Vig"
 mbid: "3aee5b43-3e64-4e24-a4b5-db4a4e1e7ee3"
 roles: ["producer", "drummer", "engineer"]
@@ -99,6 +99,30 @@ credits:
     title: "Special"
     role: "Drums, Producer, Songwriter"
     artist: "Garbage"
+  - album_slug: "gish"
+    title: "Gish"
+    role: "producer"
+    artist: "Smashing Pumpkins"
+  - album_slug: "saturation"
+    title: "Saturation"
+    role: "producer"
+    artist: "Urge Overkill"
+  - song_slug: "cherub-rock"
+    title: "Cherub Rock"
+    role: "producer"
+    artist: "Smashing Pumpkins"
+  - song_slug: "today-sp"
+    title: "Today"
+    role: "producer"
+    artist: "Smashing Pumpkins"
+  - song_slug: "disarm"
+    title: "Disarm"
+    role: "producer"
+    artist: "Smashing Pumpkins"
+  - song_slug: "sister-havana"
+    title: "Sister Havana"
+    role: "producer"
+    artist: "Urge Overkill"
 draft: false
 ---
 

@@ -1,0 +1,26 @@
+---
+title: "Come Bite the Apple"
+artist: "Mother Love Bone"
+artist_slug: "mother-love-bone"
+album_slug: "apple"
+credits:
+  - person_slug: "andrew-wood"
+    person: "Andrew Wood"
+    role: "vocals"
+  - person_slug: "stone-gossard"
+    person: "Stone Gossard"
+    role: "guitar"
+  - person_slug: "bruce-fairweather"
+    person: "Bruce Fairweather"
+    role: "guitar"
+  - person_slug: "jeff-ament"
+    person: "Jeff Ament"
+    role: "bass"
+  - person_slug: "greg-gilmore"
+    person: "Greg Gilmore"
+    role: "drums"
+  - person_slug: "terry-date"
+    person: "Terry Date"
+    role: "producer"
+draft: false
+---

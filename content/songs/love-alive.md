@@ -1,0 +1,26 @@
+---
+title: "Love Alive"
+artist: "Heart"
+artist_slug: "heart"
+album_slug: "little-queen"
+credits:
+  - person_slug: "ann-wilson"
+    person: "Ann Wilson"
+    role: "vocals"
+  - person_slug: "nancy-wilson"
+    person: "Nancy Wilson"
+    role: "guitar/vocals"
+  - person_slug: "roger-fisher"
+    person: "Roger Fisher"
+    role: "guitar"
+  - person_slug: "steve-fossen"
+    person: "Steve Fossen"
+    role: "bass"
+  - person_slug: "michael-derosier"
+    person: "Michael DeRosier"
+    role: "drums"
+  - person_slug: "mike-flicker"
+    person: "Mike Flicker"
+    role: "producer"
+draft: false
+---

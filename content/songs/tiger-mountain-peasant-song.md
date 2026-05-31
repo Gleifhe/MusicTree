@@ -1,0 +1,26 @@
+---
+title: "Tiger Mountain Peasant Song"
+artist: "Fleet Foxes"
+artist_slug: "fleet-foxes"
+album_slug: "fleet-foxes-debut"
+credits:
+  - person_slug: "robin-pecknold"
+    person: "Robin Pecknold"
+    role: "vocals/guitar"
+  - person_slug: "skyler-skjelset"
+    person: "Skyler Skjelset"
+    role: "guitar"
+  - person_slug: "casey-musgraves-ff"
+    person: "Casey Musgraves"
+    role: "keyboards"
+  - person_slug: "christian-wargo"
+    person: "Christian Wargo"
+    role: "bass/vocals"
+  - person_slug: "morgan-henderson"
+    person: "Morgan Henderson"
+    role: "multi-instrumentalist"
+  - person_slug: "phil-ek"
+    person: "Phil Ek"
+    role: "producer"
+draft: false
+---

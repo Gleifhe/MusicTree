@@ -1,0 +1,26 @@
+---
+title: "Alone"
+artist: "Heart"
+artist_slug: "heart"
+album_slug: "bad-animals"
+credits:
+  - person_slug: "ann-wilson"
+    person: "Ann Wilson"
+    role: "vocals"
+  - person_slug: "nancy-wilson"
+    person: "Nancy Wilson"
+    role: "guitar/vocals"
+  - person_slug: "howard-leese"
+    person: "Howard Leese"
+    role: "guitar/keyboards"
+  - person_slug: "mark-andes"
+    person: "Mark Andes"
+    role: "bass"
+  - person_slug: "denny-carmassi"
+    person: "Denny Carmassi"
+    role: "drums"
+  - person_slug: "ron-nevison"
+    person: "Ron Nevison"
+    role: "producer"
+draft: false
+---

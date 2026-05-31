@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Steve Albini"
 mbid: "f2a3b4c5-d6e7-f8a9-b0c1-d2e3f4a5b6c7"
 roles: ["engineer", "producer", "guitarist"]
@@ -7,6 +7,13 @@ born: 1962
 died: 2024
 artist: ""
 artist_slug: ""
+bands:
+  - slug: "big-black"
+    name: "Big Black"
+    role: "Vocalist, Guitarist, Producer"
+  - slug: "shellac"
+    name: "Shellac"
+    role: "Vocalist, Guitarist, Producer"
 credits:
   - song_slug: "serve-the-servants"
     title: "Serve the Servants"
@@ -60,6 +67,42 @@ credits:
     title: "In Utero"
     role: "Recording Engineer"
     artist: "Nirvana"
+  - album_slug: "atomizer"
+    title: "Atomizer"
+    role: "vocalist/guitarist/producer"
+    artist: "Big Black"
+  - album_slug: "songs-about-fucking"
+    title: "Songs About Fucking"
+    role: "vocalist/guitarist/producer"
+    artist: "Big Black"
+  - album_slug: "at-action-park"
+    title: "At Action Park"
+    role: "vocalist/guitarist/producer"
+    artist: "Shellac"
+  - album_slug: "terraform"
+    title: "Terraform"
+    role: "vocalist/guitarist/producer"
+    artist: "Shellac"
+  - album_slug: "goat"
+    title: "Goat"
+    role: "producer"
+    artist: "The Jesus Lizard"
+  - album_slug: "liar"
+    title: "Liar"
+    role: "producer"
+    artist: "The Jesus Lizard"
+  - song_slug: "kerosene"
+    title: "Kerosene"
+    role: "songwriter/vocalist"
+    artist: "Big Black"
+  - song_slug: "my-black-ass"
+    title: "My Black Ass"
+    role: "vocalist/guitarist"
+    artist: "Shellac"
+  - song_slug: "mouth-breather"
+    title: "Mouth Breather"
+    role: "producer"
+    artist: "The Jesus Lizard"
 draft: false
 ---
 

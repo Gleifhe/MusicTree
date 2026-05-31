@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Kurt Cobain"
 mbid: "f0b22b17-e515-4ccd-b9cb-b7a07fd51a0c"
 roles: ["vocalist", "guitarist", "songwriter"]
@@ -220,6 +220,18 @@ credits:
     title: "MTV Unplugged in New York"
     role: "Vocals, Guitar, Lead Artist"
     artist: "Nirvana"
+  - album_slug: "houdini"
+    title: "Houdini"
+    role: "producer"
+    artist: "Melvins"
+  - song_slug: "hooch"
+    title: "Hooch"
+    role: "producer"
+    artist: "Melvins"
+  - song_slug: "night-goat"
+    title: "Night Goat"
+    role: "producer"
+    artist: "Melvins"
 draft: false
 ---
 Kurt Donald Cobain (February 20, 1967 - April 5, 1994) was an American musician who served as the lead vocalist, guitarist, and primary songwriter of Nirvana. His songwriting combined elements of pop melody with raw punk energy and confessional lyricism, helping define the Seattle grunge sound that swept popular music in the early 1990s.

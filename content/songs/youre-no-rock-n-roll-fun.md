@@ -1,0 +1,20 @@
+---
+title: "You're No Rock N Roll Fun"
+artist: "Sleater-Kinney"
+artist_slug: "sleater-kinney"
+album_slug: "all-hands-on-the-bad-one"
+credits:
+  - person_slug: "corin-tucker"
+    person: "Corin Tucker"
+    role: "vocals/guitar"
+  - person_slug: "carrie-brownstein"
+    person: "Carrie Brownstein"
+    role: "guitar/vocals"
+  - person_slug: "janet-weiss"
+    person: "Janet Weiss"
+    role: "drums"
+  - person_slug: "john-goodmanson"
+    person: "John Goodmanson"
+    role: "producer"
+draft: false
+---

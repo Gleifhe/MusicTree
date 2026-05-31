@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Jeff Ament"
 roles: ["bassist", "songwriter"]
 nationality: "American"
@@ -9,6 +9,15 @@ bands:
   - slug: "pearl-jam"
     name: "Pearl Jam"
     role: "Bassist, Songwriter (1990-present)"
+  - slug: "mother-love-bone"
+    name: "Mother Love Bone"
+    role: "Bassist"
+  - slug: "temple-of-the-dog"
+    name: "Temple of the Dog"
+    role: "Bassist"
+  - slug: "green-river"
+    name: "Green River"
+    role: "Bassist"
 credits:
   - song_slug: "once"
     title: "Once"
@@ -58,6 +67,22 @@ credits:
     title: "Ten"
     role: "Bass"
     artist: "Pearl Jam"
+  - album_slug: "apple"
+    title: "Apple"
+    role: "bass"
+    artist: "Mother Love Bone"
+  - album_slug: "temple-of-the-dog"
+    title: "Temple of the Dog"
+    role: "bass"
+    artist: "Temple of the Dog"
+  - song_slug: "stardog-champion"
+    title: "Stardog Champion"
+    role: "bass"
+    artist: "Mother Love Bone"
+  - song_slug: "hunger-strike"
+    title: "Hunger Strike"
+    role: "bass"
+    artist: "Temple of the Dog"
 draft: false
 ---
 

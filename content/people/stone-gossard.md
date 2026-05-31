@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Stone Gossard"
 mbid: "b3c2d1e0-5f6a-7890-bcde-f01234567890"
 roles: ["guitarist", "songwriter"]
@@ -6,6 +6,16 @@ nationality: "American"
 born: 1966
 artist: "Pearl Jam"
 artist_slug: "pearl-jam"
+bands:
+  - slug: "mother-love-bone"
+    name: "Mother Love Bone"
+    role: "Guitarist"
+  - slug: "temple-of-the-dog"
+    name: "Temple of the Dog"
+    role: "Guitarist"
+  - slug: "green-river"
+    name: "Green River"
+    role: "Guitarist"
 credits:
   - song_slug: "once"
     title: "Once"
@@ -55,6 +65,22 @@ credits:
     title: "Ten"
     role: "Guitar, Songwriter"
     artist: "Pearl Jam"
+  - album_slug: "apple"
+    title: "Apple"
+    role: "guitarist"
+    artist: "Mother Love Bone"
+  - album_slug: "temple-of-the-dog"
+    title: "Temple of the Dog"
+    role: "guitarist"
+    artist: "Temple of the Dog"
+  - song_slug: "stardog-champion"
+    title: "Stardog Champion"
+    role: "guitarist"
+    artist: "Mother Love Bone"
+  - song_slug: "hunger-strike"
+    title: "Hunger Strike"
+    role: "guitarist"
+    artist: "Temple of the Dog"
 draft: false
 ---
 
