@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="content-page">
+  <header class="content-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.year }}<p class="content-meta">{{ . }}</p>{{ end }}
+  </header>
+  <div class="content-body">
+    {{ .Content }}
+  </div>
+  {{ partial "terms.html" (dict "taxonomy" "genres" "page" .) }}
+</article>
+{{ end }}

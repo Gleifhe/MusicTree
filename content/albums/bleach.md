@@ -1,0 +1,45 @@
+﻿---
+title: "Bleach"
+mbid: "48c27af7-e9c1-4a4a-a94b-0c0a7b3e10b7"
+artist: "Nirvana"
+artist_slug: "nirvana"
+year: 1989
+genres: ["grunge", "alternative rock", "punk rock"]
+songs:
+  - slug: "blew"
+    title: "Blew"
+    duration: "2:53"
+  - slug: "floyd-the-barber"
+    title: "Floyd the Barber"
+    duration: "2:16"
+  - slug: "about-a-girl"
+    title: "About a Girl"
+    duration: "2:47"
+  - slug: "school"
+    title: "School"
+    duration: "2:42"
+  - slug: "love-buzz"
+    title: "Love Buzz"
+    duration: "3:34"
+  - slug: "paper-cuts"
+    title: "Paper Cuts"
+    duration: "4:05"
+  - slug: "negative-creep"
+    title: "Negative Creep"
+    duration: "2:54"
+  - slug: "scoff"
+    title: "Scoff"
+    duration: "4:09"
+  - slug: "swap-meet"
+    title: "Swap Meet"
+    duration: "3:03"
+  - slug: "mr-moustache"
+    title: "Mr. Moustache"
+    duration: "3:23"
+  - slug: "sifting"
+    title: "Sifting"
+    duration: "5:22"
+draft: false
+---
+
+*Bleach* is the debut studio album by Nirvana, released on June 15, 1989, on Sub Pop Records. Recorded in only 10 hours over two sessions in late 1988, the album cost just $606.17 to make, most of it borrowed from Jason Everman (credited as guitarist despite not playing on the album). Produced by Jack Endino, it features Chad Channing on drums and established Nirvana as a key band in the emerging Seattle grunge scene.

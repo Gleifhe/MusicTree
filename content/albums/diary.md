@@ -1,0 +1,40 @@
+﻿---
+title: "Diary"
+artist: "Sunny Day Real Estate"
+artist_slug: "sunny-day-real-estate"
+year: 1994
+genres: ["emo", "post-hardcore", "indie rock"]
+songs:
+  - slug: "seven"
+    title: "Seven"
+    duration: "4:05"
+  - slug: "in-circles"
+    title: "In Circles"
+    duration: "4:12"
+  - slug: "song-about-an-angel"
+    title: "Song About an Angel"
+    duration: "3:21"
+  - slug: "round"
+    title: "Round"
+    duration: "4:11"
+  - slug: "47"
+    title: "47"
+    duration: "5:12"
+  - slug: "the-blankets-were-the-stairs"
+    title: "The Blankets Were the Stairs"
+    duration: "5:01"
+  - slug: "pheurton-skeurto"
+    title: "Pheurton Skeurto"
+    duration: "4:28"
+  - slug: "shadows"
+    title: "Shadows"
+    duration: "3:51"
+  - slug: "48"
+    title: "48"
+    duration: "3:41"
+  - slug: "grendel"
+    title: "Grendel"
+    duration: "4:11"
+draft: false
+---
+*Diary* is the debut studio album by Sunny Day Real Estate, released on July 26, 1994 on Sub Pop Records. Featuring Jeremy Enigk's soaring voice, Nate Mendel's melodic bass, and William Goldsmith's expressive drumming, it is widely regarded as one of the most important emo albums ever made.

@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="section-page">
+  <div class="section-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="section-desc">{{ . }}</div>{{ end }}
+  </div>
+  <div class="item-grid">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="item-card item-{{ .Section }}">
+      <div class="item-card-inner">
+        {{- $icon := "🎵" }}
+        {{- if eq .Section "artists" }}{{ $icon = "🎸" }}{{ end }}
+        {{- if eq .Section "albums" }}{{ $icon = "💿" }}{{ end }}
+        {{- if eq .Section "people" }}{{ $icon = "🧑‍🎤" }}{{ end }}
+        <span class="item-icon">{{ $icon }}</span>
+        <div class="item-info">
+          <h2 class="item-title">{{ .Title }}</h2>
+          {{- with .Params.genres }}<p class="item-meta">{{ delimit . ", " }}</p>{{ end }}
+          {{- with .Params.roles }}<p class="item-meta">{{ delimit . ", " }}</p>{{ end }}
+          {{- with .Params.artist }}<p class="item-meta">{{ . }}</p>{{ end }}
+          {{- with .Params.year }}<p class="item-meta">{{ . }}</p>{{ end }}
+        </div>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

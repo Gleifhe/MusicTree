@@ -1,0 +1,48 @@
+﻿---
+title: "Automatic for the People"
+mbid: "9e0c81af-0e15-4dc3-b552-ea8ec0f47a0e"
+artist: "R.E.M."
+artist_slug: "rem"
+year: 1992
+genres: ["alternative rock", "post-punk", "art rock"]
+songs:
+  - slug: "drive"
+    title: "Drive"
+    duration: "4:32"
+  - slug: "try-not-to-breathe"
+    title: "Try Not to Breathe"
+    duration: "3:50"
+  - slug: "the-sidewinder-sleeps-tonite"
+    title: "The Sidewinder Sleeps Tonite"
+    duration: "4:06"
+  - slug: "everybody-hurts"
+    title: "Everybody Hurts"
+    duration: "5:17"
+  - slug: "new-orleans-instrumental-no-1"
+    title: "New Orleans Instrumental No. 1"
+    duration: "2:13"
+  - slug: "sweetness-follows"
+    title: "Sweetness Follows"
+    duration: "4:04"
+  - slug: "monty-got-a-raw-deal"
+    title: "Monty Got a Raw Deal"
+    duration: "3:59"
+  - slug: "ignoreland"
+    title: "Ignoreland"
+    duration: "4:23"
+  - slug: "star-me-kitten"
+    title: "Star Me Kitten"
+    duration: "3:32"
+  - slug: "man-on-the-moon"
+    title: "Man on the Moon"
+    duration: "5:10"
+  - slug: "nightswimming"
+    title: "Nightswimming"
+    duration: "4:17"
+  - slug: "find-the-river"
+    title: "Find the River"
+    duration: "5:14"
+draft: false
+---
+
+*Automatic for the People* is the eighth studio album by R.E.M., released on October 5, 1992. One of the band's most critically acclaimed works, it is notable for its introspective themes, lush string arrangements by John Paul Jones of Led Zeppelin, and the absence of electric guitar on most tracks.

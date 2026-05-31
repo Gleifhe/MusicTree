@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{ $slug := .File.ContentBaseName }}
+<article class="content-page artist-page">
+  <header class="content-header type-artist">
+    <div class="content-header-inner">
+      <span class="type-badge">🎸 Artist</span>
+      <h1>{{ .Title }}</h1>
+      <div class="meta-row">
+        {{- with .Params.formed }}<span class="meta-item">Founded {{ . }}</span>{{ end }}
+        {{- with .Params.country }}<span class="meta-item">{{ . }}</span>{{ end }}
+        {{- with .Params.genres }}<span class="meta-item">{{ delimit . " · " }}</span>{{ end }}
+      </div>
+      {{- with .Params.mbid }}
+      <a class="mb-link" href="https://musicbrainz.org/artist/{{ . }}" target="_blank" rel="noopener">MusicBrainz ↗</a>
+      {{- end }}
+    </div>
+  </header>
+
+  {{ with .Content }}<div class="content-body">{{ . }}</div>{{ end }}
+
+  {{- with .Params.members }}
+  <section class="rel-section">
+    <h2>Members / Key Contributors</h2>
+    <div class="rel-grid">
+      {{- range . }}
+      <a href="/people/{{ .slug }}/" class="rel-card rel-person">
+        <span class="rel-icon">🧑‍🎤</span>
+        <div class="rel-info">
+          <strong>{{ .name }}</strong>
+          {{- with .role }}<span class="rel-role">{{ . }}</span>{{ end }}
+        </div>
+      </a>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  {{- with .Params.albums }}
+  <section class="rel-section">
+    <h2>Albums</h2>
+    <div class="rel-grid">
+      {{- range . }}
+      <a href="/albums/{{ .slug }}/" class="rel-card rel-album">
+        <span class="rel-icon">💿</span>
+        <div class="rel-info">
+          <strong>{{ .title }}</strong>
+          {{- with .year }}<span class="rel-role">{{ . }}</span>{{ end }}
+        </div>
+      </a>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  <div class="graph-mini-container">
+    <h2>Relationship Map</h2>
+    <div id="mini-graph" class="mini-graph"></div>
+  </div>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>window.FOCUS_NODE = "{{ .File.ContentBaseName }}";</script>
+<script src="/js/mini-graph.js"></script>
+{{ end }}

@@ -1,0 +1,40 @@
+﻿---
+title: "Incesticide"
+artist: "Nirvana"
+artist_slug: "nirvana"
+year: 1992
+genres: ["alternative rock", "grunge", "punk rock"]
+songs:
+  - slug: "dive"
+    title: "Dive"
+    duration: "3:54"
+  - slug: "sliver"
+    title: "Sliver"
+    duration: "2:13"
+  - slug: "stain"
+    title: "Stain"
+    duration: "2:35"
+  - slug: "been-a-son"
+    title: "Been a Son"
+    duration: "1:54"
+  - slug: "turnaround"
+    title: "Turnaround"
+    duration: "2:28"
+  - slug: "mollys-lips"
+    title: "Molly's Lips"
+    duration: "1:54"
+  - slug: "son-of-a-gun"
+    title: "Son of a Gun"
+    duration: "2:49"
+  - slug: "new-wave-polly"
+    title: "(New Wave) Polly"
+    duration: "1:41"
+  - slug: "even-in-his-youth"
+    title: "Even in His Youth"
+    duration: "4:15"
+  - slug: "aneurysm"
+    title: "Aneurysm"
+    duration: "4:44"
+draft: false
+---
+*Incesticide* is a compilation album by Nirvana, released on December 14, 1992 via DGC Records. Featuring B-sides, rarities, and BBC session recordings, it captures the band in their rawer, more punk-influenced state.

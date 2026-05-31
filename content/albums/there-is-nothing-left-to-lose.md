@@ -1,0 +1,43 @@
+﻿---
+title: "There Is Nothing Left to Lose"
+artist: "Foo Fighters"
+artist_slug: "foo-fighters"
+year: 1999
+genres: ["alternative rock", "hard rock", "post-grunge"]
+songs:
+  - slug: "stacked-actors"
+    title: "Stacked Actors"
+    duration: "4:49"
+  - slug: "breakout"
+    title: "Breakout"
+    duration: "3:22"
+  - slug: "learn-to-fly"
+    title: "Learn to Fly"
+    duration: "3:58"
+  - slug: "gimme-stitches"
+    title: "Gimme Stitches"
+    duration: "4:14"
+  - slug: "generator"
+    title: "Generator"
+    duration: "4:26"
+  - slug: "aurora"
+    title: "Aurora"
+    duration: "5:46"
+  - slug: "live-in-skin"
+    title: "Live-In Skin"
+    duration: "4:05"
+  - slug: "next-year"
+    title: "Next Year"
+    duration: "4:38"
+  - slug: "headwires"
+    title: "Headwires"
+    duration: "4:59"
+  - slug: "aint-it-the-life"
+    title: "Ain't It the Life"
+    duration: "4:25"
+  - slug: "mia-ff"
+    title: "M.I.A."
+    duration: "5:19"
+draft: false
+---
+*There Is Nothing Left to Lose* is the third studio album by Foo Fighters, released on November 2, 1999. Recorded at Dave Grohl's home studio in Virginia, it features new guitarist Chris Shiflett and has a more melodic, relaxed sound compared to its predecessor, winning the Grammy for Best Rock Album.

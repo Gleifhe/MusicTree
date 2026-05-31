@@ -1,0 +1,45 @@
+﻿---
+title: "Bigger, Better, Faster, More!"
+mbid: "e9f0a1b2-c3d4-e5f6-a7b8-c9d0e1f2a3b4"
+artist: "4 Non Blondes"
+artist_slug: "4-non-blondes"
+year: 1992
+genres: ["alternative rock", "blues rock", "funk rock"]
+songs:
+  - slug: "intro-bigger"
+    title: "Intro"
+    duration: "0:49"
+  - slug: "train-of-thought"
+    title: "Train of Thought"
+    duration: "4:38"
+  - slug: "whats-up"
+    title: "What's Up"
+    duration: "4:55"
+  - slug: "superfly"
+    title: "Superfly"
+    duration: "4:55"
+  - slug: "spaceman"
+    title: "Spaceman"
+    duration: "4:05"
+  - slug: "dear-mr-fantasy"
+    title: "Dear Mr. Fantasy"
+    duration: "4:01"
+  - slug: "you-cant-hold-me-down"
+    title: "You Can't Hold Me Down"
+    duration: "4:38"
+  - slug: "no-place-like-home"
+    title: "No Place Like Home"
+    duration: "3:48"
+  - slug: "what-is-it"
+    title: "What Is It"
+    duration: "3:24"
+  - slug: "bigger-better-faster-more-title"
+    title: "Bigger, Better, Faster, More!"
+    duration: "3:26"
+  - slug: "it-be-your-life"
+    title: "It Be Your Life"
+    duration: "5:12"
+draft: false
+---
+
+*Bigger, Better, Faster, More!* is the debut and only studio album by 4 Non Blondes, released on September 29, 1992 on Interscope Records. It is best known for the single 'What's Up,' which became a global hit in 1993. Linda Perry wrote or co-wrote the majority of the album's songs.

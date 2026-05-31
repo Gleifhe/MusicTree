@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="graph-page">
+  <div class="graph-controls">
+    <h2>Music Relationship Graph</h2>
+    <p class="graph-desc">Explore connections between artists, songs, albums, and the people behind the music. Click any node to learn more.</p>
+    <div class="filter-panel">
+      <span class="filter-label">Show:</span>
+      <label class="filter-item"><input type="checkbox" data-type="artist" checked> <span class="node-dot dot-artist"></span> Artists</label>
+      <label class="filter-item"><input type="checkbox" data-type="person" checked> <span class="node-dot dot-person"></span> People</label>
+      <label class="filter-item"><input type="checkbox" data-type="album" checked> <span class="node-dot dot-album"></span> Albums</label>
+      <label class="filter-item"><input type="checkbox" data-type="song" checked> <span class="node-dot dot-song"></span> Songs</label>
+      <button id="btn-reset" class="btn-reset" title="Reset zoom">↺ Reset</button>
+    </div>
+    <div class="search-panel">
+      <input type="text" id="graph-search" placeholder="Search nodes…" autocomplete="off">
+    </div>
+  </div>
+
+  <div id="graph-container">
+    <svg id="graph-svg"></svg>
+    <div id="graph-tooltip" class="graph-tooltip hidden"></div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><span class="node-dot dot-artist"></span><span>Artist / Band</span></div>
+    <div class="legend-item"><span class="node-dot dot-person"></span><span>Person (vocalist, producer, etc.)</span></div>
+    <div class="legend-item"><span class="node-dot dot-album"></span><span>Album</span></div>
+    <div class="legend-item"><span class="node-dot dot-song"></span><span>Song / Track</span></div>
+  </div>
+
+  <div class="section-links">
+    <h3>Browse by Category</h3>
+    <div class="section-cards">
+      <a href="/artists/" class="section-card card-artist">
+        <span class="card-icon">🎸</span>
+        <span class="card-label">Artists</span>
+      </a>
+      <a href="/albums/" class="section-card card-album">
+        <span class="card-icon">💿</span>
+        <span class="card-label">Albums</span>
+      </a>
+      <a href="/songs/" class="section-card card-song">
+        <span class="card-icon">🎵</span>
+        <span class="card-label">Songs</span>
+      </a>
+      <a href="/people/" class="section-card card-person">
+        <span class="card-icon">🧑‍🎤</span>
+        <span class="card-label">People</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+window.GRAPH_DATA = {{ site.Data.graph | jsonify | safeJS }};
+</script>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/js/graph.js"></script>
+{{ end }}

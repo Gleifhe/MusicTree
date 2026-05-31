@@ -1,0 +1,47 @@
+{{ define "main" }}
+<article class="content-page album-page">
+  <header class="content-header type-album">
+    <div class="content-header-inner">
+      <span class="type-badge">💿 Album</span>
+      <h1>{{ .Title }}</h1>
+      <div class="meta-row">
+        {{- with .Params.artist }}<a href="/artists/{{ $.Params.artist_slug }}/" class="meta-link">{{ . }}</a>{{ end }}
+        {{- with .Params.year }}<span class="meta-item">{{ . }}</span>{{ end }}
+        {{- with .Params.genres }}<span class="meta-item">{{ delimit . " · " }}</span>{{ end }}
+      </div>
+      {{- with .Params.mbid }}
+      <a class="mb-link" href="https://musicbrainz.org/release-group/{{ . }}" target="_blank" rel="noopener">MusicBrainz ↗</a>
+      {{- end }}
+    </div>
+  </header>
+
+  {{ with .Content }}<div class="content-body">{{ . }}</div>{{ end }}
+
+  {{- with .Params.songs }}
+  <section class="rel-section">
+    <h2>Tracklist</h2>
+    <ol class="tracklist">
+      {{- range . }}
+      <li class="track-item">
+        <a href="/songs/{{ .slug }}/" class="track-link">
+          <span class="track-title">{{ .title }}</span>
+          {{- with .duration }}<span class="track-duration">{{ . }}</span>{{ end }}
+        </a>
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+
+  <div class="graph-mini-container">
+    <h2>Relationship Map</h2>
+    <div id="mini-graph" class="mini-graph"></div>
+  </div>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>window.FOCUS_NODE = "{{ .File.ContentBaseName }}";</script>
+<script src="/js/mini-graph.js"></script>
+{{ end }}

@@ -1,0 +1,43 @@
+﻿---
+title: "Surfer Rosa"
+artist: "Pixies"
+artist_slug: "pixies"
+year: 1988
+genres: ["alternative rock", "indie rock", "noise rock"]
+songs:
+  - slug: "bone-machine"
+    title: "Bone Machine"
+    duration: "3:01"
+  - slug: "break-my-body"
+    title: "Break My Body"
+    duration: "1:55"
+  - slug: "something-against-you"
+    title: "Something Against You"
+    duration: "1:47"
+  - slug: "broken-face"
+    title: "Broken Face"
+    duration: "1:35"
+  - slug: "gigantic"
+    title: "Gigantic"
+    duration: "3:55"
+  - slug: "river-euphrates"
+    title: "River Euphrates"
+    duration: "3:15"
+  - slug: "where-is-my-mind"
+    title: "Where Is My Mind?"
+    duration: "3:53"
+  - slug: "cactus"
+    title: "Cactus"
+    duration: "2:16"
+  - slug: "tonys-theme"
+    title: "Tony's Theme"
+    duration: "1:50"
+  - slug: "oh-my-golly"
+    title: "Oh My Golly!"
+    duration: "2:43"
+  - slug: "wave-of-mutilation-uk"
+    title: "Wave of Mutilation (UK Surf)"
+    duration: "2:05"
+draft: false
+---
+*Surfer Rosa* is the first full-length album by the Pixies, released on March 21, 1988 on 4AD Records. Produced by Steve Albini, its raw, aggressive sound was hugely influential on the grunge movement, with Kurt Cobain frequently citing it as one of his favorite albums.

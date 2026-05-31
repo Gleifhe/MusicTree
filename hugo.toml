@@ -1,0 +1,33 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'MusicTree'
+theme = 'musictree'
+
+[params]
+  description = "Explore music relationships — artists, songs, albums, and the people who make them"
+
+[taxonomies]
+  genre = "genres"
+  role = "roles"
+
+[menus]
+  [[menus.main]]
+    name = 'Graph'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Artists'
+    pageRef = '/artists'
+    weight = 20
+  [[menus.main]]
+    name = 'Songs'
+    pageRef = '/songs'
+    weight = 30
+  [[menus.main]]
+    name = 'Albums'
+    pageRef = '/albums'
+    weight = 40
+  [[menus.main]]
+    name = 'People'
+    pageRef = '/people'
+    weight = 50

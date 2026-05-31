@@ -1,0 +1,55 @@
+{{ define "main" }}
+<article class="content-page person-page">
+  <header class="content-header type-person">
+    <div class="content-header-inner">
+      <span class="type-badge">🧑‍🎤 Person</span>
+      <h1>{{ .Title }}</h1>
+      <div class="meta-row">
+        {{- with .Params.roles }}<span class="meta-item">{{ delimit . " · " }}</span>{{ end }}
+        {{- with .Params.nationality }}<span class="meta-item">{{ . }}</span>{{ end }}
+        {{- with .Params.born }}
+          <span class="meta-item">b. {{ . }}{{- with $.Params.died }} – {{ . }}{{ end }}</span>
+        {{- end }}
+      </div>
+      {{- with .Params.artist_slug }}
+      <a href="/artists/{{ . }}/" class="meta-link">
+        {{- with $.Params.artist }}{{ . }}{{ else }}View Artist{{ end }} →
+      </a>
+      {{- end }}
+      {{- with .Params.mbid }}
+      <a class="mb-link" href="https://musicbrainz.org/artist/{{ . }}" target="_blank" rel="noopener">MusicBrainz ↗</a>
+      {{- end }}
+    </div>
+  </header>
+
+  {{ with .Content }}<div class="content-body">{{ . }}</div>{{ end }}
+
+  {{- with .Params.credits }}
+  <section class="rel-section">
+    <h2>Credits</h2>
+    <div class="credits-table">
+      {{- range . }}
+      <div class="credit-row">
+        <a href="{{ with .song_slug }}/songs/{{ . }}/{{ else }}{{ with .album_slug }}/albums/{{ . }}/{{ end }}{{ end }}" class="credit-person">
+          {{ .title }}
+        </a>
+        <span class="credit-role">{{ .role }}</span>
+        {{- with .artist }}<span class="credit-artist">{{ . }}</span>{{ end }}
+      </div>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  <div class="graph-mini-container">
+    <h2>Relationship Map</h2>
+    <div id="mini-graph" class="mini-graph"></div>
+  </div>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>window.FOCUS_NODE = "{{ .File.ContentBaseName }}";</script>
+<script src="/js/mini-graph.js"></script>
+{{ end }}
