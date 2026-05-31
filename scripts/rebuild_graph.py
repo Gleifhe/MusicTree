@@ -79,7 +79,7 @@ for f in sorted((CONTENT / "people").glob("*.md")):
     if fm.get("artist_slug"):
         add_link(slug, fm["artist_slug"], "member-of")
 
-    # credits → songs and albums
+    # credits → songs and albums (old format: credits:[{song_slug, role}])
     for c in fm.get("credits", []) or []:
         rel = "produced-by" if "producer" in (c.get("role", "").lower()) else \
               "written-by"   if any(w in c.get("role","").lower() for w in ["songwriter","lyricist","composer","writer"]) else \
@@ -88,6 +88,15 @@ for f in sorted((CONTENT / "people").glob("*.md")):
             add_link(slug, c["song_slug"], rel)
         elif c.get("album_slug"):
             add_link(slug, c["album_slug"], rel)
+
+    # new format: song_credits:[{slug, title, credit}]
+    for c in fm.get("song_credits", []) or []:
+        credit_lc = c.get("credit", "").lower()
+        rel = "produced-by" if "producer" in credit_lc else \
+              "written-by"  if any(w in credit_lc for w in ["writer","songwriter","wrote","lyricist","composer"]) else \
+              "performed-by"
+        if c.get("slug"):
+            add_link(slug, c["slug"], rel)
 
 # ── Albums ────────────────────────────────────────────────────────────────────
 for f in sorted((CONTENT / "albums").glob("*.md")):
@@ -100,7 +109,9 @@ for f in sorted((CONTENT / "albums").glob("*.md")):
     add_node(slug, fm["title"], "album", f"/albums/{slug}/",
              f"{artist}{' · ' + str(year) if year else ''}")
 
-    for s in fm.get("songs", []) or []:
+    # Support both `songs:` (new format) and `tracks:` (old format)
+    track_list = fm.get("songs", []) or fm.get("tracks", []) or []
+    for s in track_list:
         if s.get("slug"):
             add_link(s["slug"], slug, "appears-on")
 
@@ -115,6 +126,7 @@ for f in sorted((CONTENT / "songs").glob("*.md")):
     add_node(slug, fm["title"], "song", f"/songs/{slug}/",
              f"{artist}{' · ' + album if album else ''}")
 
+    # Format A: flat credits list [{person_slug, role}]
     for c in fm.get("credits", []) or []:
         if not c.get("person_slug"):
             continue
@@ -123,11 +135,22 @@ for f in sorted((CONTENT / "songs").glob("*.md")):
             rel = "produced-by"
         elif any(w in role_lc for w in ["songwriter","lyricist","composer","writer"]):
             rel = "written-by"
-        elif any(w in role_lc for w in ["drums","bass","guitar","piano","keyboards","keys"]):
+        elif any(w in role_lc for w in ["drums","bass","guitar","piano","keyboards","keys","violin","trumpet","percussion"]):
             rel = "played"
         else:
             rel = "performed-by"
         add_link(c["person_slug"], slug, rel)
+
+    # Format B: structured writers/producers/players lists [{slug, name}] or [{slug, name, instrument}]
+    for w in fm.get("writers", []) or []:
+        if w.get("slug"):
+            add_link(w["slug"], slug, "written-by")
+    for p in fm.get("producers", []) or []:
+        if p.get("slug"):
+            add_link(p["slug"], slug, "produced-by")
+    for p in fm.get("players", []) or []:
+        if p.get("slug"):
+            add_link(p["slug"], slug, "played")
 
 # ── Ensure artist → album links exist even if not in artist fm ───────────────
 for f in sorted((CONTENT / "albums").glob("*.md")):

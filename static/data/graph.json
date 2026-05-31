@@ -985,6 +985,22 @@
       "scene": ""
     },
     {
+      "id": "bryan-devendorf",
+      "label": "Bryan Devendorf",
+      "type": "person",
+      "url": "/people/bryan-devendorf/",
+      "meta": "Drums",
+      "scene": ""
+    },
+    {
+      "id": "bryce-dessner",
+      "label": "Bryce Dessner",
+      "type": "person",
+      "url": "/people/bryce-dessner/",
+      "meta": "Guitar, Composer",
+      "scene": ""
+    },
+    {
       "id": "buddy-guy-person",
       "label": "Buddy Guy",
       "type": "person",
@@ -2177,6 +2193,14 @@
       "scene": ""
     },
     {
+      "id": "matt-berninger",
+      "label": "Matt Berninger",
+      "type": "person",
+      "url": "/people/matt-berninger/",
+      "meta": "Vocals, Songwriter",
+      "scene": ""
+    },
+    {
       "id": "matt-cameron",
       "label": "Matt Cameron",
       "type": "person",
@@ -2549,7 +2573,7 @@
       "label": "Rick Rubin",
       "type": "person",
       "url": "/people/rick-rubin/",
-      "meta": "Record Producer",
+      "meta": "Producer",
       "scene": ""
     },
     {
@@ -2662,6 +2686,14 @@
       "type": "person",
       "url": "/people/sarah-mclachlan-person/",
       "meta": "Singer, Songwriter, Pianist",
+      "scene": ""
+    },
+    {
+      "id": "scott-devendorf",
+      "label": "Scott Devendorf",
+      "type": "person",
+      "url": "/people/scott-devendorf/",
+      "meta": "Bass",
       "scene": ""
     },
     {
@@ -3262,6 +3294,14 @@
       "type": "album",
       "url": "/albums/bossanova/",
       "meta": "Pixies · 1990",
+      "scene": ""
+    },
+    {
+      "id": "boxer",
+      "label": "Boxer",
+      "type": "album",
+      "url": "/albums/boxer/",
+      "meta": "The National · 2007",
       "scene": ""
     },
     {
@@ -5313,6 +5353,14 @@
       "scene": ""
     },
     {
+      "id": "apartment-story",
+      "label": "Apartment Story",
+      "type": "song",
+      "url": "/songs/apartment-story/",
+      "meta": "The National · Boxer",
+      "scene": ""
+    },
+    {
       "id": "appels-oranjes",
       "label": "Appels + Oranjes",
       "type": "song",
@@ -5902,6 +5950,14 @@
       "type": "song",
       "url": "/songs/box-full-of-letters/",
       "meta": "Wilco",
+      "scene": ""
+    },
+    {
+      "id": "brainy",
+      "label": "Brainy",
+      "type": "song",
+      "url": "/songs/brainy/",
+      "meta": "The National · Boxer",
       "scene": ""
     },
     {
@@ -11889,6 +11945,14 @@
       "scene": ""
     },
     {
+      "id": "slow-show",
+      "label": "Slow Show",
+      "type": "song",
+      "url": "/songs/slow-show/",
+      "meta": "The National · Boxer",
+      "scene": ""
+    },
+    {
       "id": "sludge-factory",
       "label": "Sludge Factory",
       "type": "song",
@@ -16741,6 +16805,11 @@
       "relation": "released"
     },
     {
+      "source": "aaron-dessner",
+      "target": "the-national",
+      "relation": "member-of"
+    },
+    {
       "source": "adam-kasper",
       "target": "down-on-the-upside",
       "relation": "produced-by"
@@ -17083,6 +17152,26 @@
     {
       "source": "bruce-fairweather",
       "target": "apple",
+      "relation": "performed-by"
+    },
+    {
+      "source": "bryan-devendorf",
+      "target": "the-national",
+      "relation": "member-of"
+    },
+    {
+      "source": "bryan-devendorf",
+      "target": "brainy",
+      "relation": "performed-by"
+    },
+    {
+      "source": "bryce-dessner",
+      "target": "the-national",
+      "relation": "member-of"
+    },
+    {
+      "source": "bryce-dessner",
+      "target": "brainy",
       "relation": "performed-by"
     },
     {
@@ -18701,6 +18790,11 @@
       "relation": "performed-by"
     },
     {
+      "source": "jack-antonoff",
+      "target": "bleachers",
+      "relation": "member-of"
+    },
+    {
       "source": "jack-douglas-ct",
       "target": "at-budokan",
       "relation": "produced-by"
@@ -20221,6 +20315,16 @@
       "relation": "performed-by"
     },
     {
+      "source": "matt-berninger",
+      "target": "the-national",
+      "relation": "member-of"
+    },
+    {
+      "source": "matt-berninger",
+      "target": "brainy",
+      "relation": "performed-by"
+    },
+    {
       "source": "matt-cameron",
       "target": "pearl-jam",
       "relation": "member-of"
@@ -21091,6 +21195,21 @@
       "relation": "produced-by"
     },
     {
+      "source": "rick-rubin",
+      "target": "sabotage",
+      "relation": "produced-by"
+    },
+    {
+      "source": "rick-rubin",
+      "target": "under-the-bridge",
+      "relation": "produced-by"
+    },
+    {
+      "source": "rick-rubin",
+      "target": "californication",
+      "relation": "produced-by"
+    },
+    {
       "source": "robert-plant",
       "target": "led-zeppelin-iv",
       "relation": "written-by"
@@ -21223,6 +21342,16 @@
     {
       "source": "santiago-durango",
       "target": "songs-about-fucking",
+      "relation": "performed-by"
+    },
+    {
+      "source": "scott-devendorf",
+      "target": "the-national",
+      "relation": "member-of"
+    },
+    {
+      "source": "scott-devendorf",
+      "target": "brainy",
       "relation": "performed-by"
     },
     {
@@ -23048,6 +23177,36 @@
     {
       "source": "havalina",
       "target": "bossanova",
+      "relation": "appears-on"
+    },
+    {
+      "source": "brainy",
+      "target": "boxer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "slow-show",
+      "target": "boxer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "apartment-story",
+      "target": "boxer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "gospel",
+      "target": "boxer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "start-a-war",
+      "target": "boxer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "ada",
+      "target": "boxer",
       "relation": "appears-on"
     },
     {
@@ -30186,6 +30345,21 @@
       "relation": "performed-by"
     },
     {
+      "source": "matt-berninger",
+      "target": "apartment-story",
+      "relation": "performed-by"
+    },
+    {
+      "source": "aaron-dessner",
+      "target": "apartment-story",
+      "relation": "produced-by"
+    },
+    {
+      "source": "bryce-dessner",
+      "target": "apartment-story",
+      "relation": "played"
+    },
+    {
       "source": "billy-corgan",
       "target": "appels-oranjes",
       "relation": "played"
@@ -31424,6 +31598,16 @@
       "source": "max-johnston",
       "target": "box-full-of-letters",
       "relation": "performed-by"
+    },
+    {
+      "source": "aaron-dessner",
+      "target": "brainy",
+      "relation": "produced-by"
+    },
+    {
+      "source": "bryce-dessner",
+      "target": "brainy",
+      "relation": "played"
     },
     {
       "source": "robert-randolph",
@@ -43571,6 +43755,21 @@
       "relation": "played"
     },
     {
+      "source": "matt-berninger",
+      "target": "slow-show",
+      "relation": "performed-by"
+    },
+    {
+      "source": "aaron-dessner",
+      "target": "slow-show",
+      "relation": "produced-by"
+    },
+    {
+      "source": "bryce-dessner",
+      "target": "slow-show",
+      "relation": "played"
+    },
+    {
       "source": "layne-staley",
       "target": "sludge-factory",
       "relation": "performed-by"
@@ -48569,6 +48768,11 @@
       "source": "flood-producer",
       "target": "zero-sp",
       "relation": "produced-by"
+    },
+    {
+      "source": "the-national",
+      "target": "boxer",
+      "relation": "released"
     }
   ]
 }
