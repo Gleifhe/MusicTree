@@ -34,5 +34,11 @@ albums:
   - slug: "reflektor"
     title: "Reflektor"
     year: 2013
+  - slug: "everything-now"
+    title: "Everything Now"
+    year: 2017
+  - slug: "we"
+    title: "WE"
+    year: 2022
 draft: false
 ---

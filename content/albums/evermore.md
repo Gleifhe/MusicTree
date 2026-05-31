@@ -1,0 +1,40 @@
+---
+title: "evermore"
+artist: "Taylor Swift"
+artist_slug: "taylor-swift"
+year: 2020
+genres: ["indie folk", "alternative"]
+songs:
+  - slug: "willow-ts"
+    title: "willow"
+  - slug: "champagne-problems"
+    title: "champagne problems"
+  - slug: "gold-rush-ts"
+    title: "gold rush"
+  - slug: "tis-the-damn-season"
+    title: "'tis the damn season"
+  - slug: "tolerate-it"
+    title: "tolerate it"
+  - slug: "no-body-no-crime"
+    title: "no body no crime"
+  - slug: "happiness-ts"
+    title: "happiness"
+  - slug: "dorothea-ts"
+    title: "dorothea"
+  - slug: "coney-island-ts"
+    title: "coney island"
+  - slug: "ivy-ts"
+    title: "ivy"
+  - slug: "cowboy-like-me"
+    title: "cowboy like me"
+  - slug: "long-story-short"
+    title: "long story short"
+  - slug: "marjorie-ts"
+    title: "marjorie"
+  - slug: "closure-ts"
+    title: "closure"
+  - slug: "evermore-ts"
+    title: "evermore"
+draft: false
+---
+Taylor Swift's folklore companion album.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Out of Time"
 artist: "R.E.M."
 artist_slug: "rem"
@@ -7,37 +7,26 @@ genres: ["alternative rock", "folk rock", "jangle pop"]
 songs:
   - slug: "radio-song"
     title: "Radio Song"
-    duration: "3:46"
   - slug: "losing-my-religion"
     title: "Losing My Religion"
-    duration: "4:27"
   - slug: "low"
     title: "Low"
-    duration: "4:58"
   - slug: "near-wild-heaven"
     title: "Near Wild Heaven"
-    duration: "3:17"
   - slug: "endgame"
     title: "Endgame"
-    duration: "3:48"
   - slug: "shiny-happy-people"
     title: "Shiny Happy People"
-    duration: "3:43"
   - slug: "belong"
     title: "Belong"
-    duration: "4:04"
   - slug: "half-a-world-away"
     title: "Half a World Away"
-    duration: "3:26"
   - slug: "texarkana"
     title: "Texarkana"
-    duration: "3:36"
   - slug: "country-feedback"
     title: "Country Feedback"
-    duration: "4:07"
   - slug: "me-in-honey"
     title: "Me in Honey"
-    duration: "3:45"
 draft: false
 ---
 *Out of Time* is the seventh studio album by R.E.M., released on March 12, 1991. It became the band's first number-one album in the United States and spawned the hit single "Losing My Religion," featuring Peter Buck's distinctive mandolin riff.

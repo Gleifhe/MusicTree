@@ -1,0 +1,40 @@
+---
+title: "Section.80"
+artist: "Kendrick Lamar"
+artist_slug: "kendrick-lamar"
+year: 2011
+genres: ["hip-hop", "rap"]
+songs:
+  - slug: "fuck-your-ethnicity"
+    title: "Fuck Your Ethnicity"
+  - slug: "hol-up"
+    title: "Hol' Up"
+  - slug: "adhd-kl"
+    title: "A.D.H.D"
+  - slug: "no-makeup-kl"
+    title: "No Makeup"
+  - slug: "rigamortis"
+    title: "Rigamortis"
+  - slug: "ronald-reagan-era"
+    title: "Ronald Reagan Era"
+  - slug: "poe-mans-dreams"
+    title: "Poe Man's Dreams"
+  - slug: "chapter-six-kl"
+    title: "Chapter Six"
+  - slug: "keishas-song"
+    title: "Keisha's Song"
+  - slug: "blow-my-high"
+    title: "Blow My High"
+  - slug: "the-spiteful-chant"
+    title: "The Spiteful Chant"
+  - slug: "hiiipower"
+    title: "HiiiPoWeR"
+  - slug: "chapter-twelve"
+    title: "Chapter Twelve"
+  - slug: "tammys-song"
+    title: "Tammy's Song"
+  - slug: "average-joe-kl"
+    title: "Average Joe"
+draft: false
+---
+Kendrick Lamar's debut studio album.

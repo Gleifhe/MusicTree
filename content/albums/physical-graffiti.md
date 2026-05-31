@@ -1,0 +1,40 @@
+---
+title: "Physical Graffiti"
+artist: "Led Zeppelin"
+artist_slug: "led-zeppelin"
+year: 1975
+genres: ["hard rock", "blues rock"]
+songs:
+  - slug: "custard-pie"
+    title: "Custard Pie"
+  - slug: "the-rover"
+    title: "The Rover"
+  - slug: "in-my-time-of-dying"
+    title: "In My Time of Dying"
+  - slug: "houses-of-the-holy-song"
+    title: "Houses of the Holy"
+  - slug: "trampled-under-foot"
+    title: "Trampled Under Foot"
+  - slug: "kashmir"
+    title: "Kashmir"
+  - slug: "in-the-light"
+    title: "In the Light"
+  - slug: "bron-yr-aur"
+    title: "Bron-Yr-Aur"
+  - slug: "down-by-the-seaside"
+    title: "Down by the Seaside"
+  - slug: "ten-years-gone"
+    title: "Ten Years Gone"
+  - slug: "night-flight-lz"
+    title: "Night Flight"
+  - slug: "the-wanton-song"
+    title: "The Wanton Song"
+  - slug: "boogie-with-stu"
+    title: "Boogie with Stu"
+  - slug: "black-country-woman"
+    title: "Black Country Woman"
+  - slug: "sick-again"
+    title: "Sick Again"
+draft: false
+---
+Led Zeppelin's double album masterpiece.

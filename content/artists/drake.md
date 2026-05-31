@@ -19,5 +19,14 @@ albums:
   - slug: "nothing-was-the-same"
     title: "Nothing Was the Same"
     year: 2013
+  - slug: "if-youre-reading-this"
+    title: "If You're Reading This It's Too Late"
+    year: 2015
+  - slug: "scorpion"
+    title: "Scorpion"
+    year: 2018
+  - slug: "certified-lover-boy"
+    title: "Certified Lover Boy"
+    year: 2021
 draft: false
 ---

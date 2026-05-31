@@ -1,7 +1,6 @@
-﻿---
+---
 scene: "Athens, GA"
 title: "R.E.M."
-mbid: "ea4dfa26-f633-4da6-a52a-f49ea4897b58"
 country: "US"
 formed: 1980
 band_type: "Group"
@@ -29,6 +28,18 @@ albums:
   - slug: "monster"
     title: "Monster"
     year: 1994
+  - slug: "murmur"
+    title: "Murmur"
+    year: 1983
+  - slug: "reckoning"
+    title: "Reckoning"
+    year: 1984
+  - slug: "document"
+    title: "Document"
+    year: 1987
+  - slug: "green"
+    title: "Green"
+    year: 1988
 draft: false
 ---
 R.E.M. was an American rock band from Athens, Georgia. They were one of the first alternative rock bands to achieve mainstream success and are considered one of the most influential acts in the development of the genre. Their 1991 album *Out of Time* spawned the massive hit "Losing My Religion," while their 1992 album *Automatic for the People* is a critically acclaimed masterpiece.

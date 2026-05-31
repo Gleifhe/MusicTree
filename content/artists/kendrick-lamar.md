@@ -19,5 +19,8 @@ albums:
   - slug: "damn-kl"
     title: "DAMN."
     year: 2017
+  - slug: "section-80"
+    title: "Section.80"
+    year: 2011
 draft: false
 ---

@@ -19,5 +19,17 @@ albums:
   - slug: "folklore-tsw"
     title: "Folklore"
     year: 2020
+  - slug: "taylor-swift-debut"
+    title: "Taylor Swift"
+    year: 2006
+  - slug: "speak-now"
+    title: "Speak Now"
+    year: 2010
+  - slug: "red-tsw"
+    title: "Red"
+    year: 2012
+  - slug: "evermore"
+    title: "evermore"
+    year: 2020
 draft: false
 ---

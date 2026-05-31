@@ -1,0 +1,42 @@
+---
+title: "Red"
+artist: "Taylor Swift"
+artist_slug: "taylor-swift"
+year: 2012
+genres: ["country pop", "pop"]
+songs:
+  - slug: "state-of-grace-ts"
+    title: "State of Grace"
+  - slug: "red-ts"
+    title: "Red"
+  - slug: "treacherous-ts"
+    title: "Treacherous"
+  - slug: "i-knew-you-were-trouble"
+    title: "I Knew You Were Trouble"
+  - slug: "all-too-well"
+    title: "All Too Well"
+  - slug: "22-ts"
+    title: "22"
+  - slug: "i-almost-do"
+    title: "I Almost Do"
+  - slug: "we-are-never-ever"
+    title: "We Are Never Ever Getting Back Together"
+  - slug: "stay-stay-stay"
+    title: "Stay Stay Stay"
+  - slug: "the-last-time-ts"
+    title: "The Last Time"
+  - slug: "holy-ground-ts"
+    title: "Holy Ground"
+  - slug: "sad-beautiful-tragic"
+    title: "Sad Beautiful Tragic"
+  - slug: "the-lucky-one-ts"
+    title: "The Lucky One"
+  - slug: "everything-has-changed-ts"
+    title: "Everything Has Changed"
+  - slug: "starlight-ts"
+    title: "Starlight"
+  - slug: "begin-again-ts"
+    title: "Begin Again"
+draft: false
+---
+Taylor Swift's fourth album.

@@ -1,7 +1,6 @@
-﻿---
+---
 scene: "Seattle"
 title: "Foo Fighters"
-mbid: "67f96ebe-9ea7-4b8e-a24b-bf58e6c5d5c0"
 country: "US"
 formed: 1994
 band_type: "Group"
@@ -38,6 +37,15 @@ albums:
   - slug: "there-is-nothing-left-to-lose"
     title: "There Is Nothing Left to Lose"
     year: 1999
+  - slug: "one-by-one"
+    title: "One by One"
+    year: 2002
+  - slug: "in-your-honor"
+    title: "In Your Honor"
+    year: 2005
+  - slug: "wasting-light"
+    title: "Wasting Light"
+    year: 2011
 draft: false
 ---
 Foo Fighters is an American rock band formed in Seattle, Washington in 1994 by Nirvana drummer Dave Grohl as a one-man project following the dissolution of Nirvana. The name comes from the World War II term for unidentified flying objects. Grohl recorded the debut album entirely by himself before recruiting other musicians to form a full band. Their second album *The Colour and the Shape* (1997) became their commercial breakthrough, featuring the anthems "Everlong" and "My Hero."

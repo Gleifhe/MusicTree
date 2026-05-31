@@ -25,5 +25,14 @@ albums:
   - slug: "moving-pictures"
     title: "Moving Pictures"
     year: 1981
+  - slug: "hemispheres"
+    title: "Hemispheres"
+    year: 1978
+  - slug: "grace-under-pressure"
+    title: "Grace Under Pressure"
+    year: 1984
+  - slug: "power-windows"
+    title: "Power Windows"
+    year: 1985
 draft: false
 ---

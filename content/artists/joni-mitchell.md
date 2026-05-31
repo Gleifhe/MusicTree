@@ -19,5 +19,11 @@ albums:
   - slug: "hejira"
     title: "Hejira"
     year: 1976
+  - slug: "ladies-of-the-canyon"
+    title: "Ladies of the Canyon"
+    year: 1970
+  - slug: "for-the-roses"
+    title: "For the Roses"
+    year: 1972
 draft: false
 ---

@@ -31,6 +31,9 @@ albums:
   - slug: "adore"
     title: "Adore"
     year: 1998
+  - slug: "zeitgeist"
+    title: "Zeitgeist"
+    year: 2007
 draft: false
 ---
 Smashing Pumpkins from Chicago became one of the most successful bands of the 1990s. Siamese Dream (1993) produced by Butch Vig and the double album Mellon Collie and the Infinite Sadness (1995) defined alternative rock.

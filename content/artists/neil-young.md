@@ -19,5 +19,17 @@ albums:
   - slug: "rust-never-sleeps"
     title: "Rust Never Sleeps"
     year: 1979
+  - slug: "on-the-beach"
+    title: "On the Beach"
+    year: 1974
+  - slug: "tonights-the-night"
+    title: "Tonight's the Night"
+    year: 1975
+  - slug: "freedom-ny"
+    title: "Freedom"
+    year: 1989
+  - slug: "harvest-moon"
+    title: "Harvest Moon"
+    year: 1992
 draft: false
 ---
