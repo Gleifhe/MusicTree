@@ -1,0 +1,21 @@
+---
+title: "Ocean Planet"
+slug: "ocean-planet-gj"
+artist: "Gojira"
+artist_slug: "gojira"
+album: "From Mars to Sirius"
+album_slug: "from-mars-to-sirius-gj"
+year: 2005
+credits:
+  - person_slug: "joe-duplantier"
+    role: "Vocals, Guitar"
+  - person_slug: "christian-andreu"
+    role: "Guitar"
+  - person_slug: "jean-michel-labadie"
+    role: "Bass"
+  - person_slug: "mario-duplantier"
+    role: "Drums"
+  - person_slug: "joe-duplantier"
+    role: "Producer"
+draft: false
+---

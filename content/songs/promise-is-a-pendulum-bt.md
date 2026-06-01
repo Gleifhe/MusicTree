@@ -1,0 +1,19 @@
+---
+title: "Promise Is a Pendulum"
+slug: "promise-is-a-pendulum-bt"
+artist: "big-thief"
+album: "dragon-new-warm-bt"
+year: 2022
+credits:
+  - person_slug: "adrianne-lenker"
+    role: "Vocals, Guitar"
+  - person_slug: "buck-meek"
+    role: "Guitar"
+  - person_slug: "max-oleary"
+    role: "Bass"
+  - person_slug: "james-krivchenia"
+    role: "Drums"
+  - person_slug: "andrew-sarlo"
+    role: "Producer"
+draft: false
+---
