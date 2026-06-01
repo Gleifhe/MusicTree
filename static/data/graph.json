@@ -265,6 +265,14 @@
       "scene": "Indie Pop"
     },
     {
+      "id": "gruntruck",
+      "label": "Gruntruck",
+      "type": "artist",
+      "url": "/artists/gruntruck/",
+      "meta": "Grunge, Alternative Rock",
+      "scene": "Seattle"
+    },
+    {
       "id": "harry-styles",
       "label": "Harry Styles",
       "type": "artist",
@@ -289,6 +297,14 @@
       "scene": "Chicago"
     },
     {
+      "id": "jesus-jones",
+      "label": "Jesus Jones",
+      "type": "artist",
+      "url": "/artists/jesus-jones/",
+      "meta": "Alternative Rock, Electronic Rock",
+      "scene": "London, UK"
+    },
+    {
       "id": "jimi-hendrix",
       "label": "Jimi Hendrix",
       "type": "artist",
@@ -305,12 +321,28 @@
       "scene": "Folk/Pop"
     },
     {
+      "id": "kate-bush",
+      "label": "Kate Bush",
+      "type": "artist",
+      "url": "/artists/kate-bush/",
+      "meta": "Art Pop, Progressive Pop",
+      "scene": "London, UK"
+    },
+    {
       "id": "kendrick-lamar",
       "label": "Kendrick Lamar",
       "type": "artist",
       "url": "/artists/kendrick-lamar/",
       "meta": "Hip-Hop, Conscious Hip-Hop · 2003",
       "scene": "Hip-Hop"
+    },
+    {
+      "id": "l7",
+      "label": "L7",
+      "type": "artist",
+      "url": "/artists/l7/",
+      "meta": "Grunge, Alternative Rock",
+      "scene": "Seattle"
     },
     {
       "id": "lady-gaga",
@@ -785,6 +817,14 @@
       "scene": ""
     },
     {
+      "id": "al-jaworski",
+      "label": "Al Jaworski",
+      "type": "person",
+      "url": "/people/al-jaworski/",
+      "meta": "",
+      "scene": ""
+    },
+    {
       "id": "alanis-morissette-person",
       "label": "Alanis Morissette",
       "type": "person",
@@ -814,6 +854,14 @@
       "type": "person",
       "url": "/people/amy-allen/",
       "meta": "Songwriter, Singer",
+      "scene": ""
+    },
+    {
+      "id": "andrew-powell",
+      "label": "Andrew Powell",
+      "type": "person",
+      "url": "/people/andrew-powell/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -881,11 +929,27 @@
       "scene": ""
     },
     {
+      "id": "barry-d-jj",
+      "label": "Barry D",
+      "type": "person",
+      "url": "/people/barry-d-jj/",
+      "meta": "",
+      "scene": ""
+    },
+    {
       "id": "ben-gibbard",
       "label": "Ben Gibbard",
       "type": "person",
       "url": "/people/ben-gibbard/",
       "meta": "Vocalist, Guitarist, Songwriter",
+      "scene": ""
+    },
+    {
+      "id": "ben-mcmillan",
+      "label": "Ben McMillan",
+      "type": "person",
+      "url": "/people/ben-mcmillan/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -1313,6 +1377,14 @@
       "scene": ""
     },
     {
+      "id": "david-gilmour",
+      "label": "David Gilmour",
+      "type": "person",
+      "url": "/people/david-gilmour/",
+      "meta": "",
+      "scene": ""
+    },
+    {
       "id": "david-lovering",
       "label": "David Lovering",
       "type": "person",
@@ -1353,6 +1425,14 @@
       "scene": ""
     },
     {
+      "id": "dee-plakas",
+      "label": "Dee Plakas",
+      "type": "person",
+      "url": "/people/dee-plakas/",
+      "meta": "",
+      "scene": ""
+    },
+    {
       "id": "deryck-whibley",
       "label": "Deryck Whibley",
       "type": "person",
@@ -1382,6 +1462,14 @@
       "type": "person",
       "url": "/people/don-fleming/",
       "meta": "Producer, Guitarist, Songwriter",
+      "scene": ""
+    },
+    {
+      "id": "donita-sparks",
+      "label": "Donita Sparks",
+      "type": "person",
+      "url": "/people/donita-sparks/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -1526,6 +1614,14 @@
       "type": "person",
       "url": "/people/geddy-lee/",
       "meta": "Vocalist, Bassist, Keyboardist",
+      "scene": ""
+    },
+    {
+      "id": "gen-jj",
+      "label": "Gen",
+      "type": "person",
+      "url": "/people/gen-jj/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -1753,6 +1849,14 @@
       "scene": ""
     },
     {
+      "id": "jennifer-finch",
+      "label": "Jennifer Finch",
+      "type": "person",
+      "url": "/people/jennifer-finch/",
+      "meta": "",
+      "scene": ""
+    },
+    {
       "id": "jeremiah-green",
       "label": "Jeremiah Green",
       "type": "person",
@@ -1790,6 +1894,14 @@
       "type": "person",
       "url": "/people/jerry-cantrell/",
       "meta": "Guitarist, Vocalist, Songwriter",
+      "scene": ""
+    },
+    {
+      "id": "jerry-de-borg",
+      "label": "Jerry De Borg",
+      "type": "person",
+      "url": "/people/jerry-de-borg/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -1870,6 +1982,14 @@
       "type": "person",
       "url": "/people/john-bonham/",
       "meta": "Drummer",
+      "scene": ""
+    },
+    {
+      "id": "john-carder-bush",
+      "label": "John Carder Bush",
+      "type": "person",
+      "url": "/people/john-carder-bush/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -2249,6 +2369,14 @@
       "scene": ""
     },
     {
+      "id": "matt-mccoy-gt",
+      "label": "Matt McCoy",
+      "type": "person",
+      "url": "/people/matt-mccoy-gt/",
+      "meta": "",
+      "scene": ""
+    },
+    {
       "id": "max-martin",
       "label": "Max Martin",
       "type": "person",
@@ -2270,6 +2398,14 @@
       "type": "person",
       "url": "/people/michael-stipe/",
       "meta": "Vocalist, Lyricist, Visual Artist",
+      "scene": ""
+    },
+    {
+      "id": "mike-edwards-jj",
+      "label": "Mike Edwards",
+      "type": "person",
+      "url": "/people/mike-edwards-jj/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -2529,6 +2665,14 @@
       "scene": ""
     },
     {
+      "id": "peter-gabriel",
+      "label": "Peter Gabriel",
+      "type": "person",
+      "url": "/people/peter-gabriel/",
+      "meta": "",
+      "scene": ""
+    },
+    {
       "id": "pharrell-williams",
       "label": "Pharrell Williams",
       "type": "person",
@@ -2681,6 +2825,14 @@
       "scene": ""
     },
     {
+      "id": "ron-reyes-l7",
+      "label": "Ron Reyes",
+      "type": "person",
+      "url": "/people/ron-reyes-l7/",
+      "meta": "",
+      "scene": ""
+    },
+    {
       "id": "ryan-peake",
       "label": "Ryan Peake",
       "type": "person",
@@ -2734,6 +2886,14 @@
       "type": "person",
       "url": "/people/scott-devendorf/",
       "meta": "Bass",
+      "scene": ""
+    },
+    {
+      "id": "scott-ledgerwood",
+      "label": "Scott Ledgerwood",
+      "type": "person",
+      "url": "/people/scott-ledgerwood/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -2814,6 +2974,14 @@
       "type": "person",
       "url": "/people/stone-gossard/",
       "meta": "Guitarist, Songwriter",
+      "scene": ""
+    },
+    {
+      "id": "suzi-gardner",
+      "label": "Suzi Gardner",
+      "type": "person",
+      "url": "/people/suzi-gardner/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -2910,6 +3078,14 @@
       "type": "person",
       "url": "/people/todd-trainer/",
       "meta": "Drummer",
+      "scene": ""
+    },
+    {
+      "id": "tom-niemeyer-gt",
+      "label": "Tom Niemeyer",
+      "type": "person",
+      "url": "/people/tom-niemeyer-gt/",
+      "meta": "",
       "scene": ""
     },
     {
@@ -3953,6 +4129,22 @@
       "scene": ""
     },
     {
+      "id": "grunt-truck-below-sky",
+      "label": "Below the Sky",
+      "type": "album",
+      "url": "/albums/grunt-truck-below-sky/",
+      "meta": "Gruntruck · 1993",
+      "scene": ""
+    },
+    {
+      "id": "grunt-truck-push",
+      "label": "Push",
+      "type": "album",
+      "url": "/albums/grunt-truck-push/",
+      "meta": "Gruntruck · 1992",
+      "scene": ""
+    },
+    {
       "id": "guts-ori",
       "label": "GUTS",
       "type": "album",
@@ -4185,6 +4377,86 @@
       "scene": ""
     },
     {
+      "id": "jj-already",
+      "label": "Already",
+      "type": "album",
+      "url": "/albums/jj-already/",
+      "meta": "Jesus Jones · 1997",
+      "scene": ""
+    },
+    {
+      "id": "jj-doubt",
+      "label": "Doubt",
+      "type": "album",
+      "url": "/albums/jj-doubt/",
+      "meta": "Jesus Jones · 1991",
+      "scene": ""
+    },
+    {
+      "id": "jj-liquidizer",
+      "label": "Liquidizer",
+      "type": "album",
+      "url": "/albums/jj-liquidizer/",
+      "meta": "Jesus Jones · 1989",
+      "scene": ""
+    },
+    {
+      "id": "jj-perverse",
+      "label": "Perverse",
+      "type": "album",
+      "url": "/albums/jj-perverse/",
+      "meta": "Jesus Jones · 1993",
+      "scene": ""
+    },
+    {
+      "id": "kate-bush-50-words",
+      "label": "50 Words for Snow",
+      "type": "album",
+      "url": "/albums/kate-bush-50-words/",
+      "meta": "Kate Bush · 2011",
+      "scene": ""
+    },
+    {
+      "id": "kate-bush-aerial",
+      "label": "Aerial",
+      "type": "album",
+      "url": "/albums/kate-bush-aerial/",
+      "meta": "Kate Bush · 2005",
+      "scene": ""
+    },
+    {
+      "id": "kate-bush-dreaming",
+      "label": "The Dreaming",
+      "type": "album",
+      "url": "/albums/kate-bush-dreaming/",
+      "meta": "Kate Bush · 1982",
+      "scene": ""
+    },
+    {
+      "id": "kate-bush-hounds-love",
+      "label": "Hounds of Love",
+      "type": "album",
+      "url": "/albums/kate-bush-hounds-love/",
+      "meta": "Kate Bush · 1985",
+      "scene": ""
+    },
+    {
+      "id": "kate-bush-kick-inside",
+      "label": "The Kick Inside",
+      "type": "album",
+      "url": "/albums/kate-bush-kick-inside/",
+      "meta": "Kate Bush · 1978",
+      "scene": ""
+    },
+    {
+      "id": "kate-bush-never-for-ever",
+      "label": "Never for Ever",
+      "type": "album",
+      "url": "/albums/kate-bush-never-for-ever/",
+      "meta": "Kate Bush · 1980",
+      "scene": ""
+    },
+    {
       "id": "kid-a",
       "label": "Kid A",
       "type": "album",
@@ -4198,6 +4470,38 @@
       "type": "album",
       "url": "/albums/kiss-land/",
       "meta": "The Weeknd · 2013",
+      "scene": ""
+    },
+    {
+      "id": "l7-beauty-process",
+      "label": "The Beauty Process: Triple Platinum",
+      "type": "album",
+      "url": "/albums/l7-beauty-process/",
+      "meta": "L7 · 1997",
+      "scene": ""
+    },
+    {
+      "id": "l7-bricks-heavy",
+      "label": "Bricks Are Heavy",
+      "type": "album",
+      "url": "/albums/l7-bricks-heavy/",
+      "meta": "L7 · 1992",
+      "scene": ""
+    },
+    {
+      "id": "l7-hungry-stink",
+      "label": "Hungry for Stink",
+      "type": "album",
+      "url": "/albums/l7-hungry-stink/",
+      "meta": "L7 · 1994",
+      "scene": ""
+    },
+    {
+      "id": "l7-smells-magic",
+      "label": "Smell the Magic",
+      "type": "album",
+      "url": "/albums/l7-smells-magic/",
+      "meta": "L7 · 1990",
       "scene": ""
     },
     {
@@ -5657,6 +5961,14 @@
       "scene": ""
     },
     {
+      "id": "above-me-gt",
+      "label": "Above Me",
+      "type": "song",
+      "url": "/songs/above-me-gt/",
+      "meta": "Gruntruck · Push",
+      "scene": ""
+    },
+    {
       "id": "abstract-plain",
       "label": "Abstract Plain",
       "type": "song",
@@ -5953,6 +6265,14 @@
       "scene": ""
     },
     {
+      "id": "all-my-life-jj",
+      "label": "All My Life",
+      "type": "song",
+      "url": "/songs/all-my-life-jj/",
+      "meta": "Jesus Jones · Already",
+      "scene": ""
+    },
+    {
       "id": "all-my-love-nk",
       "label": "All My Love",
       "type": "song",
@@ -5990,6 +6310,14 @@
       "type": "song",
       "url": "/songs/all-secrets-known/",
       "meta": "Alice in Chains",
+      "scene": ""
+    },
+    {
+      "id": "all-the-answers-jj",
+      "label": "All the Answers",
+      "type": "song",
+      "url": "/songs/all-the-answers-jj/",
+      "meta": "Jesus Jones · Liquidizer",
       "scene": ""
     },
     {
@@ -6129,11 +6457,35 @@
       "scene": ""
     },
     {
+      "id": "among-angels-kb",
+      "label": "Among Angels",
+      "type": "song",
+      "url": "/songs/among-angels-kb/",
+      "meta": "Kate Bush · 50 Words for Snow",
+      "scene": ""
+    },
+    {
       "id": "ana",
       "label": "Ana",
       "type": "song",
       "url": "/songs/ana/",
       "meta": "Pixies · Bossanova",
+      "scene": ""
+    },
+    {
+      "id": "and-dream-of-sheep-kb",
+      "label": "And Dream of Sheep",
+      "type": "song",
+      "url": "/songs/and-dream-of-sheep-kb/",
+      "meta": "Kate Bush · Hounds of Love",
+      "scene": ""
+    },
+    {
+      "id": "andres-l7",
+      "label": "Andres",
+      "type": "song",
+      "url": "/songs/andres-l7/",
+      "meta": "L7 · Hungry for Stink",
       "scene": ""
     },
     {
@@ -6281,6 +6633,14 @@
       "scene": ""
     },
     {
+      "id": "army-dreamers-kb",
+      "label": "Army Dreamers",
+      "type": "song",
+      "url": "/songs/army-dreamers-kb/",
+      "meta": "Kate Bush · Never for Ever",
+      "scene": ""
+    },
+    {
       "id": "around-the-bend-pj",
       "label": "Around the Bend",
       "type": "song",
@@ -6417,6 +6777,14 @@
       "scene": ""
     },
     {
+      "id": "babooshka-kb",
+      "label": "Babooshka",
+      "type": "song",
+      "url": "/songs/babooshka-kb/",
+      "meta": "Kate Bush · Never for Ever",
+      "scene": ""
+    },
+    {
       "id": "baby-blue-wp",
       "label": "Baby Blue",
       "type": "song",
@@ -6550,6 +6918,22 @@
       "type": "song",
       "url": "/songs/bad-penny/",
       "meta": "Big Black",
+      "scene": ""
+    },
+    {
+      "id": "bad-things-l7",
+      "label": "Bad Things",
+      "type": "song",
+      "url": "/songs/bad-things-l7/",
+      "meta": "L7 · The Beauty Process: Triple Platinum",
+      "scene": ""
+    },
+    {
+      "id": "baggage-l7",
+      "label": "Baggage",
+      "type": "song",
+      "url": "/songs/baggage-l7/",
+      "meta": "L7 · Hungry for Stink",
       "scene": ""
     },
     {
@@ -7305,6 +7689,14 @@
       "scene": ""
     },
     {
+      "id": "breathing-kb",
+      "label": "Breathing",
+      "type": "song",
+      "url": "/songs/breathing-kb/",
+      "meta": "Kate Bush · Never for Ever",
+      "scene": ""
+    },
+    {
       "id": "breed",
       "label": "Breed",
       "type": "song",
@@ -7601,6 +7993,14 @@
       "scene": ""
     },
     {
+      "id": "can-i-run-l7",
+      "label": "Can I Run",
+      "type": "song",
+      "url": "/songs/can-i-run-l7/",
+      "meta": "L7 · Hungry for Stink",
+      "scene": ""
+    },
+    {
       "id": "canada-shellac",
       "label": "Canada",
       "type": "song",
@@ -7817,6 +8217,14 @@
       "scene": ""
     },
     {
+      "id": "chemical-1-jj",
+      "label": "Chemical #1",
+      "type": "song",
+      "url": "/songs/chemical-1-jj/",
+      "meta": "Jesus Jones · Already",
+      "scene": ""
+    },
+    {
       "id": "chemistry-af",
       "label": "Chemistry",
       "type": "song",
@@ -7958,6 +8366,14 @@
       "type": "song",
       "url": "/songs/closure-ts/",
       "meta": "Taylor Swift · evermore",
+      "scene": ""
+    },
+    {
+      "id": "cloudbusting-kb",
+      "label": "Cloudbusting",
+      "type": "song",
+      "url": "/songs/cloudbusting-kb/",
+      "meta": "Kate Bush · Hounds of Love",
       "scene": ""
     },
     {
@@ -8361,6 +8777,14 @@
       "scene": ""
     },
     {
+      "id": "crucify-gt",
+      "label": "Crucify",
+      "type": "song",
+      "url": "/songs/crucify-gt/",
+      "meta": "Gruntruck · Below the Sky",
+      "scene": ""
+    },
+    {
       "id": "cruel-world-ldr",
       "label": "Cruel World",
       "type": "song",
@@ -8638,6 +9062,14 @@
       "type": "song",
       "url": "/songs/death-of-an-interior-decorator/",
       "meta": "Death Cab for Cutie",
+      "scene": ""
+    },
+    {
+      "id": "deathwish-l7",
+      "label": "Deathwish",
+      "type": "song",
+      "url": "/songs/deathwish-l7/",
+      "meta": "L7 · Smell the Magic",
       "scene": ""
     },
     {
@@ -9145,6 +9577,14 @@
       "scene": ""
     },
     {
+      "id": "drama-l7",
+      "label": "Drama",
+      "type": "song",
+      "url": "/songs/drama-l7/",
+      "meta": "L7 · The Beauty Process: Triple Platinum",
+      "scene": ""
+    },
+    {
       "id": "dramamine",
       "label": "Dramamine",
       "type": "song",
@@ -9537,6 +9977,14 @@
       "scene": ""
     },
     {
+      "id": "everglade-l7",
+      "label": "Everglade",
+      "type": "song",
+      "url": "/songs/everglade-l7/",
+      "meta": "L7 · Bricks Are Heavy",
+      "scene": ""
+    },
+    {
       "id": "everlong",
       "label": "Everlong",
       "type": "song",
@@ -9790,6 +10238,14 @@
       "type": "song",
       "url": "/songs/far-far-away/",
       "meta": "Wilco",
+      "scene": ""
+    },
+    {
+      "id": "fast-and-frightening-l7",
+      "label": "Fast and Frightening",
+      "type": "song",
+      "url": "/songs/fast-and-frightening-l7/",
+      "meta": "L7 · Smell the Magic",
       "scene": ""
     },
     {
@@ -10094,6 +10550,14 @@
       "type": "song",
       "url": "/songs/flawless-bey/",
       "meta": "Beyoncé · Beyoncé",
+      "scene": ""
+    },
+    {
+      "id": "flesh-gt",
+      "label": "Flesh",
+      "type": "song",
+      "url": "/songs/flesh-gt/",
+      "meta": "Gruntruck · Push",
       "scene": ""
     },
     {
@@ -11881,6 +12345,14 @@
       "scene": ""
     },
     {
+      "id": "hounds-of-love-kb",
+      "label": "Hounds of Love",
+      "type": "song",
+      "url": "/songs/hounds-of-love-kb/",
+      "meta": "Kate Bush · Hounds of Love",
+      "scene": ""
+    },
+    {
       "id": "house-of-cards-rh",
       "label": "House of Cards",
       "type": "song",
@@ -11942,6 +12414,14 @@
       "type": "song",
       "url": "/songs/how-many-more-years/",
       "meta": "Howlin' Wolf",
+      "scene": ""
+    },
+    {
+      "id": "how-to-be-invisible-kb",
+      "label": "How to Be Invisible",
+      "type": "song",
+      "url": "/songs/how-to-be-invisible-kb/",
+      "meta": "Kate Bush · Aerial",
       "scene": ""
     },
     {
@@ -12689,6 +13169,14 @@
       "scene": ""
     },
     {
+      "id": "in-the-wake-gt",
+      "label": "In the Wake",
+      "type": "song",
+      "url": "/songs/in-the-wake-gt/",
+      "meta": "Gruntruck · Below the Sky",
+      "scene": ""
+    },
+    {
       "id": "in-too-deep-s41",
       "label": "In Too Deep",
       "type": "song",
@@ -12729,6 +13217,14 @@
       "scene": ""
     },
     {
+      "id": "info-freako-jj",
+      "label": "Info Freako",
+      "type": "song",
+      "url": "/songs/info-freako-jj/",
+      "meta": "Jesus Jones · Liquidizer",
+      "scene": ""
+    },
+    {
       "id": "innocent-ts",
       "label": "Innocent",
       "type": "song",
@@ -12761,11 +13257,27 @@
       "scene": ""
     },
     {
+      "id": "international-bright-young-thing-jj",
+      "label": "International Bright Young Thing",
+      "type": "song",
+      "url": "/songs/international-bright-young-thing-jj/",
+      "meta": "Jesus Jones · Doubt",
+      "scene": ""
+    },
+    {
       "id": "into-the-drink",
       "label": "Into the Drink",
       "type": "song",
       "url": "/songs/into-the-drink/",
       "meta": "Mudhoney",
+      "scene": ""
+    },
+    {
+      "id": "into-the-void-gt",
+      "label": "Into the Void",
+      "type": "song",
+      "url": "/songs/into-the-void-gt/",
+      "meta": "Gruntruck · Push",
       "scene": ""
     },
     {
@@ -13049,6 +13561,14 @@
       "scene": ""
     },
     {
+      "id": "joanni-kb",
+      "label": "Joanni",
+      "type": "song",
+      "url": "/songs/joanni-kb/",
+      "meta": "Kate Bush · Aerial",
+      "scene": ""
+    },
+    {
       "id": "joining-you-am",
       "label": "Joining You",
       "type": "song",
@@ -13273,6 +13793,14 @@
       "scene": ""
     },
     {
+      "id": "king-of-the-mountain-kb",
+      "label": "King of the Mountain",
+      "type": "song",
+      "url": "/songs/king-of-the-mountain-kb/",
+      "meta": "Kate Bush · Aerial",
+      "scene": ""
+    },
+    {
       "id": "kiss-land-tw",
       "label": "Kiss Land",
       "type": "song",
@@ -13382,6 +13910,14 @@
       "type": "song",
       "url": "/songs/lake-of-fire/",
       "meta": "Nirvana · MTV Unplugged in New York",
+      "scene": ""
+    },
+    {
+      "id": "lake-tahoe-kb",
+      "label": "Lake Tahoe",
+      "type": "song",
+      "url": "/songs/lake-tahoe-kb/",
+      "meta": "Kate Bush · 50 Words for Snow",
       "scene": ""
     },
     {
@@ -13737,6 +14273,14 @@
       "scene": ""
     },
     {
+      "id": "lightning-jj",
+      "label": "Lightning",
+      "type": "song",
+      "url": "/songs/lightning-jj/",
+      "meta": "Jesus Jones · Already",
+      "scene": ""
+    },
+    {
       "id": "lights-up-hs",
       "label": "Lights Up",
       "type": "song",
@@ -13902,6 +14446,14 @@
       "type": "song",
       "url": "/songs/lizzy/",
       "meta": "Melvins",
+      "scene": ""
+    },
+    {
+      "id": "locked-out-gt",
+      "label": "Locked Out",
+      "type": "song",
+      "url": "/songs/locked-out-gt/",
+      "meta": "Gruntruck · Below the Sky",
       "scene": ""
     },
     {
@@ -14353,6 +14905,14 @@
       "scene": ""
     },
     {
+      "id": "man-with-child-in-his-eyes-kb",
+      "label": "The Man with the Child in His Eyes",
+      "type": "song",
+      "url": "/songs/man-with-child-in-his-eyes-kb/",
+      "meta": "Kate Bush · The Kick Inside",
+      "scene": ""
+    },
+    {
       "id": "mandocello",
       "label": "Mandocello",
       "type": "song",
@@ -14737,6 +15297,14 @@
       "scene": ""
     },
     {
+      "id": "misty-kb",
+      "label": "Misty",
+      "type": "song",
+      "url": "/songs/misty-kb/",
+      "meta": "Kate Bush · 50 Words for Snow",
+      "scene": ""
+    },
+    {
       "id": "misty-mountain-hop",
       "label": "Misty Mountain Hop",
       "type": "song",
@@ -14833,6 +15401,14 @@
       "scene": ""
     },
     {
+      "id": "monster-l7",
+      "label": "Monster",
+      "type": "song",
+      "url": "/songs/monster-l7/",
+      "meta": "L7 · Bricks Are Heavy",
+      "scene": ""
+    },
+    {
       "id": "montezuma",
       "label": "Montezuma",
       "type": "song",
@@ -14854,6 +15430,14 @@
       "type": "song",
       "url": "/songs/mood-for-trouble/",
       "meta": "Soundgarden",
+      "scene": ""
+    },
+    {
+      "id": "moonshiner-l7",
+      "label": "Moonshiner",
+      "type": "song",
+      "url": "/songs/moonshiner-l7/",
+      "meta": "L7 · The Beauty Process: Triple Platinum",
       "scene": ""
     },
     {
@@ -14993,6 +15577,14 @@
       "scene": ""
     },
     {
+      "id": "moving-kb",
+      "label": "Moving",
+      "type": "song",
+      "url": "/songs/moving-kb/",
+      "meta": "Kate Bush · The Kick Inside",
+      "scene": ""
+    },
+    {
       "id": "mr-grieves",
       "label": "Mr. Grieves",
       "type": "song",
@@ -15006,6 +15598,14 @@
       "type": "song",
       "url": "/songs/mr-moustache/",
       "meta": "Nirvana · Bleach",
+      "scene": ""
+    },
+    {
+      "id": "mrs-bartolozzi-kb",
+      "label": "Mrs Bartolozzi",
+      "type": "song",
+      "url": "/songs/mrs-bartolozzi-kb/",
+      "meta": "Kate Bush · Aerial",
       "scene": ""
     },
     {
@@ -15294,6 +15894,14 @@
       "type": "song",
       "url": "/songs/never-again-nb/",
       "meta": "Nickelback · Silver Side Up",
+      "scene": ""
+    },
+    {
+      "id": "never-enough-jj",
+      "label": "Never Enough",
+      "type": "song",
+      "url": "/songs/never-enough-jj/",
+      "meta": "Jesus Jones · Liquidizer",
       "scene": ""
     },
     {
@@ -15761,6 +16369,14 @@
       "scene": ""
     },
     {
+      "id": "off-the-wagon-l7",
+      "label": "Off the Wagon",
+      "type": "song",
+      "url": "/songs/off-the-wagon-l7/",
+      "meta": "L7 · The Beauty Process: Triple Platinum",
+      "scene": ""
+    },
+    {
       "id": "oh-breeders",
       "label": "Oh!",
       "type": "song",
@@ -16113,6 +16729,14 @@
       "scene": ""
     },
     {
+      "id": "packin-a-rod-l7",
+      "label": "Packin' a Rod",
+      "type": "song",
+      "url": "/songs/packin-a-rod-l7/",
+      "meta": "L7 · Smell the Magic",
+      "scene": ""
+    },
+    {
       "id": "packt-like-sardines",
       "label": "Packt Like Sardines in a Crushd Tin Box",
       "type": "song",
@@ -16294,6 +16918,14 @@
       "type": "song",
       "url": "/songs/photograph-nb/",
       "meta": "Nickelback · All the Right Reasons",
+      "scene": ""
+    },
+    {
+      "id": "pi-kb",
+      "label": "Pi",
+      "type": "song",
+      "url": "/songs/pi-kb/",
+      "meta": "Kate Bush · Aerial",
       "scene": ""
     },
     {
@@ -16601,6 +17233,14 @@
       "scene": ""
     },
     {
+      "id": "pretend-we-dead-l7",
+      "label": "Pretend We're Dead",
+      "type": "song",
+      "url": "/songs/pretend-we-dead-l7/",
+      "meta": "L7 · Bricks Are Heavy",
+      "scene": ""
+    },
+    {
       "id": "pretty-baby-bg",
       "label": "Pretty Baby",
       "type": "song",
@@ -16678,6 +17318,14 @@
       "type": "song",
       "url": "/songs/pull-out-dfa/",
       "meta": "Death from Above 1979 · You're a Woman, I'm a Machine",
+      "scene": ""
+    },
+    {
+      "id": "pull-out-the-pin-kb",
+      "label": "Pull Out the Pin",
+      "type": "song",
+      "url": "/songs/pull-out-the-pin-kb/",
+      "meta": "Kate Bush · The Dreaming",
       "scene": ""
     },
     {
@@ -16913,6 +17561,14 @@
       "scene": ""
     },
     {
+      "id": "real-real-real-jj",
+      "label": "Real Real Real",
+      "type": "song",
+      "url": "/songs/real-real-real-jj/",
+      "meta": "Jesus Jones · Doubt",
+      "scene": ""
+    },
+    {
       "id": "rearviewmirror",
       "label": "Rearviewmirror",
       "type": "song",
@@ -17142,6 +17798,14 @@
       "type": "song",
       "url": "/songs/rigamortis/",
       "meta": "Kendrick Lamar · Section.80",
+      "scene": ""
+    },
+    {
+      "id": "right-here-right-now-jj",
+      "label": "Right Here Right Now",
+      "type": "song",
+      "url": "/songs/right-here-right-now-jj/",
+      "meta": "Jesus Jones · Doubt",
       "scene": ""
     },
     {
@@ -17393,6 +18057,14 @@
       "scene": ""
     },
     {
+      "id": "running-up-that-hill-kb",
+      "label": "Running Up That Hill",
+      "type": "song",
+      "url": "/songs/running-up-that-hill-kb/",
+      "meta": "Kate Bush · Hounds of Love",
+      "scene": ""
+    },
+    {
       "id": "rush-job",
       "label": "Rush Job",
       "type": "song",
@@ -17478,6 +18150,14 @@
       "type": "song",
       "url": "/songs/sandras-rose/",
       "meta": "Drake · Scorpion",
+      "scene": ""
+    },
+    {
+      "id": "sat-in-your-lap-kb",
+      "label": "Sat in Your Lap",
+      "type": "song",
+      "url": "/songs/sat-in-your-lap-kb/",
+      "meta": "Kate Bush · The Dreaming",
       "scene": ""
     },
     {
@@ -17873,6 +18553,14 @@
       "scene": ""
     },
     {
+      "id": "shove-l7",
+      "label": "Shove",
+      "type": "song",
+      "url": "/songs/shove-l7/",
+      "meta": "L7 · Smell the Magic",
+      "scene": ""
+    },
+    {
       "id": "show-off-your-red-hands",
       "label": "Show Off Your Red Hands",
       "type": "song",
@@ -17934,6 +18622,14 @@
       "type": "song",
       "url": "/songs/signs-of-life/",
       "meta": "Arcade Fire · Everything Now",
+      "scene": ""
+    },
+    {
+      "id": "silver-tassie-gt",
+      "label": "Silver Tassie",
+      "type": "song",
+      "url": "/songs/silver-tassie-gt/",
+      "meta": "Gruntruck · Push",
       "scene": ""
     },
     {
@@ -18089,6 +18785,14 @@
       "scene": ""
     },
     {
+      "id": "slide-l7",
+      "label": "Slide",
+      "type": "song",
+      "url": "/songs/slide-l7/",
+      "meta": "L7 · Bricks Are Heavy",
+      "scene": ""
+    },
+    {
       "id": "slipped-national",
       "label": "Slipped",
       "type": "song",
@@ -18182,6 +18886,14 @@
       "type": "song",
       "url": "/songs/sneakin/",
       "meta": "Drake · Scorpion",
+      "scene": ""
+    },
+    {
+      "id": "snowflake-kb",
+      "label": "Snowflake",
+      "type": "song",
+      "url": "/songs/snowflake-kb/",
+      "meta": "Kate Bush · 50 Words for Snow",
       "scene": ""
     },
     {
@@ -18574,6 +19286,14 @@
       "type": "song",
       "url": "/songs/spinning-in-daffodils/",
       "meta": "Them Crooked Vultures · Them Crooked Vultures",
+      "scene": ""
+    },
+    {
+      "id": "spiral-jj",
+      "label": "Spiral",
+      "type": "song",
+      "url": "/songs/spiral-jj/",
+      "meta": "Jesus Jones · Perverse",
       "scene": ""
     },
     {
@@ -19641,6 +20361,14 @@
       "scene": ""
     },
     {
+      "id": "the-big-sky-kb",
+      "label": "The Big Sky",
+      "type": "song",
+      "url": "/songs/the-big-sky-kb/",
+      "meta": "Kate Bush · Hounds of Love",
+      "scene": ""
+    },
+    {
       "id": "the-blacker-the-berry-kl",
       "label": "The Blacker the Berry",
       "type": "song",
@@ -19670,6 +20398,14 @@
       "type": "song",
       "url": "/songs/the-body-electric/",
       "meta": "Rush · Grace Under Pressure",
+      "scene": ""
+    },
+    {
+      "id": "the-bomb-l7",
+      "label": "The Bomb",
+      "type": "song",
+      "url": "/songs/the-bomb-l7/",
+      "meta": "L7 · Hungry for Stink",
       "scene": ""
     },
     {
@@ -19742,6 +20478,22 @@
       "type": "song",
       "url": "/songs/the-deepest-blues-are-black/",
       "meta": "Foo Fighters · In Your Honor",
+      "scene": ""
+    },
+    {
+      "id": "the-devil-you-know-jj",
+      "label": "The Devil You Know",
+      "type": "song",
+      "url": "/songs/the-devil-you-know-jj/",
+      "meta": "Jesus Jones · Perverse",
+      "scene": ""
+    },
+    {
+      "id": "the-dreaming-kb",
+      "label": "The Dreaming",
+      "type": "song",
+      "url": "/songs/the-dreaming-kb/",
+      "meta": "Kate Bush · The Dreaming",
       "scene": ""
     },
     {
@@ -20113,6 +20865,14 @@
       "scene": ""
     },
     {
+      "id": "the-right-decision-jj",
+      "label": "The Right Decision",
+      "type": "song",
+      "url": "/songs/the-right-decision-jj/",
+      "meta": "Jesus Jones · Perverse",
+      "scene": ""
+    },
+    {
       "id": "the-river-tm",
       "label": "The River",
       "type": "song",
@@ -20353,6 +21113,14 @@
       "scene": ""
     },
     {
+      "id": "the-wedding-list-kb",
+      "label": "The Wedding List",
+      "type": "song",
+      "url": "/songs/the-wedding-list-kb/",
+      "meta": "Kate Bush · Never for Ever",
+      "scene": ""
+    },
+    {
       "id": "the-weekend-sza",
       "label": "The Weekend",
       "type": "song",
@@ -20393,11 +21161,27 @@
       "scene": ""
     },
     {
+      "id": "them-heavy-people-kb",
+      "label": "Them Heavy People",
+      "type": "song",
+      "url": "/songs/them-heavy-people-kb/",
+      "meta": "Kate Bush · The Kick Inside",
+      "scene": ""
+    },
+    {
       "id": "then-comes-dudley",
       "label": "Then Comes Dudley",
       "type": "song",
       "url": "/songs/then-comes-dudley/",
       "meta": "The Jesus Lizard",
+      "scene": ""
+    },
+    {
+      "id": "there-goes-a-tenner-kb",
+      "label": "There Goes a Tenner",
+      "type": "song",
+      "url": "/songs/there-goes-a-tenner-kb/",
+      "meta": "Kate Bush · The Dreaming",
       "scene": ""
     },
     {
@@ -20785,6 +21569,14 @@
       "scene": ""
     },
     {
+      "id": "too-much-to-learn-jj",
+      "label": "Too Much to Learn",
+      "type": "song",
+      "url": "/songs/too-much-to-learn-jj/",
+      "meta": "Jesus Jones · Liquidizer",
+      "scene": ""
+    },
+    {
       "id": "tossed",
       "label": "Tossed",
       "type": "song",
@@ -20894,6 +21686,14 @@
       "type": "song",
       "url": "/songs/tremor-christ/",
       "meta": "Pearl Jam · Vitalogy",
+      "scene": ""
+    },
+    {
+      "id": "tribe-gt",
+      "label": "Tribe",
+      "type": "song",
+      "url": "/songs/tribe-gt/",
+      "meta": "Gruntruck · Push",
       "scene": ""
     },
     {
@@ -21385,6 +22185,14 @@
       "scene": ""
     },
     {
+      "id": "wargasm-l7",
+      "label": "Wargasm",
+      "type": "song",
+      "url": "/songs/wargasm-l7/",
+      "meta": "L7 · Bricks Are Heavy",
+      "scene": ""
+    },
+    {
       "id": "wasted-on-you-mw",
       "label": "Wasted on You",
       "type": "song",
@@ -21521,11 +22329,27 @@
       "scene": ""
     },
     {
+      "id": "weight-of-the-world-gt",
+      "label": "Weight of the World",
+      "type": "song",
+      "url": "/songs/weight-of-the-world-gt/",
+      "meta": "Gruntruck · Below the Sky",
+      "scene": ""
+    },
+    {
       "id": "weird-fishes",
       "label": "Weird Fishes/Arpeggi",
       "type": "song",
       "url": "/songs/weird-fishes/",
       "meta": "Radiohead · In Rainbows",
+      "scene": ""
+    },
+    {
+      "id": "welcome-back-victoria-jj",
+      "label": "Welcome Back Victoria",
+      "type": "song",
+      "url": "/songs/welcome-back-victoria-jj/",
+      "meta": "Jesus Jones · Doubt",
       "scene": ""
     },
     {
@@ -21606,6 +22430,14 @@
       "type": "song",
       "url": "/songs/what-we-do-is-secret/",
       "meta": "The Germs · GI",
+      "scene": ""
+    },
+    {
+      "id": "what-would-you-know-jj",
+      "label": "What Would You Know?",
+      "type": "song",
+      "url": "/songs/what-would-you-know-jj/",
+      "meta": "Jesus Jones · Liquidizer",
       "scene": ""
     },
     {
@@ -21833,6 +22665,14 @@
       "scene": ""
     },
     {
+      "id": "who-where-why-jj",
+      "label": "Who Where Why",
+      "type": "song",
+      "url": "/songs/who-where-why-jj/",
+      "meta": "Jesus Jones · Doubt",
+      "scene": ""
+    },
+    {
       "id": "who-will-you-run-to",
       "label": "Who Will You Run To",
       "type": "song",
@@ -21878,6 +22718,14 @@
       "type": "song",
       "url": "/songs/wild-heart-bleachers/",
       "meta": "Bleachers · Strange Desire",
+      "scene": ""
+    },
+    {
+      "id": "wild-man-kb",
+      "label": "Wild Man",
+      "type": "song",
+      "url": "/songs/wild-man-kb/",
+      "meta": "Kate Bush · 50 Words for Snow",
       "scene": ""
     },
     {
@@ -22110,6 +22958,14 @@
       "type": "song",
       "url": "/songs/wusyaname-ttc/",
       "meta": "Tyler, the Creator · Call Me If You Get Lost",
+      "scene": ""
+    },
+    {
+      "id": "wuthering-heights-kb",
+      "label": "Wuthering Heights",
+      "type": "song",
+      "url": "/songs/wuthering-heights-kb/",
+      "meta": "Kate Bush · The Kick Inside",
       "scene": ""
     },
     {
@@ -22430,6 +23286,14 @@
       "type": "song",
       "url": "/songs/zero-sp/",
       "meta": "Smashing Pumpkins",
+      "scene": ""
+    },
+    {
+      "id": "zeros-and-ones-jj",
+      "label": "Zeros and Ones",
+      "type": "song",
+      "url": "/songs/zeros-and-ones-jj/",
+      "meta": "Jesus Jones · Perverse",
       "scene": ""
     }
   ],
@@ -23330,6 +24194,41 @@
       "relation": "released"
     },
     {
+      "source": "ben-mcmillan",
+      "target": "gruntruck",
+      "relation": "member-of"
+    },
+    {
+      "source": "tom-niemeyer-gt",
+      "target": "gruntruck",
+      "relation": "member-of"
+    },
+    {
+      "source": "matt-mccoy-gt",
+      "target": "gruntruck",
+      "relation": "member-of"
+    },
+    {
+      "source": "scott-ledgerwood",
+      "target": "gruntruck",
+      "relation": "member-of"
+    },
+    {
+      "source": "matt-cameron",
+      "target": "gruntruck",
+      "relation": "member-of"
+    },
+    {
+      "source": "gruntruck",
+      "target": "grunt-truck-push",
+      "relation": "released"
+    },
+    {
+      "source": "gruntruck",
+      "target": "grunt-truck-below-sky",
+      "relation": "released"
+    },
+    {
       "source": "harry-styles-person",
       "target": "harry-styles",
       "relation": "member-of"
@@ -23410,6 +24309,51 @@
       "relation": "released"
     },
     {
+      "source": "mike-edwards-jj",
+      "target": "jesus-jones",
+      "relation": "member-of"
+    },
+    {
+      "source": "barry-d-jj",
+      "target": "jesus-jones",
+      "relation": "member-of"
+    },
+    {
+      "source": "jerry-de-borg",
+      "target": "jesus-jones",
+      "relation": "member-of"
+    },
+    {
+      "source": "al-jaworski",
+      "target": "jesus-jones",
+      "relation": "member-of"
+    },
+    {
+      "source": "gen-jj",
+      "target": "jesus-jones",
+      "relation": "member-of"
+    },
+    {
+      "source": "jesus-jones",
+      "target": "jj-liquidizer",
+      "relation": "released"
+    },
+    {
+      "source": "jesus-jones",
+      "target": "jj-doubt",
+      "relation": "released"
+    },
+    {
+      "source": "jesus-jones",
+      "target": "jj-perverse",
+      "relation": "released"
+    },
+    {
+      "source": "jesus-jones",
+      "target": "jj-already",
+      "relation": "released"
+    },
+    {
       "source": "jimi-hendrix-person",
       "target": "jimi-hendrix",
       "relation": "member-of"
@@ -23460,6 +24404,41 @@
       "relation": "released"
     },
     {
+      "source": "kate-bush",
+      "target": "kate-bush",
+      "relation": "member-of"
+    },
+    {
+      "source": "kate-bush",
+      "target": "kate-bush-kick-inside",
+      "relation": "released"
+    },
+    {
+      "source": "kate-bush",
+      "target": "kate-bush-never-for-ever",
+      "relation": "released"
+    },
+    {
+      "source": "kate-bush",
+      "target": "kate-bush-dreaming",
+      "relation": "released"
+    },
+    {
+      "source": "kate-bush",
+      "target": "kate-bush-hounds-love",
+      "relation": "released"
+    },
+    {
+      "source": "kate-bush",
+      "target": "kate-bush-aerial",
+      "relation": "released"
+    },
+    {
+      "source": "kate-bush",
+      "target": "kate-bush-50-words",
+      "relation": "released"
+    },
+    {
       "source": "kendrick-lamar-person",
       "target": "kendrick-lamar",
       "relation": "member-of"
@@ -23482,6 +24461,46 @@
     {
       "source": "kendrick-lamar",
       "target": "section-80",
+      "relation": "released"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "l7",
+      "relation": "member-of"
+    },
+    {
+      "source": "suzi-gardner",
+      "target": "l7",
+      "relation": "member-of"
+    },
+    {
+      "source": "jennifer-finch",
+      "target": "l7",
+      "relation": "member-of"
+    },
+    {
+      "source": "dee-plakas",
+      "target": "l7",
+      "relation": "member-of"
+    },
+    {
+      "source": "l7",
+      "target": "l7-smells-magic",
+      "relation": "released"
+    },
+    {
+      "source": "l7",
+      "target": "l7-bricks-heavy",
+      "relation": "released"
+    },
+    {
+      "source": "l7",
+      "target": "l7-hungry-stink",
+      "relation": "released"
+    },
+    {
+      "source": "l7",
+      "target": "l7-beauty-process",
       "relation": "released"
     },
     {
@@ -25170,9 +26189,59 @@
       "relation": "produced-by"
     },
     {
+      "source": "al-jaworski",
+      "target": "right-here-right-now-jj",
+      "relation": "performed-by"
+    },
+    {
+      "source": "al-jaworski",
+      "target": "real-real-real-jj",
+      "relation": "performed-by"
+    },
+    {
       "source": "alecia-moore",
       "target": "pink-artist",
       "relation": "member-of"
+    },
+    {
+      "source": "andrew-powell",
+      "target": "wuthering-heights-kb",
+      "relation": "produced-by"
+    },
+    {
+      "source": "andrew-powell",
+      "target": "man-with-child-in-his-eyes-kb",
+      "relation": "produced-by"
+    },
+    {
+      "source": "andrew-powell",
+      "target": "moving-kb",
+      "relation": "produced-by"
+    },
+    {
+      "source": "andrew-powell",
+      "target": "them-heavy-people-kb",
+      "relation": "produced-by"
+    },
+    {
+      "source": "andrew-powell",
+      "target": "babooshka-kb",
+      "relation": "produced-by"
+    },
+    {
+      "source": "andrew-powell",
+      "target": "army-dreamers-kb",
+      "relation": "produced-by"
+    },
+    {
+      "source": "andrew-powell",
+      "target": "breathing-kb",
+      "relation": "produced-by"
+    },
+    {
+      "source": "andrew-powell",
+      "target": "the-wedding-list-kb",
+      "relation": "produced-by"
     },
     {
       "source": "andrew-wood",
@@ -25230,6 +26299,16 @@
       "relation": "performed-by"
     },
     {
+      "source": "barry-d-jj",
+      "target": "right-here-right-now-jj",
+      "relation": "performed-by"
+    },
+    {
+      "source": "barry-d-jj",
+      "target": "international-bright-young-thing-jj",
+      "relation": "performed-by"
+    },
+    {
       "source": "ben-gibbard",
       "target": "the-postal-service",
       "relation": "member-of"
@@ -25248,6 +26327,51 @@
       "source": "ben-gibbard",
       "target": "transatlanticism",
       "relation": "performed-by"
+    },
+    {
+      "source": "ben-mcmillan",
+      "target": "above-me-gt",
+      "relation": "written-by"
+    },
+    {
+      "source": "ben-mcmillan",
+      "target": "tribe-gt",
+      "relation": "written-by"
+    },
+    {
+      "source": "ben-mcmillan",
+      "target": "silver-tassie-gt",
+      "relation": "written-by"
+    },
+    {
+      "source": "ben-mcmillan",
+      "target": "flesh-gt",
+      "relation": "written-by"
+    },
+    {
+      "source": "ben-mcmillan",
+      "target": "into-the-void-gt",
+      "relation": "written-by"
+    },
+    {
+      "source": "ben-mcmillan",
+      "target": "crucify-gt",
+      "relation": "written-by"
+    },
+    {
+      "source": "ben-mcmillan",
+      "target": "weight-of-the-world-gt",
+      "relation": "written-by"
+    },
+    {
+      "source": "ben-mcmillan",
+      "target": "locked-out-gt",
+      "relation": "written-by"
+    },
+    {
+      "source": "ben-mcmillan",
+      "target": "in-the-wake-gt",
+      "relation": "written-by"
     },
     {
       "source": "ben-shepherd",
@@ -25682,6 +26806,51 @@
     {
       "source": "butch-vig",
       "target": "sister-havana",
+      "relation": "produced-by"
+    },
+    {
+      "source": "butch-vig",
+      "target": "shove-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "butch-vig",
+      "target": "fast-and-frightening-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "butch-vig",
+      "target": "deathwish-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "butch-vig",
+      "target": "packin-a-rod-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "butch-vig",
+      "target": "wargasm-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "butch-vig",
+      "target": "pretend-we-dead-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "butch-vig",
+      "target": "everglade-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "butch-vig",
+      "target": "monster-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "butch-vig",
+      "target": "slide-l7",
       "relation": "produced-by"
     },
     {
@@ -26480,6 +27649,26 @@
       "relation": "performed-by"
     },
     {
+      "source": "david-gilmour",
+      "target": "wuthering-heights-kb",
+      "relation": "performed-by"
+    },
+    {
+      "source": "david-gilmour",
+      "target": "man-with-child-in-his-eyes-kb",
+      "relation": "performed-by"
+    },
+    {
+      "source": "david-gilmour",
+      "target": "moving-kb",
+      "relation": "performed-by"
+    },
+    {
+      "source": "david-gilmour",
+      "target": "them-heavy-people-kb",
+      "relation": "performed-by"
+    },
+    {
       "source": "david-lovering",
       "target": "debaser",
       "relation": "performed-by"
@@ -26665,6 +27854,16 @@
       "relation": "performed-by"
     },
     {
+      "source": "dee-plakas",
+      "target": "wargasm-l7",
+      "relation": "performed-by"
+    },
+    {
+      "source": "dee-plakas",
+      "target": "pretend-we-dead-l7",
+      "relation": "performed-by"
+    },
+    {
       "source": "don-bolles",
       "target": "gi",
       "relation": "performed-by"
@@ -26673,6 +27872,91 @@
       "source": "don-fleming",
       "target": "sweet-oblivion",
       "relation": "produced-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "shove-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "fast-and-frightening-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "deathwish-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "packin-a-rod-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "wargasm-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "pretend-we-dead-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "everglade-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "monster-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "slide-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "andres-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "baggage-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "can-i-run-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "the-bomb-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "moonshiner-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "drama-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "bad-things-l7",
+      "relation": "written-by"
+    },
+    {
+      "source": "donita-sparks",
+      "target": "off-the-wagon-l7",
+      "relation": "written-by"
     },
     {
       "source": "douglas-mccombs",
@@ -26947,6 +28231,16 @@
     {
       "source": "gary-lee-conner",
       "target": "dust-st",
+      "relation": "performed-by"
+    },
+    {
+      "source": "gen-jj",
+      "target": "right-here-right-now-jj",
+      "relation": "performed-by"
+    },
+    {
+      "source": "gen-jj",
+      "target": "real-real-real-jj",
       "relation": "performed-by"
     },
     {
@@ -27245,6 +28539,51 @@
       "relation": "produced-by"
     },
     {
+      "source": "jack-endino",
+      "target": "above-me-gt",
+      "relation": "produced-by"
+    },
+    {
+      "source": "jack-endino",
+      "target": "tribe-gt",
+      "relation": "produced-by"
+    },
+    {
+      "source": "jack-endino",
+      "target": "silver-tassie-gt",
+      "relation": "produced-by"
+    },
+    {
+      "source": "jack-endino",
+      "target": "flesh-gt",
+      "relation": "produced-by"
+    },
+    {
+      "source": "jack-endino",
+      "target": "into-the-void-gt",
+      "relation": "produced-by"
+    },
+    {
+      "source": "jack-endino",
+      "target": "crucify-gt",
+      "relation": "produced-by"
+    },
+    {
+      "source": "jack-endino",
+      "target": "weight-of-the-world-gt",
+      "relation": "produced-by"
+    },
+    {
+      "source": "jack-endino",
+      "target": "locked-out-gt",
+      "relation": "produced-by"
+    },
+    {
+      "source": "jack-endino",
+      "target": "in-the-wake-gt",
+      "relation": "produced-by"
+    },
+    {
       "source": "jack-irons",
       "target": "red-hot-chili-peppers",
       "relation": "member-of"
@@ -27410,6 +28749,16 @@
       "relation": "performed-by"
     },
     {
+      "source": "jennifer-finch",
+      "target": "wargasm-l7",
+      "relation": "performed-by"
+    },
+    {
+      "source": "jennifer-finch",
+      "target": "pretend-we-dead-l7",
+      "relation": "performed-by"
+    },
+    {
       "source": "jeremiah-green",
       "target": "moon-and-antarctica",
       "relation": "performed-by"
@@ -27437,6 +28786,16 @@
     {
       "source": "jerry-cantrell",
       "target": "dirt",
+      "relation": "performed-by"
+    },
+    {
+      "source": "jerry-de-borg",
+      "target": "right-here-right-now-jj",
+      "relation": "performed-by"
+    },
+    {
+      "source": "jerry-de-borg",
+      "target": "real-real-real-jj",
       "relation": "performed-by"
     },
     {
@@ -27598,6 +28957,11 @@
       "source": "john-bonham",
       "target": "led-zeppelin-iv",
       "relation": "written-by"
+    },
+    {
+      "source": "john-carder-bush",
+      "target": "kate-bush",
+      "relation": "member-of"
     },
     {
       "source": "john-goodmanson",
@@ -27802,6 +29166,61 @@
     {
       "source": "josh-homme",
       "target": "them-crooked-vultures-debut",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "wuthering-heights-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "man-with-child-in-his-eyes-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "running-up-that-hill-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "hounds-of-love-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "cloudbusting-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "babooshka-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "army-dreamers-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "sat-in-your-lap-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "the-dreaming-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "king-of-the-mountain-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "snowflake-kb",
       "relation": "written-by"
     },
     {
@@ -28685,8 +30104,43 @@
       "relation": "performed-by"
     },
     {
+      "source": "matt-cameron",
+      "target": "above-me-gt",
+      "relation": "performed-by"
+    },
+    {
+      "source": "matt-cameron",
+      "target": "tribe-gt",
+      "relation": "performed-by"
+    },
+    {
+      "source": "matt-cameron",
+      "target": "silver-tassie-gt",
+      "relation": "performed-by"
+    },
+    {
+      "source": "matt-cameron",
+      "target": "flesh-gt",
+      "relation": "performed-by"
+    },
+    {
+      "source": "matt-cameron",
+      "target": "into-the-void-gt",
+      "relation": "performed-by"
+    },
+    {
       "source": "matt-lukin",
       "target": "mudhoney-debut",
+      "relation": "performed-by"
+    },
+    {
+      "source": "matt-mccoy-gt",
+      "target": "above-me-gt",
+      "relation": "performed-by"
+    },
+    {
+      "source": "matt-mccoy-gt",
+      "target": "tribe-gt",
       "relation": "performed-by"
     },
     {
@@ -28762,6 +30216,46 @@
     {
       "source": "michael-stipe",
       "target": "automatic",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "info-freako-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "right-here-right-now-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "international-bright-young-thing-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "real-real-real-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "the-devil-you-know-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "zeros-and-ones-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "chemical-1-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "lightning-jj",
       "relation": "written-by"
     },
     {
@@ -29670,6 +31164,26 @@
       "relation": "produced-by"
     },
     {
+      "source": "ron-reyes-l7",
+      "target": "andres-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "ron-reyes-l7",
+      "target": "baggage-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "ron-reyes-l7",
+      "target": "can-i-run-l7",
+      "relation": "produced-by"
+    },
+    {
+      "source": "ron-reyes-l7",
+      "target": "the-bomb-l7",
+      "relation": "produced-by"
+    },
+    {
       "source": "santiago-durango",
       "target": "naked-raygun",
       "relation": "member-of"
@@ -29687,6 +31201,16 @@
     {
       "source": "scott-devendorf",
       "target": "brainy",
+      "relation": "performed-by"
+    },
+    {
+      "source": "scott-ledgerwood",
+      "target": "above-me-gt",
+      "relation": "performed-by"
+    },
+    {
+      "source": "scott-ledgerwood",
+      "target": "tribe-gt",
       "relation": "performed-by"
     },
     {
@@ -29930,6 +31454,16 @@
       "relation": "performed-by"
     },
     {
+      "source": "suzi-gardner",
+      "target": "wargasm-l7",
+      "relation": "performed-by"
+    },
+    {
+      "source": "suzi-gardner",
+      "target": "pretend-we-dead-l7",
+      "relation": "performed-by"
+    },
+    {
       "source": "tanya-donelly",
       "target": "pod",
       "relation": "performed-by"
@@ -30107,6 +31641,16 @@
     {
       "source": "todd-trainer",
       "target": "terraform",
+      "relation": "performed-by"
+    },
+    {
+      "source": "tom-niemeyer-gt",
+      "target": "above-me-gt",
+      "relation": "performed-by"
+    },
+    {
+      "source": "tom-niemeyer-gt",
+      "target": "tribe-gt",
       "relation": "performed-by"
     },
     {
@@ -34535,6 +36079,51 @@
       "relation": "appears-on"
     },
     {
+      "source": "crucify-gt",
+      "target": "grunt-truck-below-sky",
+      "relation": "appears-on"
+    },
+    {
+      "source": "weight-of-the-world-gt",
+      "target": "grunt-truck-below-sky",
+      "relation": "appears-on"
+    },
+    {
+      "source": "locked-out-gt",
+      "target": "grunt-truck-below-sky",
+      "relation": "appears-on"
+    },
+    {
+      "source": "in-the-wake-gt",
+      "target": "grunt-truck-below-sky",
+      "relation": "appears-on"
+    },
+    {
+      "source": "above-me-gt",
+      "target": "grunt-truck-push",
+      "relation": "appears-on"
+    },
+    {
+      "source": "tribe-gt",
+      "target": "grunt-truck-push",
+      "relation": "appears-on"
+    },
+    {
+      "source": "silver-tassie-gt",
+      "target": "grunt-truck-push",
+      "relation": "appears-on"
+    },
+    {
+      "source": "flesh-gt",
+      "target": "grunt-truck-push",
+      "relation": "appears-on"
+    },
+    {
+      "source": "into-the-void-gt",
+      "target": "grunt-truck-push",
+      "relation": "appears-on"
+    },
+    {
       "source": "vampire-ori",
       "target": "guts-ori",
       "relation": "appears-on"
@@ -35590,6 +37179,226 @@
       "relation": "appears-on"
     },
     {
+      "source": "chemical-1-jj",
+      "target": "jj-already",
+      "relation": "appears-on"
+    },
+    {
+      "source": "lightning-jj",
+      "target": "jj-already",
+      "relation": "appears-on"
+    },
+    {
+      "source": "all-my-life-jj",
+      "target": "jj-already",
+      "relation": "appears-on"
+    },
+    {
+      "source": "right-here-right-now-jj",
+      "target": "jj-doubt",
+      "relation": "appears-on"
+    },
+    {
+      "source": "international-bright-young-thing-jj",
+      "target": "jj-doubt",
+      "relation": "appears-on"
+    },
+    {
+      "source": "real-real-real-jj",
+      "target": "jj-doubt",
+      "relation": "appears-on"
+    },
+    {
+      "source": "who-where-why-jj",
+      "target": "jj-doubt",
+      "relation": "appears-on"
+    },
+    {
+      "source": "welcome-back-victoria-jj",
+      "target": "jj-doubt",
+      "relation": "appears-on"
+    },
+    {
+      "source": "info-freako-jj",
+      "target": "jj-liquidizer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "never-enough-jj",
+      "target": "jj-liquidizer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "what-would-you-know-jj",
+      "target": "jj-liquidizer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "too-much-to-learn-jj",
+      "target": "jj-liquidizer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "all-the-answers-jj",
+      "target": "jj-liquidizer",
+      "relation": "appears-on"
+    },
+    {
+      "source": "the-devil-you-know-jj",
+      "target": "jj-perverse",
+      "relation": "appears-on"
+    },
+    {
+      "source": "zeros-and-ones-jj",
+      "target": "jj-perverse",
+      "relation": "appears-on"
+    },
+    {
+      "source": "the-right-decision-jj",
+      "target": "jj-perverse",
+      "relation": "appears-on"
+    },
+    {
+      "source": "spiral-jj",
+      "target": "jj-perverse",
+      "relation": "appears-on"
+    },
+    {
+      "source": "snowflake-kb",
+      "target": "kate-bush-50-words",
+      "relation": "appears-on"
+    },
+    {
+      "source": "lake-tahoe-kb",
+      "target": "kate-bush-50-words",
+      "relation": "appears-on"
+    },
+    {
+      "source": "misty-kb",
+      "target": "kate-bush-50-words",
+      "relation": "appears-on"
+    },
+    {
+      "source": "wild-man-kb",
+      "target": "kate-bush-50-words",
+      "relation": "appears-on"
+    },
+    {
+      "source": "among-angels-kb",
+      "target": "kate-bush-50-words",
+      "relation": "appears-on"
+    },
+    {
+      "source": "king-of-the-mountain-kb",
+      "target": "kate-bush-aerial",
+      "relation": "appears-on"
+    },
+    {
+      "source": "pi-kb",
+      "target": "kate-bush-aerial",
+      "relation": "appears-on"
+    },
+    {
+      "source": "joanni-kb",
+      "target": "kate-bush-aerial",
+      "relation": "appears-on"
+    },
+    {
+      "source": "mrs-bartolozzi-kb",
+      "target": "kate-bush-aerial",
+      "relation": "appears-on"
+    },
+    {
+      "source": "how-to-be-invisible-kb",
+      "target": "kate-bush-aerial",
+      "relation": "appears-on"
+    },
+    {
+      "source": "sat-in-your-lap-kb",
+      "target": "kate-bush-dreaming",
+      "relation": "appears-on"
+    },
+    {
+      "source": "there-goes-a-tenner-kb",
+      "target": "kate-bush-dreaming",
+      "relation": "appears-on"
+    },
+    {
+      "source": "pull-out-the-pin-kb",
+      "target": "kate-bush-dreaming",
+      "relation": "appears-on"
+    },
+    {
+      "source": "the-dreaming-kb",
+      "target": "kate-bush-dreaming",
+      "relation": "appears-on"
+    },
+    {
+      "source": "running-up-that-hill-kb",
+      "target": "kate-bush-hounds-love",
+      "relation": "appears-on"
+    },
+    {
+      "source": "hounds-of-love-kb",
+      "target": "kate-bush-hounds-love",
+      "relation": "appears-on"
+    },
+    {
+      "source": "the-big-sky-kb",
+      "target": "kate-bush-hounds-love",
+      "relation": "appears-on"
+    },
+    {
+      "source": "cloudbusting-kb",
+      "target": "kate-bush-hounds-love",
+      "relation": "appears-on"
+    },
+    {
+      "source": "and-dream-of-sheep-kb",
+      "target": "kate-bush-hounds-love",
+      "relation": "appears-on"
+    },
+    {
+      "source": "wuthering-heights-kb",
+      "target": "kate-bush-kick-inside",
+      "relation": "appears-on"
+    },
+    {
+      "source": "man-with-child-in-his-eyes-kb",
+      "target": "kate-bush-kick-inside",
+      "relation": "appears-on"
+    },
+    {
+      "source": "moving-kb",
+      "target": "kate-bush-kick-inside",
+      "relation": "appears-on"
+    },
+    {
+      "source": "them-heavy-people-kb",
+      "target": "kate-bush-kick-inside",
+      "relation": "appears-on"
+    },
+    {
+      "source": "babooshka-kb",
+      "target": "kate-bush-never-for-ever",
+      "relation": "appears-on"
+    },
+    {
+      "source": "army-dreamers-kb",
+      "target": "kate-bush-never-for-ever",
+      "relation": "appears-on"
+    },
+    {
+      "source": "breathing-kb",
+      "target": "kate-bush-never-for-ever",
+      "relation": "appears-on"
+    },
+    {
+      "source": "the-wedding-list-kb",
+      "target": "kate-bush-never-for-ever",
+      "relation": "appears-on"
+    },
+    {
       "source": "everything-in-its-right-place",
       "target": "kid-a",
       "relation": "appears-on"
@@ -35657,6 +37466,91 @@
     {
       "source": "kiss-land-tw",
       "target": "kiss-land",
+      "relation": "appears-on"
+    },
+    {
+      "source": "moonshiner-l7",
+      "target": "l7-beauty-process",
+      "relation": "appears-on"
+    },
+    {
+      "source": "drama-l7",
+      "target": "l7-beauty-process",
+      "relation": "appears-on"
+    },
+    {
+      "source": "bad-things-l7",
+      "target": "l7-beauty-process",
+      "relation": "appears-on"
+    },
+    {
+      "source": "off-the-wagon-l7",
+      "target": "l7-beauty-process",
+      "relation": "appears-on"
+    },
+    {
+      "source": "wargasm-l7",
+      "target": "l7-bricks-heavy",
+      "relation": "appears-on"
+    },
+    {
+      "source": "pretend-we-dead-l7",
+      "target": "l7-bricks-heavy",
+      "relation": "appears-on"
+    },
+    {
+      "source": "everglade-l7",
+      "target": "l7-bricks-heavy",
+      "relation": "appears-on"
+    },
+    {
+      "source": "monster-l7",
+      "target": "l7-bricks-heavy",
+      "relation": "appears-on"
+    },
+    {
+      "source": "slide-l7",
+      "target": "l7-bricks-heavy",
+      "relation": "appears-on"
+    },
+    {
+      "source": "andres-l7",
+      "target": "l7-hungry-stink",
+      "relation": "appears-on"
+    },
+    {
+      "source": "baggage-l7",
+      "target": "l7-hungry-stink",
+      "relation": "appears-on"
+    },
+    {
+      "source": "can-i-run-l7",
+      "target": "l7-hungry-stink",
+      "relation": "appears-on"
+    },
+    {
+      "source": "the-bomb-l7",
+      "target": "l7-hungry-stink",
+      "relation": "appears-on"
+    },
+    {
+      "source": "shove-l7",
+      "target": "l7-smells-magic",
+      "relation": "appears-on"
+    },
+    {
+      "source": "fast-and-frightening-l7",
+      "target": "l7-smells-magic",
+      "relation": "appears-on"
+    },
+    {
+      "source": "deathwish-l7",
+      "target": "l7-smells-magic",
+      "relation": "appears-on"
+    },
+    {
+      "source": "packin-a-rod-l7",
+      "target": "l7-smells-magic",
       "relation": "appears-on"
     },
     {
@@ -41815,6 +43709,11 @@
       "relation": "played"
     },
     {
+      "source": "matt-cameron",
+      "target": "above-me-gt",
+      "relation": "played"
+    },
+    {
       "source": "black-francis",
       "target": "abstract-plain",
       "relation": "written-by"
@@ -42370,6 +44269,16 @@
       "relation": "produced-by"
     },
     {
+      "source": "mike-edwards-jj",
+      "target": "all-my-life-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "all-my-life-jj",
+      "relation": "produced-by"
+    },
+    {
       "source": "noah-kahan-person",
       "target": "all-my-love-nk",
       "relation": "performed-by"
@@ -42472,6 +44381,16 @@
     {
       "source": "nick-raskulinecz",
       "target": "all-secrets-known",
+      "relation": "produced-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "all-the-answers-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "all-the-answers-jj",
       "relation": "produced-by"
     },
     {
@@ -42770,6 +44689,16 @@
       "relation": "produced-by"
     },
     {
+      "source": "kate-bush",
+      "target": "among-angels-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "among-angels-kb",
+      "relation": "produced-by"
+    },
+    {
       "source": "black-francis",
       "target": "ana",
       "relation": "written-by"
@@ -42792,6 +44721,16 @@
     {
       "source": "gil-norton",
       "target": "ana",
+      "relation": "produced-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "and-dream-of-sheep-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "and-dream-of-sheep-kb",
       "relation": "produced-by"
     },
     {
@@ -45315,6 +47254,11 @@
       "relation": "produced-by"
     },
     {
+      "source": "kate-bush",
+      "target": "breathing-kb",
+      "relation": "written-by"
+    },
+    {
       "source": "krist-novoselic",
       "target": "breed",
       "relation": "played"
@@ -46495,6 +48439,11 @@
       "relation": "produced-by"
     },
     {
+      "source": "mike-edwards-jj",
+      "target": "chemical-1-jj",
+      "relation": "produced-by"
+    },
+    {
       "source": "win-butler",
       "target": "chemistry-af",
       "relation": "written-by"
@@ -46747,6 +48696,11 @@
     {
       "source": "jack-antonoff",
       "target": "closure-ts",
+      "relation": "produced-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "cloudbusting-kb",
       "relation": "produced-by"
     },
     {
@@ -51125,6 +53079,11 @@
       "relation": "produced-by"
     },
     {
+      "source": "matt-cameron",
+      "target": "flesh-gt",
+      "relation": "played"
+    },
+    {
       "source": "kristin-hersh",
       "target": "flesh",
       "relation": "written-by"
@@ -54815,6 +56774,11 @@
       "relation": "played"
     },
     {
+      "source": "kate-bush",
+      "target": "hounds-of-love-kb",
+      "relation": "produced-by"
+    },
+    {
       "source": "thom-yorke",
       "target": "house-of-cards-rh",
       "relation": "written-by"
@@ -54963,6 +56927,16 @@
       "source": "hubert-sumlin",
       "target": "how-many-more-years",
       "relation": "played"
+    },
+    {
+      "source": "kate-bush",
+      "target": "how-to-be-invisible-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "how-to-be-invisible-kb",
+      "relation": "produced-by"
     },
     {
       "source": "jonny-greenwood",
@@ -56630,6 +58604,11 @@
       "relation": "performed-by"
     },
     {
+      "source": "mike-edwards-jj",
+      "target": "info-freako-jj",
+      "relation": "produced-by"
+    },
+    {
       "source": "taylor-swift-person",
       "target": "innocent-ts",
       "relation": "written-by"
@@ -56685,6 +58664,11 @@
       "relation": "played"
     },
     {
+      "source": "mike-edwards-jj",
+      "target": "international-bright-young-thing-jj",
+      "relation": "produced-by"
+    },
+    {
       "source": "mark-arm",
       "target": "into-the-drink",
       "relation": "played"
@@ -56708,6 +58692,11 @@
       "source": "conrad-uno",
       "target": "into-the-drink",
       "relation": "produced-by"
+    },
+    {
+      "source": "matt-cameron",
+      "target": "into-the-void-gt",
+      "relation": "played"
     },
     {
       "source": "linda-perry",
@@ -57350,6 +59339,16 @@
       "relation": "performed-by"
     },
     {
+      "source": "kate-bush",
+      "target": "joanni-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "joanni-kb",
+      "relation": "produced-by"
+    },
+    {
       "source": "alanis-morissette-person",
       "target": "joining-you-am",
       "relation": "performed-by"
@@ -57755,6 +59754,11 @@
       "relation": "played"
     },
     {
+      "source": "kate-bush",
+      "target": "king-of-the-mountain-kb",
+      "relation": "produced-by"
+    },
+    {
       "source": "abel-tesfaye",
       "target": "kiss-land-tw",
       "relation": "performed-by"
@@ -57958,6 +59962,16 @@
       "source": "pat-smear",
       "target": "lake-of-fire",
       "relation": "played"
+    },
+    {
+      "source": "kate-bush",
+      "target": "lake-tahoe-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "lake-tahoe-kb",
+      "relation": "produced-by"
     },
     {
       "source": "darby-crash",
@@ -58683,6 +60697,11 @@
       "source": "bill-berry",
       "target": "lightnin-hopkins-rem",
       "relation": "played"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "lightning-jj",
+      "relation": "produced-by"
     },
     {
       "source": "harry-styles-person",
@@ -60005,6 +62024,11 @@
       "relation": "played"
     },
     {
+      "source": "david-gilmour",
+      "target": "man-with-child-in-his-eyes-kb",
+      "relation": "played"
+    },
+    {
       "source": "robin-zander",
       "target": "mandocello",
       "relation": "performed-by"
@@ -60800,6 +62824,16 @@
       "relation": "played"
     },
     {
+      "source": "kate-bush",
+      "target": "misty-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "misty-kb",
+      "relation": "produced-by"
+    },
+    {
       "source": "robert-plant",
       "target": "misty-mountain-hop",
       "relation": "written-by"
@@ -61355,6 +63389,16 @@
       "relation": "produced-by"
     },
     {
+      "source": "kate-bush",
+      "target": "moving-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "david-gilmour",
+      "target": "moving-kb",
+      "relation": "played"
+    },
+    {
       "source": "kim-deal",
       "target": "mr-grieves",
       "relation": "played"
@@ -61378,6 +63422,16 @@
       "source": "chad-channing",
       "target": "mr-moustache",
       "relation": "played"
+    },
+    {
+      "source": "kate-bush",
+      "target": "mrs-bartolozzi-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "mrs-bartolozzi-kb",
+      "relation": "produced-by"
     },
     {
       "source": "mark-arm",
@@ -61943,6 +63997,16 @@
       "source": "daniel-adair",
       "target": "never-again-nb",
       "relation": "performed-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "never-enough-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "never-enough-jj",
+      "relation": "produced-by"
     },
     {
       "source": "taylor-swift-person",
@@ -63975,6 +66039,16 @@
       "relation": "performed-by"
     },
     {
+      "source": "kate-bush",
+      "target": "pi-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "pi-kb",
+      "relation": "produced-by"
+    },
+    {
       "source": "jeff-tweedy",
       "target": "pick-up-the-change",
       "relation": "played"
@@ -64775,6 +66849,16 @@
       "relation": "performed-by"
     },
     {
+      "source": "kate-bush",
+      "target": "pull-out-the-pin-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "pull-out-the-pin-kb",
+      "relation": "produced-by"
+    },
+    {
       "source": "steve-albini",
       "target": "pull-the-cup",
       "relation": "produced-by"
@@ -65328,6 +67412,11 @@
       "source": "william-butler",
       "target": "ready-to-start",
       "relation": "performed-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "real-real-real-jj",
+      "relation": "produced-by"
     },
     {
       "source": "eddie-vedder",
@@ -65892,6 +67981,11 @@
     {
       "source": "noah-shebib",
       "target": "rigamortis",
+      "relation": "produced-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "right-here-right-now-jj",
       "relation": "produced-by"
     },
     {
@@ -66490,6 +68584,11 @@
       "relation": "produced-by"
     },
     {
+      "source": "kate-bush",
+      "target": "running-up-that-hill-kb",
+      "relation": "produced-by"
+    },
+    {
       "source": "steve-albini",
       "target": "rush-job",
       "relation": "produced-by"
@@ -66682,6 +68781,11 @@
     {
       "source": "noah-shebib",
       "target": "sandras-rose",
+      "relation": "produced-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "sat-in-your-lap-kb",
       "relation": "produced-by"
     },
     {
@@ -67610,6 +69714,11 @@
       "relation": "performed-by"
     },
     {
+      "source": "matt-cameron",
+      "target": "silver-tassie-gt",
+      "relation": "played"
+    },
+    {
       "source": "kim-deal",
       "target": "silver",
       "relation": "played"
@@ -68202,6 +70311,11 @@
     {
       "source": "noah-shebib",
       "target": "sneakin",
+      "relation": "produced-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "snowflake-kb",
       "relation": "produced-by"
     },
     {
@@ -69008,6 +71122,16 @@
       "source": "dave-grohl",
       "target": "spinning-in-daffodils",
       "relation": "played"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "spiral-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "spiral-jj",
+      "relation": "produced-by"
     },
     {
       "source": "alecia-moore",
@@ -71170,6 +73294,16 @@
       "relation": "written-by"
     },
     {
+      "source": "kate-bush",
+      "target": "the-big-sky-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "the-big-sky-kb",
+      "relation": "produced-by"
+    },
+    {
       "source": "kendrick-lamar-person",
       "target": "the-blacker-the-berry-kl",
       "relation": "performed-by"
@@ -71377,6 +73511,16 @@
     {
       "source": "nick-raskulinecz",
       "target": "the-deepest-blues-are-black",
+      "relation": "produced-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "the-devil-you-know-jj",
+      "relation": "produced-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "the-dreaming-kb",
       "relation": "produced-by"
     },
     {
@@ -72205,6 +74349,16 @@
       "relation": "played"
     },
     {
+      "source": "mike-edwards-jj",
+      "target": "the-right-decision-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "the-right-decision-jj",
+      "relation": "produced-by"
+    },
+    {
       "source": "kristin-hersh",
       "target": "the-river-tm",
       "relation": "written-by"
@@ -72740,6 +74894,11 @@
       "relation": "performed-by"
     },
     {
+      "source": "kate-bush",
+      "target": "the-wedding-list-kb",
+      "relation": "written-by"
+    },
+    {
       "source": "sza-person",
       "target": "the-weekend-sza",
       "relation": "performed-by"
@@ -72820,6 +74979,16 @@
       "relation": "produced-by"
     },
     {
+      "source": "kate-bush",
+      "target": "them-heavy-people-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "david-gilmour",
+      "target": "them-heavy-people-kb",
+      "relation": "played"
+    },
+    {
       "source": "david-yow",
       "target": "then-comes-dudley",
       "relation": "performed-by"
@@ -72842,6 +75011,16 @@
     {
       "source": "steve-albini",
       "target": "then-comes-dudley",
+      "relation": "produced-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "there-goes-a-tenner-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "there-goes-a-tenner-kb",
       "relation": "produced-by"
     },
     {
@@ -73780,6 +75959,16 @@
       "relation": "performed-by"
     },
     {
+      "source": "mike-edwards-jj",
+      "target": "too-much-to-learn-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "too-much-to-learn-jj",
+      "relation": "produced-by"
+    },
+    {
       "source": "black-francis",
       "target": "tossed",
       "relation": "written-by"
@@ -74037,6 +76226,11 @@
     {
       "source": "jack-irons",
       "target": "tremor-christ",
+      "relation": "played"
+    },
+    {
+      "source": "matt-cameron",
+      "target": "tribe-gt",
       "relation": "played"
     },
     {
@@ -75360,6 +77554,16 @@
       "relation": "produced-by"
     },
     {
+      "source": "mike-edwards-jj",
+      "target": "welcome-back-victoria-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "welcome-back-victoria-jj",
+      "relation": "produced-by"
+    },
+    {
       "source": "michael-stipe",
       "target": "welcome-to-the-occupation",
       "relation": "written-by"
@@ -75547,6 +77751,16 @@
     {
       "source": "joan-jett",
       "target": "what-we-do-is-secret",
+      "relation": "produced-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "what-would-you-know-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "what-would-you-know-jj",
       "relation": "produced-by"
     },
     {
@@ -76000,6 +78214,16 @@
       "relation": "produced-by"
     },
     {
+      "source": "mike-edwards-jj",
+      "target": "who-where-why-jj",
+      "relation": "written-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "who-where-why-jj",
+      "relation": "produced-by"
+    },
+    {
       "source": "ann-wilson",
       "target": "who-will-you-run-to",
       "relation": "performed-by"
@@ -76107,6 +78331,16 @@
     {
       "source": "jack-antonoff",
       "target": "wild-heart-bleachers",
+      "relation": "produced-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "wild-man-kb",
+      "relation": "written-by"
+    },
+    {
+      "source": "kate-bush",
+      "target": "wild-man-kb",
       "relation": "produced-by"
     },
     {
@@ -76548,6 +78782,11 @@
       "source": "tyler-the-creator-person",
       "target": "wusyaname-ttc",
       "relation": "produced-by"
+    },
+    {
+      "source": "david-gilmour",
+      "target": "wuthering-heights-kb",
+      "relation": "played"
     },
     {
       "source": "liz-phair-person",
@@ -77127,6 +79366,11 @@
     {
       "source": "flood-producer",
       "target": "zero-sp",
+      "relation": "produced-by"
+    },
+    {
+      "source": "mike-edwards-jj",
+      "target": "zeros-and-ones-jj",
       "relation": "produced-by"
     }
   ]

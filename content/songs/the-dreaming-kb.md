@@ -1,0 +1,14 @@
+---
+title: "The Dreaming"
+slug: the-dreaming-kb
+artist: "Kate Bush"
+artist_slug: kate-bush
+album: "The Dreaming"
+album_slug: kate-bush-dreaming
+year: 1982
+credits:
+  - person_slug: kate-bush
+    role: Writer
+  - person_slug: kate-bush
+    role: Producer
+---
