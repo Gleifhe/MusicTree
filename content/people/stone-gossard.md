@@ -1,86 +1,120 @@
 ---
-title: "Stone Gossard"
-mbid: "b3c2d1e0-5f6a-7890-bcde-f01234567890"
-roles: ["guitarist", "songwriter"]
-nationality: "American"
+title: Stone Gossard
+mbid: b3c2d1e0-5f6a-7890-bcde-f01234567890
+roles:
+- guitarist
+- songwriter
+nationality: American
 born: 1966
-artist: "Pearl Jam"
-artist_slug: "pearl-jam"
+artist: Pearl Jam
+artist_slug: pearl-jam
 bands:
-  - slug: "mother-love-bone"
-    name: "Mother Love Bone"
-    role: "Guitarist"
-  - slug: "temple-of-the-dog"
-    name: "Temple of the Dog"
-    role: "Guitarist"
-  - slug: "green-river"
-    name: "Green River"
-    role: "Guitarist"
+- slug: mother-love-bone
+  name: Mother Love Bone
+  role: Guitarist
+- slug: temple-of-the-dog
+  name: Temple of the Dog
+  role: Guitarist
+- slug: green-river
+  name: Green River
+  role: Guitarist
 credits:
-  - song_slug: "once"
-    title: "Once"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "even-flow"
-    title: "Even Flow"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "alive"
-    title: "Alive"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "why-go"
-    title: "Why Go"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "black"
-    title: "Black"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "jeremy"
-    title: "Jeremy"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "oceans"
-    title: "Oceans"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "porch"
-    title: "Porch"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "garden"
-    title: "Garden"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "deep"
-    title: "Deep"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - song_slug: "release"
-    title: "Release"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - album_slug: "ten"
-    title: "Ten"
-    role: "Guitar, Songwriter"
-    artist: "Pearl Jam"
-  - album_slug: "apple"
-    title: "Apple"
-    role: "guitarist"
-    artist: "Mother Love Bone"
-  - album_slug: "temple-of-the-dog"
-    title: "Temple of the Dog"
-    role: "guitarist"
-    artist: "Temple of the Dog"
-  - song_slug: "stardog-champion"
-    title: "Stardog Champion"
-    role: "guitarist"
-    artist: "Mother Love Bone"
-  - song_slug: "hunger-strike"
-    title: "Hunger Strike"
-    role: "guitarist"
-    artist: "Temple of the Dog"
+- song_slug: once
+  title: Once
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: even-flow
+  title: Even Flow
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: alive
+  title: Alive
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: why-go
+  title: Why Go
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: black
+  title: Black
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: jeremy
+  title: Jeremy
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: oceans
+  title: Oceans
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: porch
+  title: Porch
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: garden
+  title: Garden
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: deep
+  title: Deep
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- song_slug: release
+  title: Release
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- album_slug: ten
+  title: Ten
+  role: Guitar, Songwriter
+  artist: Pearl Jam
+- album_slug: apple
+  title: Apple
+  role: guitarist
+  artist: Mother Love Bone
+- album_slug: temple-of-the-dog
+  title: Temple of the Dog
+  role: guitarist
+  artist: Temple of the Dog
+- song_slug: stardog-champion
+  title: Stardog Champion
+  role: guitarist
+  artist: Mother Love Bone
+- song_slug: hunger-strike
+  title: Hunger Strike
+  role: guitarist
+  artist: Temple of the Dog
+- song_slug: together-well-never-gr
+  title: Together We'll Never
+  role: Guitar
+  artist: Green River
+- song_slug: aint-nothin-to-do-gr
+  title: Ain't Nothin' to Do
+  role: Guitar
+  artist: Green River
+- song_slug: queen-bitch-gr
+  title: Queen Bitch
+  role: Guitar
+  artist: Green River
+- song_slug: swallow-my-pride-gr
+  title: Swallow My Pride
+  role: Guitar
+  artist: Green River
+- song_slug: hangin-tree-gr
+  title: Hangin' Tree
+  role: Guitar
+  artist: Green River
+- song_slug: porkfist-gr
+  title: Porkfist
+  role: Guitar
+  artist: Green River
+- song_slug: rehab-doll-gr
+  title: Rehab Doll
+  role: Guitar
+  artist: Green River
+- song_slug: forever-means-gr
+  title: Forever Means
+  role: Guitar
+  artist: Green River
 draft: false
 ---
 

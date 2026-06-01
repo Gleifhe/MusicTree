@@ -27,8 +27,6 @@ songs:
     title: "Ain't It the Life"
   - slug: "mia-ff"
     title: "M.I.A."
-  - slug: "live-in-it"
-    title: "Live-In It"
   - slug: "mattress"
     title: "Mattress"
   - slug: "one-lonely-visitor"

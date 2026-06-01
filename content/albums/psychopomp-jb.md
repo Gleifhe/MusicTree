@@ -14,8 +14,6 @@ songs:
     title: "Heft"
   - slug: "the-woman-that-loves-you-jb"
     title: "The Woman That Loves You"
-  - slug: "soft-sounds-jb-song"
-    title: "Soft Sounds from Another Planet"
   - slug: "triple-dog-dare-jb"
     title: "Triple Dog Dare"
   - slug: "this-house-jb"

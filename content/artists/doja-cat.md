@@ -1,5 +1,5 @@
 ---
-scene: "Pop/R&B"
+scene: "R&B"
 title: "Doja Cat"
 country: "US"
 formed: 2012

@@ -1,5 +1,5 @@
 ---
-scene: "R&B/Pop"
+scene: "R&B"
 title: "Beyonce"
 country: "US"
 formed: 1997

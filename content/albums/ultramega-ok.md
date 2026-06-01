@@ -13,8 +13,6 @@ songs:
     title: "667"
   - slug: "beyond-the-wheel"
     title: "Beyond the Wheel"
-  - slug: "fourth-of-july-1988"
-    title: "4th of July"
   - slug: "mood-for-trouble"
     title: "Mood for Trouble"
   - slug: "circle-of-power"

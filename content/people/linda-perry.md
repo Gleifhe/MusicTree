@@ -55,7 +55,7 @@ credits:
     title: "Bigger, Better, Faster, More!"
     role: "Vocals, Songwriter, Producer, Lead Artist"
     artist: "4 Non Blondes"
-  - song_slug: "beautiful"
+  - song_slug: "beautiful-xtina"
     title: "Beautiful"
     role: "Songwriter, Producer"
     artist: "Christina Aguilera"
@@ -64,6 +64,10 @@ credits:
     role: "Songwriter, Producer"
     artist: "Pink"
 draft: false
+song_credits:
+  - slug: "beautiful-xtina"
+    title: "Beautiful"
+    credit: "Writer"
 ---
 
 Linda Perry (born April 15, 1965) is an American singer, songwriter, and record producer. She first gained fame as the lead vocalist of 4 Non Blondes, writing the band's 1992 hit 'What's Up.' After the band dissolved, she became one of the most prolific hit songwriters in pop, penning 'Beautiful' for Christina Aguilera, 'Get the Party Started' for Pink, and 'What You Waiting For?' for Gwen Stefani, among dozens of others.

@@ -63,7 +63,7 @@ song_credits:
   - slug: "concrete-jungle-bo"
     title: "Concrete Jungle"
     credit: "Bass"
-  - slug: "just-pretend-2-bo"
+  - slug: "just-pretend-bo"
     title: "Just Pretend"
     credit: "Bass"
   - slug: "the-death-of-peace-of-mind-song-bo"

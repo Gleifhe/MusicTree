@@ -10,8 +10,6 @@ songs:
     title: "Chokehold (Reprise)"
   - slug: "the-summoning-2-slt"
     title: "The Summoning (II)"
-  - slug: "chokehold-slt2"
-    title: "Chokehold"
   - slug: "the-tree-of-life-slt"
     title: "The Tree of Life"
   - slug: "ascensionism-slt"

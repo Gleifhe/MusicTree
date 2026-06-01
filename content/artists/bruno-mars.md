@@ -1,5 +1,5 @@
 ---
-scene: "Pop/R&B"
+scene: "R&B"
 title: "Bruno Mars"
 country: "US"
 formed: 2004

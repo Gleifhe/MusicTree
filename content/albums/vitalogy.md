@@ -31,8 +31,6 @@ songs:
     title: "Aye Davanita"
   - slug: "immortality"
     title: "Immortality"
-  - slug: "stupid-mop"
-    title: "Stupid Mop"
   - slug: "stupidmop"
     title: "Stupidmop"
 draft: false

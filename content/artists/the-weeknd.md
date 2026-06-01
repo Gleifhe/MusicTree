@@ -1,5 +1,5 @@
 ---
-scene: "R&B/Pop"
+scene: "R&B"
 title: "The Weeknd"
 country: "CA"
 formed: 2009

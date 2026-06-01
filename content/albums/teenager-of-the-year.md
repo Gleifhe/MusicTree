@@ -47,8 +47,6 @@ songs:
     title: "Pie in the Sky"
   - slug: "ole-mulberry-mouth"
     title: "Ole Mulberry Mouth"
-  - slug: "czar-fb-toty"
-    title: "Czar"
   - slug: "the-Jacques-tati"
     title: "The Jacques Tati"
   - slug: "manta-ray-fb"

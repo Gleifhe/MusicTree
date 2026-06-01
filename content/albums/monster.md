@@ -21,8 +21,6 @@ songs:
     title: "Tongue"
   - slug: "bang-and-blame"
     title: "Bang and Blame"
-  - slug: "i-took-a-chance"
-    title: "I Took a Chance on You"
   - slug: "let-me-in"
     title: "Let Me In"
   - slug: "circus-envy"

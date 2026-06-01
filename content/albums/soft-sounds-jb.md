@@ -14,8 +14,6 @@ songs:
     title: "Soft Sounds from Another Planet"
   - slug: "road-head-jb"
     title: "Road Head"
-  - slug: "triple-dog-dare-2-jb"
-    title: "Triple Dog Dare"
   - slug: "this-house-2-jb"
     title: "Till Death"
   - slug: "jimmy-fallon-jb"

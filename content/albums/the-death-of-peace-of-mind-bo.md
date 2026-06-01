@@ -8,8 +8,6 @@ producer: "nick-raskulinecz"
 songs:
   - slug: "concrete-jungle-bo"
     title: "Concrete Jungle"
-  - slug: "just-pretend-2-bo"
-    title: "Just Pretend"
   - slug: "the-death-of-peace-of-mind-song-bo"
     title: "The Death of Peace of Mind"
   - slug: "like-a-villain-bo"

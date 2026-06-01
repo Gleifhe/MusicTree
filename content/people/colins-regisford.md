@@ -1,5 +1,5 @@
 ---
-title: "Colins "Bear" Regisford"
+title: 'Colins Bear Regisford'
 slug: "colins-regisford"
 roles: ["Bassist"]
 bands:

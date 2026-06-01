@@ -13,4 +13,6 @@ credits:
     role: Producer
   - person_slug: david-gilmour
     role: Guitar
+  - person_slug: peter-gabriel
+    role: Vocals
 ---

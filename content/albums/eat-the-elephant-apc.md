@@ -14,8 +14,6 @@ songs:
     title: "The Contrarian"
   - slug: "the-doomed-apc"
     title: "The Doomed"
-  - slug: "so-long-2-apc"
-    title: "So Long, and Thanks for All the Fish"
   - slug: "hourglass-apc"
     title: "Hourglass"
   - slug: "talk-talk-apc"

@@ -6,8 +6,6 @@ artist_slug: "knocked-loose"
 year: 2019
 producer: "will-putney"
 songs:
-  - slug: "mistakes-like-fractures-2-klo"
-    title: "Mistakes Like Fractures"
   - slug: "the-rain-2-klo"
     title: "And Now She Bends"
   - slug: "wrongside-klo"

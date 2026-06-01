@@ -1,5 +1,5 @@
 ---
-scene: "Pop Rock"
+scene: "Alternative Rock"
 title: "Avril Lavigne"
 country: "CA"
 formed: 1999

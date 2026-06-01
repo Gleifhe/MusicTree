@@ -1,5 +1,5 @@
 ---
-scene: "Folk Pop"
+scene: "Folk"
 title: "Noah Kahan"
 country: "US"
 formed: 2017

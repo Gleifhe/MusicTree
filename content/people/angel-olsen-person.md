@@ -132,7 +132,7 @@ song_credits:
   - slug: "chasing-the-sun-ao"
     title: "Chasing the Sun"
     credit: "Vocals, Guitar"
-  - slug: "go-home-2-ao"
+  - slug: "go-home-ao"
     title: "Go Home"
     credit: "Vocals, Guitar"
   - slug: "for-lou-ao"

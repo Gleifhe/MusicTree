@@ -1,285 +1,312 @@
-﻿---
-title: "Dave Grohl"
-mbid: "5ca01571-b9e2-4da4-830a-71e89823c2a3"
-roles: ["drummer", "vocalist", "guitarist", "producer"]
-nationality: "American"
+---
+title: Dave Grohl
+mbid: 5ca01571-b9e2-4da4-830a-71e89823c2a3
+roles:
+- drummer
+- vocalist
+- guitarist
+- producer
+nationality: American
 born: 1969
-artist: "Nirvana"
-artist_slug: "nirvana"
+artist: Nirvana
+artist_slug: nirvana
 bands:
-  - slug: "nirvana"
-    name: "Nirvana"
-    role: "Drummer (1990-1994)"
-  - slug: "foo-fighters"
-    name: "Foo Fighters"
-    role: "Founder, Vocals, Guitar (1994-present)"
-  - slug: "them-crooked-vultures"
-    name: "Them Crooked Vultures"
-    role: "Drummer (2009)"
-  - slug: "queens-of-the-stone-age"
-    name: "Queens of the Stone Age"
-    role: "Drums (guest, Songs for the Deaf, 2002)"
+- slug: nirvana
+  name: Nirvana
+  role: Drummer (1990-1994)
+- slug: foo-fighters
+  name: Foo Fighters
+  role: Founder, Vocals, Guitar (1994-present)
+- slug: them-crooked-vultures
+  name: Them Crooked Vultures
+  role: Drummer (2009)
+- slug: queens-of-the-stone-age
+  name: Queens of the Stone Age
+  role: Drums (guest, Songs for the Deaf, 2002)
+- slug: scream
+  name: Scream
+  role: Drums
 credits:
-  - song_slug: "smells-like-teen-spirit"
-    title: "Smells Like Teen Spirit"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "in-bloom"
-    title: "In Bloom"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "come-as-you-are"
-    title: "Come as You Are"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "breed"
-    title: "Breed"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "lithium"
-    title: "Lithium"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "polly"
-    title: "Polly"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "territorial-pissings"
-    title: "Territorial Pissings"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "drain-you"
-    title: "Drain You"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "lounge-act"
-    title: "Lounge Act"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "stay-away"
-    title: "Stay Away"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "on-a-plain"
-    title: "On a Plain"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "something-in-the-way"
-    title: "Something in the Way"
-    role: "Drums"
-    artist: "Nirvana"
-  - album_slug: "nevermind"
-    title: "Nevermind"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "serve-the-servants"
-    title: "Serve the Servants"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "scentless-apprentice"
-    title: "Scentless Apprentice"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "heart-shaped-box"
-    title: "Heart-Shaped Box"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "rape-me"
-    title: "Rape Me"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "frances-farmer"
-    title: "Frances Farmer Will Have Her Revenge on Seattle"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "dumb"
-    title: "Dumb"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "very-ape"
-    title: "Very Ape"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "milk-it"
-    title: "Milk It"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "pennyroyal-tea"
-    title: "Pennyroyal Tea"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "radio-friendly-unit-shifter"
-    title: "Radio Friendly Unit Shifter"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "tourettes"
-    title: "Tourette's"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "all-apologies"
-    title: "All Apologies"
-    role: "Drums"
-    artist: "Nirvana"
-  - album_slug: "in-utero"
-    title: "In Utero"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "about-a-girl"
-    title: "About a Girl"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "come-as-you-are"
-    title: "Come as You Are"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "jesus-doesnt-want-me-for-a-sunbeam"
-    title: "Jesus Doesn't Want Me for a Sunbeam"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "the-man-who-sold-the-world"
-    title: "The Man Who Sold the World"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "pennyroyal-tea"
-    title: "Pennyroyal Tea"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "dumb"
-    title: "Dumb"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "polly"
-    title: "Polly"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "on-a-plain"
-    title: "On a Plain"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "something-in-the-way"
-    title: "Something in the Way"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "plateau"
-    title: "Plateau"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "oh-me"
-    title: "Oh Me"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "lake-of-fire"
-    title: "Lake of Fire"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "all-apologies"
-    title: "All Apologies"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "where-did-you-sleep-last-night"
-    title: "Where Did You Sleep Last Night"
-    role: "Drums"
-    artist: "Nirvana"
-  - album_slug: "mtv-unplugged"
-    title: "MTV Unplugged in New York"
-    role: "Drums"
-    artist: "Nirvana"
-  - song_slug: "this-is-a-call"
-    title: "This Is a Call"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "ive-got-a-feeling"
-    title: "I've Got a Feeling"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "ill-stick-around"
-    title: "I'll Stick Around"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "big-me"
-    title: "Big Me"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "alone-and-easy-target"
-    title: "Alone + Easy Target"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "good-grief"
-    title: "Good Grief"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "floaty"
-    title: "Floaty"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "weenie-beenie"
-    title: "Weenie Beenie"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "oh-george"
-    title: "Oh, George"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "x-static"
-    title: "X-Static"
-    role: "Vocals, All Instruments, Songwriter"
-    artist: "Foo Fighters"
-  - album_slug: "foo-fighters-debut"
-    title: "Foo Fighters"
-    role: "Vocals, All Instruments, Songwriter, Lead Artist"
-    artist: "Foo Fighters"
-  - album_slug: "colour-and-the-shape"
-    title: "The Colour and the Shape"
-    role: "Vocals, Guitar, Songwriter, Lead Artist"
-    artist: "Foo Fighters"
-  - song_slug: "everlong"
-    title: "Everlong"
-    role: "Vocals, Guitar, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "my-hero"
-    title: "My Hero"
-    role: "Vocals, Guitar, Songwriter"
-    artist: "Foo Fighters"
-  - song_slug: "monkey-wrench"
-    title: "Monkey Wrench"
-    role: "Vocals, Guitar, Songwriter"
-    artist: "Foo Fighters"
-  - album_slug: "there-is-nothing-left-to-lose"
-    title: "There Is Nothing Left to Lose"
-    role: "Vocals, Guitar, Songwriter, Lead Artist"
-    artist: "Foo Fighters"
-  - song_slug: "learn-to-fly"
-    title: "Learn to Fly"
-    role: "Vocals, Guitar, Songwriter"
-    artist: "Foo Fighters"
-  - album_slug: "them-crooked-vultures-debut"
-    title: "Them Crooked Vultures"
-    role: "Drums"
-    artist: "Them Crooked Vultures"
-  - song_slug: "no-one-loves-me"
-    title: "No One Loves Me & Neither Do I"
-    role: "Drums"
-    artist: "Them Crooked Vultures"
-  - song_slug: "new-fang"
-    title: "New Fang"
-    role: "Drums"
-    artist: "Them Crooked Vultures"
-  - song_slug: "dead-end-friends"
-    title: "Dead End Friends"
-    role: "Drums"
-    artist: "Them Crooked Vultures"
-  - album_slug: "songs-for-the-deaf"
-    title: "Songs for the Deaf"
-    role: "Drums (guest)"
-    artist: "Queens of the Stone Age"
-  - song_slug: "no-one-knows"
-    title: "No One Knows"
-    role: "Drums"
-    artist: "Queens of the Stone Age"
-  - song_slug: "go-with-the-flow"
-    title: "Go with the Flow"
-    role: "Drums"
-    artist: "Queens of the Stone Age"
+- song_slug: smells-like-teen-spirit
+  title: Smells Like Teen Spirit
+  role: Drums
+  artist: Nirvana
+- song_slug: in-bloom
+  title: In Bloom
+  role: Drums
+  artist: Nirvana
+- song_slug: come-as-you-are
+  title: Come as You Are
+  role: Drums
+  artist: Nirvana
+- song_slug: breed
+  title: Breed
+  role: Drums
+  artist: Nirvana
+- song_slug: lithium
+  title: Lithium
+  role: Drums
+  artist: Nirvana
+- song_slug: polly
+  title: Polly
+  role: Drums
+  artist: Nirvana
+- song_slug: territorial-pissings
+  title: Territorial Pissings
+  role: Drums
+  artist: Nirvana
+- song_slug: drain-you
+  title: Drain You
+  role: Drums
+  artist: Nirvana
+- song_slug: lounge-act
+  title: Lounge Act
+  role: Drums
+  artist: Nirvana
+- song_slug: stay-away
+  title: Stay Away
+  role: Drums
+  artist: Nirvana
+- song_slug: on-a-plain
+  title: On a Plain
+  role: Drums
+  artist: Nirvana
+- song_slug: something-in-the-way
+  title: Something in the Way
+  role: Drums
+  artist: Nirvana
+- album_slug: nevermind
+  title: Nevermind
+  role: Drums
+  artist: Nirvana
+- song_slug: serve-the-servants
+  title: Serve the Servants
+  role: Drums
+  artist: Nirvana
+- song_slug: scentless-apprentice
+  title: Scentless Apprentice
+  role: Drums
+  artist: Nirvana
+- song_slug: heart-shaped-box
+  title: Heart-Shaped Box
+  role: Drums
+  artist: Nirvana
+- song_slug: rape-me
+  title: Rape Me
+  role: Drums
+  artist: Nirvana
+- song_slug: frances-farmer
+  title: Frances Farmer Will Have Her Revenge on Seattle
+  role: Drums
+  artist: Nirvana
+- song_slug: dumb
+  title: Dumb
+  role: Drums
+  artist: Nirvana
+- song_slug: very-ape
+  title: Very Ape
+  role: Drums
+  artist: Nirvana
+- song_slug: milk-it
+  title: Milk It
+  role: Drums
+  artist: Nirvana
+- song_slug: pennyroyal-tea
+  title: Pennyroyal Tea
+  role: Drums
+  artist: Nirvana
+- song_slug: radio-friendly-unit-shifter
+  title: Radio Friendly Unit Shifter
+  role: Drums
+  artist: Nirvana
+- song_slug: tourettes
+  title: Tourette's
+  role: Drums
+  artist: Nirvana
+- song_slug: all-apologies
+  title: All Apologies
+  role: Drums
+  artist: Nirvana
+- album_slug: in-utero
+  title: In Utero
+  role: Drums
+  artist: Nirvana
+- song_slug: about-a-girl
+  title: About a Girl
+  role: Drums
+  artist: Nirvana
+- song_slug: come-as-you-are
+  title: Come as You Are
+  role: Drums
+  artist: Nirvana
+- song_slug: jesus-doesnt-want-me-for-a-sunbeam
+  title: Jesus Doesn't Want Me for a Sunbeam
+  role: Drums
+  artist: Nirvana
+- song_slug: the-man-who-sold-the-world
+  title: The Man Who Sold the World
+  role: Drums
+  artist: Nirvana
+- song_slug: pennyroyal-tea
+  title: Pennyroyal Tea
+  role: Drums
+  artist: Nirvana
+- song_slug: dumb
+  title: Dumb
+  role: Drums
+  artist: Nirvana
+- song_slug: polly
+  title: Polly
+  role: Drums
+  artist: Nirvana
+- song_slug: on-a-plain
+  title: On a Plain
+  role: Drums
+  artist: Nirvana
+- song_slug: something-in-the-way
+  title: Something in the Way
+  role: Drums
+  artist: Nirvana
+- song_slug: plateau
+  title: Plateau
+  role: Drums
+  artist: Nirvana
+- song_slug: oh-me
+  title: Oh Me
+  role: Drums
+  artist: Nirvana
+- song_slug: lake-of-fire
+  title: Lake of Fire
+  role: Drums
+  artist: Nirvana
+- song_slug: all-apologies
+  title: All Apologies
+  role: Drums
+  artist: Nirvana
+- song_slug: where-did-you-sleep-last-night
+  title: Where Did You Sleep Last Night
+  role: Drums
+  artist: Nirvana
+- album_slug: mtv-unplugged
+  title: MTV Unplugged in New York
+  role: Drums
+  artist: Nirvana
+- song_slug: this-is-a-call
+  title: This Is a Call
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- song_slug: ive-got-a-feeling
+  title: I've Got a Feeling
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- song_slug: ill-stick-around
+  title: I'll Stick Around
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- song_slug: big-me
+  title: Big Me
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- song_slug: alone-and-easy-target
+  title: Alone + Easy Target
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- song_slug: good-grief
+  title: Good Grief
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- song_slug: floaty
+  title: Floaty
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- song_slug: weenie-beenie
+  title: Weenie Beenie
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- song_slug: oh-george
+  title: Oh, George
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- song_slug: x-static
+  title: X-Static
+  role: Vocals, All Instruments, Songwriter
+  artist: Foo Fighters
+- album_slug: foo-fighters-debut
+  title: Foo Fighters
+  role: Vocals, All Instruments, Songwriter, Lead Artist
+  artist: Foo Fighters
+- album_slug: colour-and-the-shape
+  title: The Colour and the Shape
+  role: Vocals, Guitar, Songwriter, Lead Artist
+  artist: Foo Fighters
+- song_slug: everlong
+  title: Everlong
+  role: Vocals, Guitar, Songwriter
+  artist: Foo Fighters
+- song_slug: my-hero
+  title: My Hero
+  role: Vocals, Guitar, Songwriter
+  artist: Foo Fighters
+- song_slug: monkey-wrench
+  title: Monkey Wrench
+  role: Vocals, Guitar, Songwriter
+  artist: Foo Fighters
+- album_slug: there-is-nothing-left-to-lose
+  title: There Is Nothing Left to Lose
+  role: Vocals, Guitar, Songwriter, Lead Artist
+  artist: Foo Fighters
+- song_slug: learn-to-fly
+  title: Learn to Fly
+  role: Vocals, Guitar, Songwriter
+  artist: Foo Fighters
+- album_slug: them-crooked-vultures-debut
+  title: Them Crooked Vultures
+  role: Drums
+  artist: Them Crooked Vultures
+- song_slug: no-one-loves-me
+  title: No One Loves Me & Neither Do I
+  role: Drums
+  artist: Them Crooked Vultures
+- song_slug: new-fang
+  title: New Fang
+  role: Drums
+  artist: Them Crooked Vultures
+- song_slug: dead-end-friends
+  title: Dead End Friends
+  role: Drums
+  artist: Them Crooked Vultures
+- album_slug: songs-for-the-deaf
+  title: Songs for the Deaf
+  role: Drums (guest)
+  artist: Queens of the Stone Age
+- song_slug: no-one-knows
+  title: No One Knows
+  role: Drums
+  artist: Queens of the Stone Age
+- song_slug: go-with-the-flow
+  title: Go with the Flow
+  role: Drums
+  artist: Queens of the Stone Age
+- song_slug: fight-scream
+  title: Fight
+  role: Drums
+  artist: Scream
+- song_slug: dancing-barefoot-scream
+  title: Dancing Barefoot
+  role: Drums
+  artist: Scream
+- song_slug: hygiene-scream
+  title: Hygiene
+  role: Drums
+  artist: Scream
+- song_slug: sunmaker-scream
+  title: Sunmaker
+  role: Drums
+  artist: Scream
+- song_slug: amerarockers-scream
+  title: Amerarockers
+  role: Drums
+  artist: Scream
 draft: false
 ---
 

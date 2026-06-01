@@ -1,19 +1,16 @@
 ---
-title: "Not Strong Enough"
-slug: "not-strong-enough-bg"
-artist: "boygenius"
-artist_slug: "boygenius"
-album: "The Record"
-album_slug: "the-record-bg"
+title: Not Strong Enough
+slug: not-strong-enough-bg
+artist: boygenius
+album: the-record-bg
 year: 2023
 credits:
-  - person_slug: "julien-baker"
-    role: "Vocals, Guitar"
-  - person_slug: "phoebe-bridgers"
-    role: "Vocals, Guitar"
-  - person_slug: "lucy-dacus"
-    role: "Vocals, Guitar"
-  - person_slug: "tony-berg"
-    role: "Producer"
-draft: false
+  - person_slug: julien-baker
+    role: Writer
+  - person_slug: phoebe-bridgers
+    role: Vocals
+  - person_slug: lucy-dacus
+    role: Vocals
+  - person_slug: blake-mills
+    role: Producer
 ---

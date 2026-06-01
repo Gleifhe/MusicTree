@@ -1,5 +1,5 @@
 ---
-scene: "Pop Rock"
+scene: "Canadian"
 title: "Barenaked Ladies"
 country: "CA"
 formed: 1988

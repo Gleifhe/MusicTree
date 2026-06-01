@@ -18,8 +18,6 @@ songs:
     title: "Right Now"
   - slug: "chasing-the-sun-ao"
     title: "Chasing the Sun"
-  - slug: "go-home-2-ao"
-    title: "Go Home"
   - slug: "for-lou-ao"
     title: "For Lou"
   - slug: "this-is-how-it-works-ao"

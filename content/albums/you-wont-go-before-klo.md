@@ -6,8 +6,6 @@ artist_slug: "knocked-loose"
 year: 2024
 producer: "josh-schroeder-kl"
 songs:
-  - slug: "wrongside-2-klo"
-    title: "Wrongside"
   - slug: "sit-and-mourn-klo"
     title: "Sit and Mourn"
   - slug: "this-ain-t-living-klo"
@@ -22,7 +20,5 @@ songs:
     title: "Nothing Left"
   - slug: "how-it-will-end-klo"
     title: "How It Will End"
-  - slug: "suffocate-2-klo"
-    title: "Suffocate"
 draft: false
 ---

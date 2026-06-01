@@ -1,5 +1,5 @@
 ---
-scene: "Folk/Pop"
+scene: "Folk"
 title: "Joni Mitchell"
 country: "CA"
 formed: 1964

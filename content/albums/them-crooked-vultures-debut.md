@@ -31,8 +31,6 @@ songs:
     title: "Caligulove"
   - slug: "spinning-in-daffodils"
     title: "Spinning in Daffodils"
-  - slug: "highway-one-tcv"
-    title: "Highway 1"
   - slug: "highway-one-b"
     title: "Highway 1 (Reprise)"
 draft: false

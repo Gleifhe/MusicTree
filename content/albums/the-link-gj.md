@@ -22,7 +22,5 @@ songs:
     title: "In the Wilderness"
   - slug: "world-to-come-gj"
     title: "World to Come"
-  - slug: "l-enfant-sauvage-early-gj"
-    title: "L'Enfant Sauvage"
 draft: false
 ---
