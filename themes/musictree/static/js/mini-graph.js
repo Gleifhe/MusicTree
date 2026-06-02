@@ -33,7 +33,8 @@
   if (!container || !focusId) return;
 
   // Fetch graph data from static file (browser caches it across pages)
-  fetch('/data/graph-slim.json')
+  const graphUrl = container.dataset.graphUrl || '/data/graph-slim.json';
+  fetch(graphUrl)
     .then(r => r.json())
     .then(rawData => renderGraph(rawData))
     .catch(err => console.error('MusicTree: failed to load graph-slim.json', err));

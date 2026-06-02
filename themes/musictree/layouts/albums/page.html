@@ -43,7 +43,7 @@
 
   <div class="graph-mini-container">
     <h2>Relationship Map</h2>
-    <div id="mini-graph" class="mini-graph"></div>
+    <div id="mini-graph" class="mini-graph" data-graph-url="{{ "/data/graph-slim.json" | relURL }}"></div>
   </div>
 </article>
 {{ end }}
@@ -51,5 +51,5 @@
 {{ define "scripts" }}
 <script src="https://d3js.org/d3.v7.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
 <script>window.FOCUS_NODE = "{{ .File.ContentBaseName }}";</script>
-<script src="/js/mini-graph.js"></script>
+<script src="{{ "/js/mini-graph.js" | relURL }}"></script>
 {{ end }}

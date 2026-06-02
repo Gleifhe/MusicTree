@@ -334,9 +334,11 @@
   function hideTooltip() { tooltip.classList.add('hidden'); }
 
   // ── Fetch data, then wire everything up ─────────────────────────────────
-  fetch('/data/graph-slim.json')
+  const graphUrl = container.dataset.graphUrl || '/data/graph-slim.json';
+  fetch(graphUrl)
     .then(r => r.json())
     .then(rawData => {
+      document.getElementById('graph-loading')?.remove();
       allNodes = rawData.nodes.map(d => ({ ...d }));
       allLinks = rawData.links.map(d => ({ ...d }));
       buildGraph();
@@ -504,7 +506,11 @@
       }
       setupPathFinder();
     })
-    .catch(err => console.error('MusicTree: failed to load graph-slim.json', err));
+    .catch(err => {
+      console.error('MusicTree: failed to load graph-slim.json', err);
+      const loading = document.getElementById('graph-loading');
+      if (loading) loading.textContent = '⚠ Could not load graph data. Try refreshing.';
+    });
 
   // ── Responsive resize ────────────────────────────────────────────────────
   window.addEventListener('resize', () => {

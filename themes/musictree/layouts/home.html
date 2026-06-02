@@ -30,7 +30,8 @@
     </div>
   </div>
 
-  <div id="graph-container">
+  <div id="graph-container" data-graph-url="{{ "/data/graph-slim.json" | relURL }}">
+    <div id="graph-loading" class="graph-loading">Loading graph…</div>
     <svg id="graph-svg"></svg>
     <div id="graph-tooltip" class="graph-tooltip hidden"></div>
   </div>
@@ -90,5 +91,5 @@
 
 {{ define "scripts" }}
 <script src="https://d3js.org/d3.v7.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
-<script src="/js/graph.js"></script>
+<script src="{{ "/js/graph.js" | relURL }}"></script>
 {{ end }}
