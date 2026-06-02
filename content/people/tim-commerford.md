@@ -103,9 +103,6 @@ song_credits:
 - slug: the-doomed-apc
   title: The Doomed
   credit: Bass
-- slug: so-long-2-apc
-  title: So Long, and Thanks for All the Fish
-  credit: Bass
 - slug: hourglass-apc
   title: Hourglass
   credit: Bass
@@ -153,3 +150,4 @@ credits:
   role: Bass
   artist: Audioslave
 ---
+

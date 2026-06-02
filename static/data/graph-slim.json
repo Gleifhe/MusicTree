@@ -16179,6 +16179,11 @@
       "relation": "performed-by"
     },
     {
+      "source": "jack-antonoff",
+      "target": "taylor-swift",
+      "relation": "member-of"
+    },
+    {
       "source": "jack-douglas-ct",
       "target": "at-budokan",
       "relation": "produced-by"
@@ -16847,6 +16852,11 @@
       "source": "rick-parashar",
       "target": "temple-of-the-dog",
       "relation": "produced-by"
+    },
+    {
+      "source": "rick-rubin",
+      "target": "red-hot-chili-peppers",
+      "relation": "member-of"
     },
     {
       "source": "robert-plant",

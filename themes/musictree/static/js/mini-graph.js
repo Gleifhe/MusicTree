@@ -17,10 +17,10 @@
   if (!container || !focusId) return;
 
   // Fetch graph data from static file (browser caches it across pages)
-  fetch('/data/graph.json')
+  fetch('/data/graph-slim.json')
     .then(r => r.json())
     .then(rawData => renderGraph(rawData))
-    .catch(err => console.error('MusicTree: failed to load graph.json', err));
+    .catch(err => console.error('MusicTree: failed to load graph-slim.json', err));
 
   function renderGraph(rawData) {
     if (!rawData.nodes || !rawData.nodes.length) return;
@@ -123,7 +123,7 @@
     .data(nodeData, d => d.id)
     .join('g')
       .attr('cursor', d => d.url ? 'pointer' : 'default')
-      .on('click', (event, d) => { if (d.url) window.location.href = d.url; });
+      .on('click', (event, d) => { if (d.url) window.open(d.url, '_blank', 'noopener'); });
 
   // Tooltip
   const tip = d3.select(container).append('div')

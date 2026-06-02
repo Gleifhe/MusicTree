@@ -1,91 +1,90 @@
 ---
-title: "Nicholas Ruffilo"
-slug: "nicholas-ruffilo"
-roles: ["Guitarist"]
+title: Nicholas Ruffilo
+slug: nicholas-ruffilo
+roles:
+- Guitarist
 bands:
-  - slug: "bad-omens"
-    role: "Guitar"
+- slug: bad-omens
+  role: Guitar
 song_credits:
-  - slug: "glass-houses-bo"
-    title: "Glass Houses"
-    credit: "Guitar"
-  - slug: "exit-wounds-bo"
-    title: "Exit Wounds"
-    credit: "Guitar"
-  - slug: "stay-sick-bo"
-    title: "Stay Sick"
-    credit: "Guitar"
-  - slug: "broken-together-bo"
-    title: "Broken Together"
-    credit: "Guitar"
-  - slug: "the-worst-in-me-bo"
-    title: "The Worst in Me"
-    credit: "Guitar"
-  - slug: "all-i-have-bo"
-    title: "All I Have"
-    credit: "Guitar"
-  - slug: "nothing-left-bo"
-    title: "Nothing Left"
-    credit: "Guitar"
-  - slug: "mercy-bo"
-    title: "Mercy"
-    credit: "Guitar"
-  - slug: "one-last-breath-bo"
-    title: "One Last Breath"
-    credit: "Guitar"
-  - slug: "just-pretend-bo"
-    title: "Just Pretend"
-    credit: "Guitar"
-  - slug: "warning-signs-bo"
-    title: "Warning Signs"
-    credit: "Guitar"
-  - slug: "feet-don-t-fail-me-bo"
-    title: "Feet Don't Fail Me"
-    credit: "Guitar"
-  - slug: "the-death-of-peace-bo"
-    title: "The Death of Peace"
-    credit: "Guitar"
-  - slug: "nowhere-to-go-bo"
-    title: "Nowhere to Go"
-    credit: "Guitar"
-  - slug: "in-too-deep-bo"
-    title: "In Too Deep"
-    credit: "Guitar"
-  - slug: "tether-bo"
-    title: "Tether"
-    credit: "Guitar"
-  - slug: "limits-bo"
-    title: "Limits"
-    credit: "Guitar"
-  - slug: "dethrone-bo"
-    title: "Dethrone"
-    credit: "Guitar"
-  - slug: "concrete-jungle-bo"
-    title: "Concrete Jungle"
-    credit: "Guitar"
-  - slug: "just-pretend-2-bo"
-    title: "Just Pretend"
-    credit: "Guitar"
-  - slug: "the-death-of-peace-of-mind-song-bo"
-    title: "The Death of Peace of Mind"
-    credit: "Guitar"
-  - slug: "like-a-villain-bo"
-    title: "Like a Villain"
-    credit: "Guitar"
-  - slug: "bad-decisions-bo"
-    title: "Bad Decisions"
-    credit: "Guitar"
-  - slug: "take-me-first-bo"
-    title: "Take Me First"
-    credit: "Guitar"
-  - slug: "what-it-means-to-be-alive-bo"
-    title: "What It Means to Be Alive"
-    credit: "Guitar"
-  - slug: "suffer-survive-bo"
-    title: "Suffer Survive"
-    credit: "Guitar"
-  - slug: "the-grey-bo"
-    title: "The Grey"
-    credit: "Guitar"
+- slug: glass-houses-bo
+  title: Glass Houses
+  credit: Guitar
+- slug: exit-wounds-bo
+  title: Exit Wounds
+  credit: Guitar
+- slug: stay-sick-bo
+  title: Stay Sick
+  credit: Guitar
+- slug: broken-together-bo
+  title: Broken Together
+  credit: Guitar
+- slug: the-worst-in-me-bo
+  title: The Worst in Me
+  credit: Guitar
+- slug: all-i-have-bo
+  title: All I Have
+  credit: Guitar
+- slug: nothing-left-bo
+  title: Nothing Left
+  credit: Guitar
+- slug: mercy-bo
+  title: Mercy
+  credit: Guitar
+- slug: one-last-breath-bo
+  title: One Last Breath
+  credit: Guitar
+- slug: just-pretend-bo
+  title: Just Pretend
+  credit: Guitar
+- slug: warning-signs-bo
+  title: Warning Signs
+  credit: Guitar
+- slug: feet-don-t-fail-me-bo
+  title: Feet Don't Fail Me
+  credit: Guitar
+- slug: the-death-of-peace-bo
+  title: The Death of Peace
+  credit: Guitar
+- slug: nowhere-to-go-bo
+  title: Nowhere to Go
+  credit: Guitar
+- slug: in-too-deep-bo
+  title: In Too Deep
+  credit: Guitar
+- slug: tether-bo
+  title: Tether
+  credit: Guitar
+- slug: limits-bo
+  title: Limits
+  credit: Guitar
+- slug: dethrone-bo
+  title: Dethrone
+  credit: Guitar
+- slug: concrete-jungle-bo
+  title: Concrete Jungle
+  credit: Guitar
+- slug: the-death-of-peace-of-mind-song-bo
+  title: The Death of Peace of Mind
+  credit: Guitar
+- slug: like-a-villain-bo
+  title: Like a Villain
+  credit: Guitar
+- slug: bad-decisions-bo
+  title: Bad Decisions
+  credit: Guitar
+- slug: take-me-first-bo
+  title: Take Me First
+  credit: Guitar
+- slug: what-it-means-to-be-alive-bo
+  title: What It Means to Be Alive
+  credit: Guitar
+- slug: suffer-survive-bo
+  title: Suffer Survive
+  credit: Guitar
+- slug: the-grey-bo
+  title: The Grey
+  credit: Guitar
 draft: false
 ---
+

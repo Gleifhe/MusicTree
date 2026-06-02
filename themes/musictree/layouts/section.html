@@ -23,6 +23,30 @@
         {{- end }}
       </select>
       {{- end }}
+      {{- if eq .Section "albums" }}
+      <select id="section-genre" class="section-sort-select">
+        <option value="">All Genres</option>
+        {{- $genres := slice }}
+        {{- range .Pages }}
+          {{- range .Params.genres }}{{- $genres = $genres | append . }}{{- end }}
+        {{- end }}
+        {{- range ($genres | uniq | sort) }}
+        <option value="{{ . | lower }}">{{ . }}</option>
+        {{- end }}
+      </select>
+      {{- end }}
+      {{- if eq .Section "albums" }}
+      <select id="section-decade" class="section-sort-select">
+        <option value="">All Decades</option>
+        <option value="1960">1960s</option>
+        <option value="1970">1970s</option>
+        <option value="1980">1980s</option>
+        <option value="1990">1990s</option>
+        <option value="2000">2000s</option>
+        <option value="2010">2010s</option>
+        <option value="2020">2020s</option>
+      </select>
+      {{- end }}
       <span class="section-count" id="section-count"></span>
     </div>
   </div>
@@ -32,7 +56,7 @@
        data-title="{{ .Title | lower }}"
        data-year="{{ .Params.year }}"
        data-scene="{{ .Params.scene }}"
-       data-genre="{{ with .Params.genres }}{{ index . 0 }}{{ end }}">
+       data-genre="{{ with .Params.genres }}{{ index . 0 | lower }}{{ end }}">
       <div class="item-card-inner">
         {{- $icon := "🎵" }}
         {{- if eq .Section "artists" }}{{ $icon = "🎸" }}{{ end }}
@@ -61,14 +85,28 @@
   const sceneEl = document.getElementById('section-scene');
   const countEl = document.getElementById('section-count');
 
-  function update() {
+  const PAGE_SIZE = 60;
+  let currentPage = 1;
+
+  function update(resetPage) {
+    if (resetPage) currentPage = 1;
     const q = searchEl ? searchEl.value.trim().toLowerCase() : '';
     const scene = sceneEl ? sceneEl.value : '';
+    const genreEl = document.getElementById('section-genre');
+    const decadeEl = document.getElementById('section-decade');
+    const genre = genreEl ? genreEl.value : '';
+    const decade = decadeEl ? decadeEl.value : '';
     const sort = sortEl ? sortEl.value : 'title-asc';
 
     let visible = cards.filter(c => {
       if (q && !c.dataset.title.includes(q)) return false;
       if (scene && c.dataset.scene !== scene) return false;
+      if (genre && c.dataset.genre !== genre) return false;
+      if (decade) {
+        const yr = parseInt(c.dataset.year) || 0;
+        const dec = parseInt(decade);
+        if (yr < dec || yr >= dec + 10) return false;
+      }
       return true;
     });
 
@@ -81,15 +119,46 @@
       return 0;
     });
 
+    // Hide all first
     cards.forEach(c => c.style.display = 'none');
-    visible.forEach(c => { c.style.display = ''; grid.appendChild(c); });
+
+    // Show current page
+    const pageItems = visible.slice(0, currentPage * PAGE_SIZE);
+    pageItems.forEach(c => { c.style.display = ''; });
+
+    // Re-order visible items in DOM
+    pageItems.forEach(c => grid.appendChild(c));
+
     if (countEl) countEl.textContent = visible.length + ' items';
+
+    // Show/hide load more button
+    let loadMoreBtn = document.getElementById('load-more-btn');
+    if (!loadMoreBtn) {
+      loadMoreBtn = document.createElement('button');
+      loadMoreBtn.id = 'load-more-btn';
+      loadMoreBtn.className = 'load-more-btn';
+      grid.insertAdjacentElement('afterend', loadMoreBtn);
+      loadMoreBtn.addEventListener('click', () => {
+        currentPage++;
+        update(false);
+      });
+    }
+    if (pageItems.length < visible.length) {
+      loadMoreBtn.style.display = '';
+      loadMoreBtn.textContent = `Load more (${visible.length - pageItems.length} remaining)`;
+    } else {
+      loadMoreBtn.style.display = 'none';
+    }
   }
 
-  if (searchEl) searchEl.addEventListener('input', update);
-  if (sortEl) sortEl.addEventListener('change', update);
-  if (sceneEl) sceneEl.addEventListener('change', update);
-  update();
+  if (searchEl) searchEl.addEventListener('input', () => update(true));
+  if (sortEl) sortEl.addEventListener('change', () => update(true));
+  if (sceneEl) sceneEl.addEventListener('change', () => update(true));
+  const genreElEv = document.getElementById('section-genre');
+  const decadeElEv = document.getElementById('section-decade');
+  if (genreElEv) genreElEv.addEventListener('change', () => update(true));
+  if (decadeElEv) decadeElEv.addEventListener('change', () => update(true));
+  update(true);
 })();
 </script>
 {{ end }}

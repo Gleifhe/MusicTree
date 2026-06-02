@@ -1,118 +1,111 @@
 ---
-title: "Kevin Otten"
-slug: "kevin-otten"
-roles: ["Bassist"]
+title: Kevin Otten
+slug: kevin-otten
+roles:
+- Bassist
 bands:
-  - slug: "knocked-loose"
-    role: "Bass"
+- slug: knocked-loose
+  role: Bass
 song_credits:
-  - slug: "no-rest-for-the-wicked-klo"
-    title: "No Rest for the Wicked"
-    credit: "Bass"
-  - slug: "the-rain-klo"
-    title: "The Rain"
-    credit: "Bass"
-  - slug: "mistakes-like-fractures-klo"
-    title: "Mistakes Like Fractures"
-    credit: "Bass"
-  - slug: "pity-party-klo"
-    title: "Pity Party"
-    credit: "Bass"
-  - slug: "in-the-cards-klo"
-    title: "In the Cards"
-    credit: "Bass"
-  - slug: "road-crew-klo"
-    title: "Road Crew"
-    credit: "Bass"
-  - slug: "gospel-klo"
-    title: "Gospel"
-    credit: "Bass"
-  - slug: "counting-worms-klo"
-    title: "Counting Worms"
-    credit: "Bass"
-  - slug: "deadringer-klo"
-    title: "Deadringer"
-    credit: "Bass"
-  - slug: "mistakes-like-fractures-2-klo"
-    title: "Mistakes Like Fractures"
-    credit: "Bass"
-  - slug: "the-rain-2-klo"
-    title: "And Now She Bends"
-    credit: "Bass"
-  - slug: "wrongside-klo"
-    title: "Wrongside"
-    credit: "Bass"
-  - slug: "belleville-klo"
-    title: "Belleville"
-    credit: "Bass"
-  - slug: "denied-by-fate-klo"
-    title: "Denied by Fate"
-    credit: "Bass"
-  - slug: "trapped-in-the-body-klo"
-    title: "Trapped in the Body"
-    credit: "Bass"
-  - slug: "misled-by-mirrors-klo"
-    title: "Misled by Mirrors"
-    credit: "Bass"
-  - slug: "a-different-shade-of-blue-song-klo"
-    title: "A Different Shade of Blue"
-    credit: "Bass"
-  - slug: "blood-letting-klo"
-    title: "Blood Letting"
-    credit: "Bass"
-  - slug: "permanent-klo"
-    title: "Permanent"
-    credit: "Bass"
-  - slug: "the-river-klo"
-    title: "The River"
-    credit: "Bass"
-  - slug: "where-light-meets-the-deep-klo"
-    title: "Where Light Meets the Deep"
-    credit: "Bass"
-  - slug: "everything-is-quiet-now-klo"
-    title: "Everything Is Quiet Now"
-    credit: "Bass"
-  - slug: "looking-back-klo"
-    title: "Looking Back"
-    credit: "Bass"
-  - slug: "lose-your-sense-of-fear-klo"
-    title: "Lose Your Sense of Fear"
-    credit: "Bass"
-  - slug: "suffocate-klo"
-    title: "Suffocate"
-    credit: "Bass"
-  - slug: "a-tear-in-the-fabric-song-klo"
-    title: "A Tear in the Fabric of Life"
-    credit: "Bass"
-  - slug: "cold-klo"
-    title: "Cold"
-    credit: "Bass"
-  - slug: "wrongside-2-klo"
-    title: "Wrongside"
-    credit: "Bass"
-  - slug: "sit-and-mourn-klo"
-    title: "Sit and Mourn"
-    credit: "Bass"
-  - slug: "this-ain-t-living-klo"
-    title: "This Ain't Living"
-    credit: "Bass"
-  - slug: "take-turns-klo"
-    title: "Take Turns"
-    credit: "Bass"
-  - slug: "the-calm-that-kills-klo"
-    title: "The Calm That Kills"
-    credit: "Bass"
-  - slug: "deep-in-the-willow-klo"
-    title: "Deep in the Willow"
-    credit: "Bass"
-  - slug: "nothing-left-klo"
-    title: "Nothing Left"
-    credit: "Bass"
-  - slug: "how-it-will-end-klo"
-    title: "How It Will End"
-    credit: "Bass"
-  - slug: "suffocate-2-klo"
-    title: "Suffocate"
-    credit: "Bass"
+- slug: no-rest-for-the-wicked-klo
+  title: No Rest for the Wicked
+  credit: Bass
+- slug: the-rain-klo
+  title: The Rain
+  credit: Bass
+- slug: mistakes-like-fractures-klo
+  title: Mistakes Like Fractures
+  credit: Bass
+- slug: pity-party-klo
+  title: Pity Party
+  credit: Bass
+- slug: in-the-cards-klo
+  title: In the Cards
+  credit: Bass
+- slug: road-crew-klo
+  title: Road Crew
+  credit: Bass
+- slug: gospel-klo
+  title: Gospel
+  credit: Bass
+- slug: counting-worms-klo
+  title: Counting Worms
+  credit: Bass
+- slug: deadringer-klo
+  title: Deadringer
+  credit: Bass
+- slug: the-rain-2-klo
+  title: And Now She Bends
+  credit: Bass
+- slug: wrongside-klo
+  title: Wrongside
+  credit: Bass
+- slug: belleville-klo
+  title: Belleville
+  credit: Bass
+- slug: denied-by-fate-klo
+  title: Denied by Fate
+  credit: Bass
+- slug: trapped-in-the-body-klo
+  title: Trapped in the Body
+  credit: Bass
+- slug: misled-by-mirrors-klo
+  title: Misled by Mirrors
+  credit: Bass
+- slug: a-different-shade-of-blue-song-klo
+  title: A Different Shade of Blue
+  credit: Bass
+- slug: blood-letting-klo
+  title: Blood Letting
+  credit: Bass
+- slug: permanent-klo
+  title: Permanent
+  credit: Bass
+- slug: the-river-klo
+  title: The River
+  credit: Bass
+- slug: where-light-meets-the-deep-klo
+  title: Where Light Meets the Deep
+  credit: Bass
+- slug: everything-is-quiet-now-klo
+  title: Everything Is Quiet Now
+  credit: Bass
+- slug: looking-back-klo
+  title: Looking Back
+  credit: Bass
+- slug: lose-your-sense-of-fear-klo
+  title: Lose Your Sense of Fear
+  credit: Bass
+- slug: suffocate-klo
+  title: Suffocate
+  credit: Bass
+- slug: a-tear-in-the-fabric-song-klo
+  title: A Tear in the Fabric of Life
+  credit: Bass
+- slug: cold-klo
+  title: Cold
+  credit: Bass
+- slug: sit-and-mourn-klo
+  title: Sit and Mourn
+  credit: Bass
+- slug: this-ain-t-living-klo
+  title: This Ain't Living
+  credit: Bass
+- slug: take-turns-klo
+  title: Take Turns
+  credit: Bass
+- slug: the-calm-that-kills-klo
+  title: The Calm That Kills
+  credit: Bass
+- slug: deep-in-the-willow-klo
+  title: Deep in the Willow
+  credit: Bass
+- slug: nothing-left-klo
+  title: Nothing Left
+  credit: Bass
+- slug: how-it-will-end-klo
+  title: How It Will End
+  credit: Bass
 draft: false
 ---
+

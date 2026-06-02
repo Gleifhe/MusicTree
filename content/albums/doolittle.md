@@ -1,57 +1,62 @@
-﻿---
-title: "Doolittle"
-mbid: "2568fe14-05ec-4606-90e5-2d98a8a97f53"
-artist: "Pixies"
-artist_slug: "pixies"
-year: 1989
-genres: ["alternative rock", "indie rock", "noise pop"]
-songs:
-  - slug: "debaser"
-    title: "Debaser"
-    duration: "2:52"
-  - slug: "tame"
-    title: "Tame"
-    duration: "1:55"
-  - slug: "wave-of-mutilation"
-    title: "Wave of Mutilation"
-    duration: "2:04"
-  - slug: "i-bleed"
-    title: "I Bleed"
-    duration: "3:35"
-  - slug: "here-comes-your-man"
-    title: "Here Comes Your Man"
-    duration: "3:21"
-  - slug: "dead"
-    title: "Dead"
-    duration: "2:21"
-  - slug: "monkey-gone-to-heaven"
-    title: "Monkey Gone to Heaven"
-    duration: "2:57"
-  - slug: "mr-grieves"
-    title: "Mr. Grieves"
-    duration: "2:05"
-  - slug: "crackity-jones"
-    title: "Crackity Jones"
-    duration: "1:24"
-  - slug: "la-la-love-you"
-    title: "La La Love You"
-    duration: "2:43"
-  - slug: "no-13-baby"
-    title: "No. 13 Baby"
-    duration: "4:49"
-  - slug: "there-goes-my-gun"
-    title: "There Goes My Gun"
-    duration: "2:03"
-  - slug: "hey"
-    title: "Hey"
-    duration: "3:31"
-  - slug: "silver"
-    title: "Silver"
-    duration: "3:02"
-  - slug: "gouge-away"
-    title: "Gouge Away"
-    duration: "2:45"
-draft: false
 ---
+title: Doolittle
+mbid: 2568fe14-05ec-4606-90e5-2d98a8a97f53
+artist: Pixies
+artist_slug: pixies
+year: 1989
+genres:
+- alternative rock
+- indie rock
+- noise pop
+songs:
+- slug: debaser
+  title: Debaser
+  duration: '2:52'
+- slug: tame
+  title: Tame
+  duration: '1:55'
+- slug: wave-of-mutilation
+  title: Wave of Mutilation
+  duration: '2:04'
+- slug: i-bleed
+  title: I Bleed
+  duration: '3:35'
+- slug: here-comes-your-man
+  title: Here Comes Your Man
+  duration: '3:21'
+- slug: dead
+  title: Dead
+  duration: '2:21'
+- slug: monkey-gone-to-heaven
+  title: Monkey Gone to Heaven
+  duration: '2:57'
+- slug: mr-grieves
+  title: Mr. Grieves
+  duration: '2:05'
+- slug: crackity-jones
+  title: Crackity Jones
+  duration: '1:24'
+- slug: la-la-love-you
+  title: La La Love You
+  duration: '2:43'
+- slug: no-13-baby
+  title: No. 13 Baby
+  duration: '4:49'
+- slug: there-goes-my-gun
+  title: There Goes My Gun
+  duration: '2:03'
+- slug: hey
+  title: Hey
+  duration: '3:31'
+- slug: silver
+  title: Silver
+  duration: '3:02'
+- slug: gouge-away
+  title: Gouge Away
+  duration: '2:45'
+draft: false
+album_type: Studio
+---
+
 
 *Doolittle* is the second studio album by Pixies, released on April 17, 1989. Produced by Gil Norton, it is widely considered one of the greatest alternative rock albums ever made, notable for its combination of pop accessibility with avant-garde noise and surrealist imagery.

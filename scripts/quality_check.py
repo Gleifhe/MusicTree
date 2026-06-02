@@ -241,14 +241,20 @@ for sc, slugs in sorted(scene_counts.items(), key=lambda x: -len(x[1])):
 
 # ── 9. Duplicate detection ────────────────────────────────────────────────────
 print("\n── 9. Duplicate detection ──────────────────────────────────────────────")
-title_map = defaultdict(list)
+# O(n) dict-based grouping — avoids nested loops over all songs
+title_map = {}
 for slug, fm in songs.items():
-    key = (fm.get("artist_slug",""), fm.get("title","").lower())
-    title_map[key].append(slug)
-dupes = {k: v for k, v in title_map.items() if len(v) > 1}
-print(f"  {PASS if not dupes else WARN} {len(dupes)} duplicate song titles (same artist)")
-for (artist, title), slugs in list(dupes.items())[:5]:
-    print(f"    {WARN} '{title}' by {artist}: {slugs}")
+    title = fm.get('title', '').lower().strip()
+    if not title:
+        continue
+    if title not in title_map:
+        title_map[title] = []
+    title_map[title].append(slug)
+
+duplicates = {t: slugs for t, slugs in title_map.items() if len(slugs) > 1}
+print(f"  {PASS if not duplicates else WARN} {len(duplicates)} duplicate song titles (any artist)")
+for title, slugs in list(duplicates.items())[:5]:
+    print(f"    {WARN} '{title}': {slugs}")
 
 # ── Summary ───────────────────────────────────────────────────────────────────
 total_issues = len([x for x in issues if "missing artist_slug" in x or "has no artist file" in x or "has no album file" in x or "has no song file" in x])
@@ -258,6 +264,6 @@ print(f"  {FAIL if no_credits_count > 0 else PASS} Songs missing all credits: {n
 print(f"  {FAIL if missing_song_files else PASS} Broken track→song refs:    {len(missing_song_files)}")
 print(f"  {WARN if no_bands > 0 else PASS} People without bands:      {no_bands}")
 print(f"  {WARN if missing_scene else PASS} Artists without scene:     {len(missing_scene)}")
-print(f"  {WARN if dupes else PASS} Duplicate song titles:     {len(dupes)}")
+print(f"  {WARN if duplicates else PASS} Duplicate song titles:     {len(duplicates)}")
 print(f"{'═'*70}")
 print("\nRun 'python scripts/rebuild_graph.py' after fixing content to update the graph.")

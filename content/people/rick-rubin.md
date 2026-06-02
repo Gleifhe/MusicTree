@@ -5,7 +5,9 @@ born: 1963
 nationality: American
 roles:
 - Producer
-bands: []
+bands:
+- slug: red-hot-chili-peppers
+  role: Producer
 song_credits:
 - slug: sabotage
   title: Sabotage
@@ -65,6 +67,7 @@ credits:
   role: Producer
   artist: Audioslave
 ---
+
 Rick Rubin is one of the most influential record producers in history. Co-founder of Def Jam Recordings,
 his production credits span hip-hop (Beastie Boys, LL Cool J, Jay-Z), metal (Metallica, Slayer),
 rock (Red Hot Chili Peppers, Tom Petty, The Strokes), country (Johnny Cash), and pop (Adele, Lady Gaga).

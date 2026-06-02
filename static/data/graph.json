@@ -53862,11 +53862,6 @@
     },
     {
       "source": "bryan-garris",
-      "target": "mistakes-like-fractures-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "bryan-garris",
       "target": "the-rain-2-klo",
       "relation": "performed-by"
     },
@@ -53952,11 +53947,6 @@
     },
     {
       "source": "bryan-garris",
-      "target": "wrongside-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "bryan-garris",
       "target": "sit-and-mourn-klo",
       "relation": "performed-by"
     },
@@ -53988,11 +53978,6 @@
     {
       "source": "bryan-garris",
       "target": "how-it-will-end-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "bryan-garris",
-      "target": "suffocate-2-klo",
       "relation": "performed-by"
     },
     {
@@ -56112,7 +56097,7 @@
     },
     {
       "source": "christian-andreu",
-      "target": "l-enfant-sauvage-early-gj",
+      "target": "lenfant-sauvage-song-gj",
       "relation": "performed-by"
     },
     {
@@ -56133,26 +56118,6 @@
     {
       "source": "christian-andreu",
       "target": "wisdom-comes-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "christian-andreu",
-      "target": "the-heaviest-matter-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "christian-andreu",
-      "target": "flying-whales-2-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "christian-andreu",
-      "target": "in-the-wilderness-2-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "christian-andreu",
-      "target": "world-to-come-2-gj",
       "relation": "performed-by"
     },
     {
@@ -56208,11 +56173,6 @@
     {
       "source": "christian-andreu",
       "target": "explosia-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "christian-andreu",
-      "target": "lenfant-sauvage-song-gj",
       "relation": "performed-by"
     },
     {
@@ -56392,11 +56352,6 @@
     },
     {
       "source": "cole-crutchfield",
-      "target": "mistakes-like-fractures-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "cole-crutchfield",
       "target": "the-rain-2-klo",
       "relation": "performed-by"
     },
@@ -56482,11 +56437,6 @@
     },
     {
       "source": "cole-crutchfield",
-      "target": "wrongside-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "cole-crutchfield",
       "target": "sit-and-mourn-klo",
       "relation": "performed-by"
     },
@@ -56518,11 +56468,6 @@
     {
       "source": "cole-crutchfield",
       "target": "how-it-will-end-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "cole-crutchfield",
-      "target": "suffocate-2-klo",
       "relation": "performed-by"
     },
     {
@@ -57547,7 +57492,7 @@
     },
     {
       "source": "courtney-laplante",
-      "target": "the-rule-of-nines-spb",
+      "target": "rule-of-nines-spb",
       "relation": "performed-by"
     },
     {
@@ -57563,11 +57508,6 @@
     {
       "source": "courtney-laplante",
       "target": "hysteria-spb",
-      "relation": "performed-by"
-    },
-    {
-      "source": "courtney-laplante",
-      "target": "rule-of-nines-spb",
       "relation": "performed-by"
     },
     {
@@ -58132,7 +58072,7 @@
     },
     {
       "source": "dan-braunstein",
-      "target": "the-rule-of-nines-spb",
+      "target": "rule-of-nines-spb",
       "relation": "produced-by"
     },
     {
@@ -65347,11 +65287,6 @@
     },
     {
       "source": "ii-st",
-      "target": "chokehold-slt2",
-      "relation": "performed-by"
-    },
-    {
-      "source": "ii-st",
       "target": "the-tree-of-life-slt",
       "relation": "performed-by"
     },
@@ -65478,11 +65413,6 @@
     {
       "source": "iii-st",
       "target": "the-summoning-2-slt",
-      "relation": "performed-by"
-    },
-    {
-      "source": "iii-st",
-      "target": "chokehold-slt2",
       "relation": "performed-by"
     },
     {
@@ -65577,11 +65507,6 @@
     },
     {
       "source": "isaac-hale-kl",
-      "target": "mistakes-like-fractures-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "isaac-hale-kl",
       "target": "the-rain-2-klo",
       "relation": "performed-by"
     },
@@ -65667,11 +65592,6 @@
     },
     {
       "source": "isaac-hale-kl",
-      "target": "wrongside-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "isaac-hale-kl",
       "target": "sit-and-mourn-klo",
       "relation": "performed-by"
     },
@@ -65703,11 +65623,6 @@
     {
       "source": "isaac-hale-kl",
       "target": "how-it-will-end-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "isaac-hale-kl",
-      "target": "suffocate-2-klo",
       "relation": "performed-by"
     },
     {
@@ -65812,11 +65727,6 @@
     },
     {
       "source": "iv-st",
-      "target": "chokehold-slt2",
-      "relation": "performed-by"
-    },
-    {
-      "source": "iv-st",
       "target": "the-tree-of-life-slt",
       "relation": "performed-by"
     },
@@ -65844,6 +65754,11 @@
       "source": "iv-st",
       "target": "their-blood-slt",
       "relation": "performed-by"
+    },
+    {
+      "source": "jack-antonoff",
+      "target": "taylor-swift",
+      "relation": "member-of"
     },
     {
       "source": "jack-douglas-ct",
@@ -68237,7 +68152,7 @@
     },
     {
       "source": "jean-michel-labadie",
-      "target": "l-enfant-sauvage-early-gj",
+      "target": "lenfant-sauvage-song-gj",
       "relation": "performed-by"
     },
     {
@@ -68258,26 +68173,6 @@
     {
       "source": "jean-michel-labadie",
       "target": "wisdom-comes-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "jean-michel-labadie",
-      "target": "the-heaviest-matter-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "jean-michel-labadie",
-      "target": "flying-whales-2-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "jean-michel-labadie",
-      "target": "in-the-wilderness-2-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "jean-michel-labadie",
-      "target": "world-to-come-2-gj",
       "relation": "performed-by"
     },
     {
@@ -68333,11 +68228,6 @@
     {
       "source": "jean-michel-labadie",
       "target": "explosia-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "jean-michel-labadie",
-      "target": "lenfant-sauvage-song-gj",
       "relation": "performed-by"
     },
     {
@@ -68738,11 +68628,6 @@
     {
       "source": "jeff-friedl",
       "target": "the-doomed-apc",
-      "relation": "performed-by"
-    },
-    {
-      "source": "jeff-friedl",
-      "target": "so-long-2-apc",
       "relation": "performed-by"
     },
     {
@@ -69337,11 +69222,6 @@
     },
     {
       "source": "joakim-karlsson",
-      "target": "just-pretend-2-bo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "joakim-karlsson",
       "target": "the-death-of-peace-of-mind-song-bo",
       "relation": "performed-by"
     },
@@ -69597,12 +69477,12 @@
     },
     {
       "source": "joe-duplantier",
-      "target": "l-enfant-sauvage-early-gj",
+      "target": "lenfant-sauvage-song-gj",
       "relation": "performed-by"
     },
     {
       "source": "joe-duplantier",
-      "target": "l-enfant-sauvage-early-gj",
+      "target": "lenfant-sauvage-song-gj",
       "relation": "produced-by"
     },
     {
@@ -69643,46 +69523,6 @@
     {
       "source": "joe-duplantier",
       "target": "wisdom-comes-gj",
-      "relation": "produced-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "the-heaviest-matter-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "the-heaviest-matter-gj",
-      "relation": "produced-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "flying-whales-2-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "flying-whales-2-gj",
-      "relation": "produced-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "in-the-wilderness-2-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "in-the-wilderness-2-gj",
-      "relation": "produced-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "world-to-come-2-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "world-to-come-2-gj",
       "relation": "produced-by"
     },
     {
@@ -69793,16 +69633,6 @@
     {
       "source": "joe-duplantier",
       "target": "explosia-gj",
-      "relation": "produced-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "lenfant-sauvage-song-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "joe-duplantier",
-      "target": "lenfant-sauvage-song-gj",
       "relation": "produced-by"
     },
     {
@@ -72407,7 +72237,7 @@
     },
     {
       "source": "josh-gilbert-sb",
-      "target": "the-rule-of-nines-spb",
+      "target": "rule-of-nines-spb",
       "relation": "performed-by"
     },
     {
@@ -72423,11 +72253,6 @@
     {
       "source": "josh-gilbert-sb",
       "target": "hysteria-spb",
-      "relation": "performed-by"
-    },
-    {
-      "source": "josh-gilbert-sb",
-      "target": "rule-of-nines-spb",
       "relation": "performed-by"
     },
     {
@@ -72642,7 +72467,7 @@
     },
     {
       "source": "josh-schroeder-kl",
-      "target": "wrongside-2-klo",
+      "target": "wrongside-klo",
       "relation": "produced-by"
     },
     {
@@ -72682,7 +72507,7 @@
     },
     {
       "source": "josh-schroeder-kl",
-      "target": "suffocate-2-klo",
+      "target": "suffocate-klo",
       "relation": "produced-by"
     },
     {
@@ -73247,7 +73072,7 @@
     },
     {
       "source": "justin-raisen",
-      "target": "go-home-2-ao",
+      "target": "go-home-ao",
       "relation": "produced-by"
     },
     {
@@ -73712,11 +73537,6 @@
     },
     {
       "source": "kevin-kaine",
-      "target": "mistakes-like-fractures-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "kevin-kaine",
       "target": "the-rain-2-klo",
       "relation": "performed-by"
     },
@@ -73802,11 +73622,6 @@
     },
     {
       "source": "kevin-kaine",
-      "target": "wrongside-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "kevin-kaine",
       "target": "sit-and-mourn-klo",
       "relation": "performed-by"
     },
@@ -73838,11 +73653,6 @@
     {
       "source": "kevin-kaine",
       "target": "how-it-will-end-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "kevin-kaine",
-      "target": "suffocate-2-klo",
       "relation": "performed-by"
     },
     {
@@ -73892,11 +73702,6 @@
     },
     {
       "source": "kevin-otten",
-      "target": "mistakes-like-fractures-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "kevin-otten",
       "target": "the-rain-2-klo",
       "relation": "performed-by"
     },
@@ -73982,11 +73787,6 @@
     },
     {
       "source": "kevin-otten",
-      "target": "wrongside-2-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "kevin-otten",
       "target": "sit-and-mourn-klo",
       "relation": "performed-by"
     },
@@ -74018,11 +73818,6 @@
     {
       "source": "kevin-otten",
       "target": "how-it-will-end-klo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "kevin-otten",
-      "target": "suffocate-2-klo",
       "relation": "performed-by"
     },
     {
@@ -75992,7 +75787,7 @@
     },
     {
       "source": "mario-duplantier",
-      "target": "l-enfant-sauvage-early-gj",
+      "target": "lenfant-sauvage-song-gj",
       "relation": "performed-by"
     },
     {
@@ -76013,26 +75808,6 @@
     {
       "source": "mario-duplantier",
       "target": "wisdom-comes-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "mario-duplantier",
-      "target": "the-heaviest-matter-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "mario-duplantier",
-      "target": "flying-whales-2-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "mario-duplantier",
-      "target": "in-the-wilderness-2-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "mario-duplantier",
-      "target": "world-to-come-2-gj",
       "relation": "performed-by"
     },
     {
@@ -76088,11 +75863,6 @@
     {
       "source": "mario-duplantier",
       "target": "explosia-gj",
-      "relation": "performed-by"
-    },
-    {
-      "source": "mario-duplantier",
-      "target": "lenfant-sauvage-song-gj",
       "relation": "performed-by"
     },
     {
@@ -78887,7 +78657,7 @@
     },
     {
       "source": "michelle-zauner",
-      "target": "soft-sounds-jb-song",
+      "target": "soft-sounds-song-jb",
       "relation": "performed-by"
     },
     {
@@ -78922,17 +78692,7 @@
     },
     {
       "source": "michelle-zauner",
-      "target": "soft-sounds-song-jb",
-      "relation": "performed-by"
-    },
-    {
-      "source": "michelle-zauner",
       "target": "road-head-jb",
-      "relation": "performed-by"
-    },
-    {
-      "source": "michelle-zauner",
-      "target": "triple-dog-dare-2-jb",
       "relation": "performed-by"
     },
     {
@@ -79852,7 +79612,7 @@
     },
     {
       "source": "mike-stringer",
-      "target": "the-rule-of-nines-spb",
+      "target": "rule-of-nines-spb",
       "relation": "performed-by"
     },
     {
@@ -79868,11 +79628,6 @@
     {
       "source": "mike-stringer",
       "target": "hysteria-spb",
-      "relation": "performed-by"
-    },
-    {
-      "source": "mike-stringer",
-      "target": "rule-of-nines-spb",
       "relation": "performed-by"
     },
     {
@@ -80518,11 +80273,6 @@
     {
       "source": "nicholas-ruffilo",
       "target": "concrete-jungle-bo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "nicholas-ruffilo",
-      "target": "just-pretend-2-bo",
       "relation": "performed-by"
     },
     {
@@ -81297,11 +81047,6 @@
     },
     {
       "source": "noah-reynolds-bo",
-      "target": "just-pretend-2-bo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "noah-reynolds-bo",
       "target": "the-death-of-peace-of-mind-song-bo",
       "relation": "performed-by"
     },
@@ -81428,11 +81173,6 @@
     {
       "source": "noah-sebastian",
       "target": "concrete-jungle-bo",
-      "relation": "performed-by"
-    },
-    {
-      "source": "noah-sebastian",
-      "target": "just-pretend-2-bo",
       "relation": "performed-by"
     },
     {
@@ -82832,7 +82572,7 @@
     },
     {
       "source": "peter-silberman-jb",
-      "target": "soft-sounds-jb-song",
+      "target": "soft-sounds-song-jb",
       "relation": "produced-by"
     },
     {
@@ -82867,17 +82607,7 @@
     },
     {
       "source": "peter-silberman-jb",
-      "target": "soft-sounds-song-jb",
-      "relation": "produced-by"
-    },
-    {
-      "source": "peter-silberman-jb",
       "target": "road-head-jb",
-      "relation": "produced-by"
-    },
-    {
-      "source": "peter-silberman-jb",
-      "target": "triple-dog-dare-2-jb",
       "relation": "produced-by"
     },
     {
@@ -83589,6 +83319,11 @@
       "source": "rick-rizzo-edd",
       "target": "the-swimming-song-edd",
       "relation": "written-by"
+    },
+    {
+      "source": "rick-rubin",
+      "target": "red-hot-chili-peppers",
+      "relation": "member-of"
     },
     {
       "source": "rick-rubin",
@@ -87562,11 +87297,6 @@
     },
     {
       "source": "tim-commerford",
-      "target": "so-long-2-apc",
-      "relation": "performed-by"
-    },
-    {
-      "source": "tim-commerford",
       "target": "hourglass-apc",
       "relation": "performed-by"
     },
@@ -89012,11 +88742,6 @@
     },
     {
       "source": "v-st",
-      "target": "chokehold-slt2",
-      "relation": "performed-by"
-    },
-    {
-      "source": "v-st",
       "target": "the-tree-of-life-slt",
       "relation": "performed-by"
     },
@@ -89253,16 +88978,6 @@
     {
       "source": "vessel-st",
       "target": "the-summoning-2-slt",
-      "relation": "produced-by"
-    },
-    {
-      "source": "vessel-st",
-      "target": "chokehold-slt2",
-      "relation": "performed-by"
-    },
-    {
-      "source": "vessel-st",
-      "target": "chokehold-slt2",
       "relation": "produced-by"
     },
     {
@@ -89668,11 +89383,6 @@
     {
       "source": "will-putney",
       "target": "deadringer-klo",
-      "relation": "produced-by"
-    },
-    {
-      "source": "will-putney",
-      "target": "mistakes-like-fractures-2-klo",
       "relation": "produced-by"
     },
     {
@@ -90397,7 +90107,7 @@
     },
     {
       "source": "zach-rola",
-      "target": "the-rule-of-nines-spb",
+      "target": "rule-of-nines-spb",
       "relation": "performed-by"
     },
     {
@@ -90413,11 +90123,6 @@
     {
       "source": "zach-rola",
       "target": "hysteria-spb",
-      "relation": "performed-by"
-    },
-    {
-      "source": "zach-rola",
-      "target": "rule-of-nines-spb",
       "relation": "performed-by"
     },
     {

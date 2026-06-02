@@ -696,3 +696,97 @@ footer {
   }
 }
 
+
+/* ── Load More button (section pages) ─────────────────────────────── */
+.load-more-btn {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.75rem 2rem;
+  background: #2a2a3e;
+  color: #b0b0cc;
+  border: 1px solid #3a3a5a;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+.load-more-btn:hover { background: #3a3a5e; color: #e8e8f0; }
+
+/* ── Featured Connections ─────────────────────────────────────── */
+.featured-section {
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+.featured-section h3 {
+  color: #b0b0cc;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+.featured-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.featured-card {
+  background: #1a1a2e;
+  border: 1px solid #2a2a45;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.featured-connection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.featured-artist {
+  color: #4e79a7;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.featured-artist:hover { color: #7ca9d7; text-decoration: underline; }
+.featured-via {
+  font-size: 0.8rem;
+  color: #666688;
+  font-style: italic;
+  padding-left: 0.5rem;
+}
+
+/* ── Random button ────────────────────────────────────────────── */
+.btn-random {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.9rem;
+  background: #2a2a3e;
+  color: #b0b0cc;
+  border: 1px solid #3a3a5a;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+.btn-random:hover { background: #3a3a5e; color: #e8e8f0; }
+
+/* ── Print styles ─────────────────────────────────────────────── */
+@media print {
+  .site-nav, .graph-controls, .filter-panel, .search-panel,
+  .path-finder-panel, #btn-reset, .btn-random,
+  .graph-mini-container, .section-controls,
+  .featured-section { display: none !important; }
+
+  body { background: #fff; color: #000; font-size: 11pt; }
+
+  .content-page { max-width: 100%; padding: 0; }
+
+  .content-header { background: none !important; border: 1px solid #ccc; }
+
+  .rel-grid { grid-template-columns: repeat(3, 1fr); gap: 0.5rem; }
+
+  .rel-card { border: 1px solid #ccc; background: #fff; color: #000; }
+  .rel-card a, .rel-card strong { color: #000; }
+
+  a[href]:after { content: " (" attr(href) ")"; font-size: 9pt; color: #666; }
+  a.rel-card:after, a.meta-link:after, a.mb-link:after { content: ""; }
+}

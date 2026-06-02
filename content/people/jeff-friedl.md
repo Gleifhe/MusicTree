@@ -1,118 +1,117 @@
 ---
-title: "Jeff Friedl"
-slug: "jeff-friedl"
-roles: ["Drummer"]
+title: Jeff Friedl
+slug: jeff-friedl
+roles:
+- Drummer
 bands:
-  - slug: "a-perfect-circle"
-    role: "Drums"
+- slug: a-perfect-circle
+  role: Drums
 song_credits:
-  - slug: "judith-apc"
-    title: "Judith"
-    credit: "Drums"
-  - slug: "magdalena-apc"
-    title: "Magdalena"
-    credit: "Drums"
-  - slug: "rose-apc"
-    title: "Rose"
-    credit: "Drums"
-  - slug: "judith-alternate-apc"
-    title: "The Hollow"
-    credit: "Drums"
-  - slug: "3-libras-apc"
-    title: "3 Libras"
-    credit: "Drums"
-  - slug: "sleeping-beauty-apc"
-    title: "Sleeping Beauty"
-    credit: "Drums"
-  - slug: "thomas-apc"
-    title: "Thomas"
-    credit: "Drums"
-  - slug: "renholder-apc"
-    title: "Renholder"
-    credit: "Drums"
-  - slug: "thinking-of-you-apc"
-    title: "Thinking of You"
-    credit: "Drums"
-  - slug: "the-package-apc"
-    title: "The Package"
-    credit: "Drums"
-  - slug: "weak-and-powerless-apc"
-    title: "Weak and Powerless"
-    credit: "Drums"
-  - slug: "the-outsider-apc"
-    title: "The Outsider"
-    credit: "Drums"
-  - slug: "blue-apc"
-    title: "Blue"
-    credit: "Drums"
-  - slug: "the-noose-apc"
-    title: "The Noose"
-    credit: "Drums"
-  - slug: "lullaby-apc"
-    title: "Lullaby"
-    credit: "Drums"
-  - slug: "vanishing-apc"
-    title: "Vanishing"
-    credit: "Drums"
-  - slug: "a-stranger-apc"
-    title: "A Stranger"
-    credit: "Drums"
-  - slug: "the-nurse-who-loved-me-apc"
-    title: "The Nurse Who Loved Me"
-    credit: "Drums"
-  - slug: "annihilation-apc"
-    title: "Annihilation"
-    credit: "Drums"
-  - slug: "freedom-of-choice-apc"
-    title: "Freedom of Choice"
-    credit: "Drums"
-  - slug: "people-are-people-apc"
-    title: "People Are People"
-    credit: "Drums"
-  - slug: "imagine-apc"
-    title: "Imagine"
-    credit: "Drums"
-  - slug: "passive-apc"
-    title: "Passive"
-    credit: "Drums"
-  - slug: "let-s-have-a-war-apc"
-    title: "Let's Have a War"
-    credit: "Drums"
-  - slug: "counting-bodies-like-sheep-apc"
-    title: "Counting Bodies Like Sheep to the Rhythm of the War Drums"
-    credit: "Drums"
-  - slug: "so-long-apc"
-    title: "So Long, and Thanks for All the Fish"
-    credit: "Drums"
-  - slug: "fiddle-and-the-drum-apc"
-    title: "The Fiddle and the Drum"
-    credit: "Drums"
-  - slug: "eat-the-elephant-song-apc"
-    title: "Eat the Elephant"
-    credit: "Drums"
-  - slug: "disillusioned-apc"
-    title: "Disillusioned"
-    credit: "Drums"
-  - slug: "the-contrarian-apc"
-    title: "The Contrarian"
-    credit: "Drums"
-  - slug: "the-doomed-apc"
-    title: "The Doomed"
-    credit: "Drums"
-  - slug: "so-long-2-apc"
-    title: "So Long, and Thanks for All the Fish"
-    credit: "Drums"
-  - slug: "hourglass-apc"
-    title: "Hourglass"
-    credit: "Drums"
-  - slug: "talk-talk-apc"
-    title: "Talk Talk"
-    credit: "Drums"
-  - slug: "by-and-down-the-river-apc"
-    title: "By and Down the River"
-    credit: "Drums"
-  - slug: "feathers-apc"
-    title: "Feathers"
-    credit: "Drums"
+- slug: judith-apc
+  title: Judith
+  credit: Drums
+- slug: magdalena-apc
+  title: Magdalena
+  credit: Drums
+- slug: rose-apc
+  title: Rose
+  credit: Drums
+- slug: judith-alternate-apc
+  title: The Hollow
+  credit: Drums
+- slug: 3-libras-apc
+  title: 3 Libras
+  credit: Drums
+- slug: sleeping-beauty-apc
+  title: Sleeping Beauty
+  credit: Drums
+- slug: thomas-apc
+  title: Thomas
+  credit: Drums
+- slug: renholder-apc
+  title: Renholder
+  credit: Drums
+- slug: thinking-of-you-apc
+  title: Thinking of You
+  credit: Drums
+- slug: the-package-apc
+  title: The Package
+  credit: Drums
+- slug: weak-and-powerless-apc
+  title: Weak and Powerless
+  credit: Drums
+- slug: the-outsider-apc
+  title: The Outsider
+  credit: Drums
+- slug: blue-apc
+  title: Blue
+  credit: Drums
+- slug: the-noose-apc
+  title: The Noose
+  credit: Drums
+- slug: lullaby-apc
+  title: Lullaby
+  credit: Drums
+- slug: vanishing-apc
+  title: Vanishing
+  credit: Drums
+- slug: a-stranger-apc
+  title: A Stranger
+  credit: Drums
+- slug: the-nurse-who-loved-me-apc
+  title: The Nurse Who Loved Me
+  credit: Drums
+- slug: annihilation-apc
+  title: Annihilation
+  credit: Drums
+- slug: freedom-of-choice-apc
+  title: Freedom of Choice
+  credit: Drums
+- slug: people-are-people-apc
+  title: People Are People
+  credit: Drums
+- slug: imagine-apc
+  title: Imagine
+  credit: Drums
+- slug: passive-apc
+  title: Passive
+  credit: Drums
+- slug: let-s-have-a-war-apc
+  title: Let's Have a War
+  credit: Drums
+- slug: counting-bodies-like-sheep-apc
+  title: Counting Bodies Like Sheep to the Rhythm of the War Drums
+  credit: Drums
+- slug: so-long-apc
+  title: So Long, and Thanks for All the Fish
+  credit: Drums
+- slug: fiddle-and-the-drum-apc
+  title: The Fiddle and the Drum
+  credit: Drums
+- slug: eat-the-elephant-song-apc
+  title: Eat the Elephant
+  credit: Drums
+- slug: disillusioned-apc
+  title: Disillusioned
+  credit: Drums
+- slug: the-contrarian-apc
+  title: The Contrarian
+  credit: Drums
+- slug: the-doomed-apc
+  title: The Doomed
+  credit: Drums
+- slug: hourglass-apc
+  title: Hourglass
+  credit: Drums
+- slug: talk-talk-apc
+  title: Talk Talk
+  credit: Drums
+- slug: by-and-down-the-river-apc
+  title: By and Down the River
+  credit: Drums
+- slug: feathers-apc
+  title: Feathers
+  credit: Drums
 draft: false
 ---
+

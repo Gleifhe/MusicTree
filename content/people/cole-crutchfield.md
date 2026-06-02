@@ -1,118 +1,111 @@
 ---
-title: "Cole Crutchfield"
-slug: "cole-crutchfield"
-roles: ["Guitarist"]
+title: Cole Crutchfield
+slug: cole-crutchfield
+roles:
+- Guitarist
 bands:
-  - slug: "knocked-loose"
-    role: "Guitar"
+- slug: knocked-loose
+  role: Guitar
 song_credits:
-  - slug: "no-rest-for-the-wicked-klo"
-    title: "No Rest for the Wicked"
-    credit: "Guitar"
-  - slug: "the-rain-klo"
-    title: "The Rain"
-    credit: "Guitar"
-  - slug: "mistakes-like-fractures-klo"
-    title: "Mistakes Like Fractures"
-    credit: "Guitar"
-  - slug: "pity-party-klo"
-    title: "Pity Party"
-    credit: "Guitar"
-  - slug: "in-the-cards-klo"
-    title: "In the Cards"
-    credit: "Guitar"
-  - slug: "road-crew-klo"
-    title: "Road Crew"
-    credit: "Guitar"
-  - slug: "gospel-klo"
-    title: "Gospel"
-    credit: "Guitar"
-  - slug: "counting-worms-klo"
-    title: "Counting Worms"
-    credit: "Guitar"
-  - slug: "deadringer-klo"
-    title: "Deadringer"
-    credit: "Guitar"
-  - slug: "mistakes-like-fractures-2-klo"
-    title: "Mistakes Like Fractures"
-    credit: "Guitar"
-  - slug: "the-rain-2-klo"
-    title: "And Now She Bends"
-    credit: "Guitar"
-  - slug: "wrongside-klo"
-    title: "Wrongside"
-    credit: "Guitar"
-  - slug: "belleville-klo"
-    title: "Belleville"
-    credit: "Guitar"
-  - slug: "denied-by-fate-klo"
-    title: "Denied by Fate"
-    credit: "Guitar"
-  - slug: "trapped-in-the-body-klo"
-    title: "Trapped in the Body"
-    credit: "Guitar"
-  - slug: "misled-by-mirrors-klo"
-    title: "Misled by Mirrors"
-    credit: "Guitar"
-  - slug: "a-different-shade-of-blue-song-klo"
-    title: "A Different Shade of Blue"
-    credit: "Guitar"
-  - slug: "blood-letting-klo"
-    title: "Blood Letting"
-    credit: "Guitar"
-  - slug: "permanent-klo"
-    title: "Permanent"
-    credit: "Guitar"
-  - slug: "the-river-klo"
-    title: "The River"
-    credit: "Guitar"
-  - slug: "where-light-meets-the-deep-klo"
-    title: "Where Light Meets the Deep"
-    credit: "Guitar"
-  - slug: "everything-is-quiet-now-klo"
-    title: "Everything Is Quiet Now"
-    credit: "Guitar"
-  - slug: "looking-back-klo"
-    title: "Looking Back"
-    credit: "Guitar"
-  - slug: "lose-your-sense-of-fear-klo"
-    title: "Lose Your Sense of Fear"
-    credit: "Guitar"
-  - slug: "suffocate-klo"
-    title: "Suffocate"
-    credit: "Guitar"
-  - slug: "a-tear-in-the-fabric-song-klo"
-    title: "A Tear in the Fabric of Life"
-    credit: "Guitar"
-  - slug: "cold-klo"
-    title: "Cold"
-    credit: "Guitar"
-  - slug: "wrongside-2-klo"
-    title: "Wrongside"
-    credit: "Guitar"
-  - slug: "sit-and-mourn-klo"
-    title: "Sit and Mourn"
-    credit: "Guitar"
-  - slug: "this-ain-t-living-klo"
-    title: "This Ain't Living"
-    credit: "Guitar"
-  - slug: "take-turns-klo"
-    title: "Take Turns"
-    credit: "Guitar"
-  - slug: "the-calm-that-kills-klo"
-    title: "The Calm That Kills"
-    credit: "Guitar"
-  - slug: "deep-in-the-willow-klo"
-    title: "Deep in the Willow"
-    credit: "Guitar"
-  - slug: "nothing-left-klo"
-    title: "Nothing Left"
-    credit: "Guitar"
-  - slug: "how-it-will-end-klo"
-    title: "How It Will End"
-    credit: "Guitar"
-  - slug: "suffocate-2-klo"
-    title: "Suffocate"
-    credit: "Guitar"
+- slug: no-rest-for-the-wicked-klo
+  title: No Rest for the Wicked
+  credit: Guitar
+- slug: the-rain-klo
+  title: The Rain
+  credit: Guitar
+- slug: mistakes-like-fractures-klo
+  title: Mistakes Like Fractures
+  credit: Guitar
+- slug: pity-party-klo
+  title: Pity Party
+  credit: Guitar
+- slug: in-the-cards-klo
+  title: In the Cards
+  credit: Guitar
+- slug: road-crew-klo
+  title: Road Crew
+  credit: Guitar
+- slug: gospel-klo
+  title: Gospel
+  credit: Guitar
+- slug: counting-worms-klo
+  title: Counting Worms
+  credit: Guitar
+- slug: deadringer-klo
+  title: Deadringer
+  credit: Guitar
+- slug: the-rain-2-klo
+  title: And Now She Bends
+  credit: Guitar
+- slug: wrongside-klo
+  title: Wrongside
+  credit: Guitar
+- slug: belleville-klo
+  title: Belleville
+  credit: Guitar
+- slug: denied-by-fate-klo
+  title: Denied by Fate
+  credit: Guitar
+- slug: trapped-in-the-body-klo
+  title: Trapped in the Body
+  credit: Guitar
+- slug: misled-by-mirrors-klo
+  title: Misled by Mirrors
+  credit: Guitar
+- slug: a-different-shade-of-blue-song-klo
+  title: A Different Shade of Blue
+  credit: Guitar
+- slug: blood-letting-klo
+  title: Blood Letting
+  credit: Guitar
+- slug: permanent-klo
+  title: Permanent
+  credit: Guitar
+- slug: the-river-klo
+  title: The River
+  credit: Guitar
+- slug: where-light-meets-the-deep-klo
+  title: Where Light Meets the Deep
+  credit: Guitar
+- slug: everything-is-quiet-now-klo
+  title: Everything Is Quiet Now
+  credit: Guitar
+- slug: looking-back-klo
+  title: Looking Back
+  credit: Guitar
+- slug: lose-your-sense-of-fear-klo
+  title: Lose Your Sense of Fear
+  credit: Guitar
+- slug: suffocate-klo
+  title: Suffocate
+  credit: Guitar
+- slug: a-tear-in-the-fabric-song-klo
+  title: A Tear in the Fabric of Life
+  credit: Guitar
+- slug: cold-klo
+  title: Cold
+  credit: Guitar
+- slug: sit-and-mourn-klo
+  title: Sit and Mourn
+  credit: Guitar
+- slug: this-ain-t-living-klo
+  title: This Ain't Living
+  credit: Guitar
+- slug: take-turns-klo
+  title: Take Turns
+  credit: Guitar
+- slug: the-calm-that-kills-klo
+  title: The Calm That Kills
+  credit: Guitar
+- slug: deep-in-the-willow-klo
+  title: Deep in the Willow
+  credit: Guitar
+- slug: nothing-left-klo
+  title: Nothing Left
+  credit: Guitar
+- slug: how-it-will-end-klo
+  title: How It Will End
+  credit: Guitar
 draft: false
 ---
+

@@ -11,7 +11,7 @@
         {{- with .Params.duration }}<span class="meta-item">{{ . }}</span>{{ end }}
       </div>
       {{- with .Params.mbid }}
-      <a class="mb-link" href="https://musicbrainz.org/recording/{{ . }}" target="_blank" rel="noopener">MusicBrainz ↗</a>
+      <a class="mb-link" href="https://musicbrainz.org/recording/{{ . }}" target="_blank" rel="noopener noreferrer">MusicBrainz ↗</a>
       {{- end }}
     </div>
   </header>
@@ -44,7 +44,7 @@
 {{ end }}
 
 {{ define "scripts" }}
-<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
 <script>window.FOCUS_NODE = "{{ .File.ContentBaseName }}";</script>
 <script src="/js/mini-graph.js"></script>
 {{ end }}

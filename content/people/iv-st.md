@@ -1,91 +1,90 @@
 ---
-title: "IV"
-slug: "iv-st"
-roles: ["Bassist"]
+title: IV
+slug: iv-st
+roles:
+- Bassist
 bands:
-  - slug: "sleep-token"
-    role: "Bass"
+- slug: sleep-token
+  role: Bass
 song_credits:
-  - slug: "the-night-does-not-belong-to-god-slt"
-    title: "The Night Does Not Belong to God"
-    credit: "Bass"
-  - slug: "atlantic-slt"
-    title: "Atlantic"
-    credit: "Bass"
-  - slug: "sugar-slt"
-    title: "Sugar"
-    credit: "Bass"
-  - slug: "blood-sport-slt"
-    title: "Blood Sport"
-    credit: "Bass"
-  - slug: "the-offering-slt"
-    title: "The Offering"
-    credit: "Bass"
-  - slug: "dark-signs-slt"
-    title: "Dark Signs"
-    credit: "Bass"
-  - slug: "like-that-slt"
-    title: "Like That"
-    credit: "Bass"
-  - slug: "higher-slt"
-    title: "Higher"
-    credit: "Bass"
-  - slug: "nazareth-slt"
-    title: "Nazareth"
-    credit: "Bass"
-  - slug: "chokehold-slt"
-    title: "Chokehold"
-    credit: "Bass"
-  - slug: "alkaline-slt"
-    title: "Alkaline"
-    credit: "Bass"
-  - slug: "the-love-you-want-slt"
-    title: "The Love You Want"
-    credit: "Bass"
-  - slug: "distraction-slt"
-    title: "Distraction"
-    credit: "Bass"
-  - slug: "like-that-2-slt"
-    title: "Like That (II)"
-    credit: "Bass"
-  - slug: "telomeres-slt"
-    title: "Telomeres"
-    credit: "Bass"
-  - slug: "give-slt"
-    title: "Give"
-    credit: "Bass"
-  - slug: "the-summoning-slt"
-    title: "The Summoning"
-    credit: "Bass"
-  - slug: "aqua-regia-slt"
-    title: "Aqua Regia"
-    credit: "Bass"
-  - slug: "chokehold-2-slt"
-    title: "Chokehold (Reprise)"
-    credit: "Bass"
-  - slug: "the-summoning-2-slt"
-    title: "The Summoning (II)"
-    credit: "Bass"
-  - slug: "chokehold-slt2"
-    title: "Chokehold"
-    credit: "Bass"
-  - slug: "the-tree-of-life-slt"
-    title: "The Tree of Life"
-    credit: "Bass"
-  - slug: "ascensionism-slt"
-    title: "Ascensionism"
-    credit: "Bass"
-  - slug: "take-me-back-to-eden-song-slt"
-    title: "Take Me Back to Eden"
-    credit: "Bass"
-  - slug: "vore-slt"
-    title: "VORE"
-    credit: "Bass"
-  - slug: "euclid-slt"
-    title: "Euclid"
-    credit: "Bass"
-  - slug: "their-blood-slt"
-    title: "Their Blood"
-    credit: "Bass"
+- slug: the-night-does-not-belong-to-god-slt
+  title: The Night Does Not Belong to God
+  credit: Bass
+- slug: atlantic-slt
+  title: Atlantic
+  credit: Bass
+- slug: sugar-slt
+  title: Sugar
+  credit: Bass
+- slug: blood-sport-slt
+  title: Blood Sport
+  credit: Bass
+- slug: the-offering-slt
+  title: The Offering
+  credit: Bass
+- slug: dark-signs-slt
+  title: Dark Signs
+  credit: Bass
+- slug: like-that-slt
+  title: Like That
+  credit: Bass
+- slug: higher-slt
+  title: Higher
+  credit: Bass
+- slug: nazareth-slt
+  title: Nazareth
+  credit: Bass
+- slug: chokehold-slt
+  title: Chokehold
+  credit: Bass
+- slug: alkaline-slt
+  title: Alkaline
+  credit: Bass
+- slug: the-love-you-want-slt
+  title: The Love You Want
+  credit: Bass
+- slug: distraction-slt
+  title: Distraction
+  credit: Bass
+- slug: like-that-2-slt
+  title: Like That (II)
+  credit: Bass
+- slug: telomeres-slt
+  title: Telomeres
+  credit: Bass
+- slug: give-slt
+  title: Give
+  credit: Bass
+- slug: the-summoning-slt
+  title: The Summoning
+  credit: Bass
+- slug: aqua-regia-slt
+  title: Aqua Regia
+  credit: Bass
+- slug: chokehold-2-slt
+  title: Chokehold (Reprise)
+  credit: Bass
+- slug: the-summoning-2-slt
+  title: The Summoning (II)
+  credit: Bass
+- slug: the-tree-of-life-slt
+  title: The Tree of Life
+  credit: Bass
+- slug: ascensionism-slt
+  title: Ascensionism
+  credit: Bass
+- slug: take-me-back-to-eden-song-slt
+  title: Take Me Back to Eden
+  credit: Bass
+- slug: vore-slt
+  title: VORE
+  credit: Bass
+- slug: euclid-slt
+  title: Euclid
+  credit: Bass
+- slug: their-blood-slt
+  title: Their Blood
+  credit: Bass
 draft: false
 ---
+

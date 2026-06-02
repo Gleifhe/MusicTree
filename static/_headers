@@ -1,0 +1,16 @@
+/data/graph.json
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
+
+/data/graph-slim.json
+  Cache-Control: public, max-age=86400, stale-while-revalidate=3600
+
+/js/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/css/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

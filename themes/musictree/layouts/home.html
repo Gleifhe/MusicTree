@@ -14,6 +14,7 @@
     <div class="search-panel">
       <input type="text" id="graph-search" placeholder="Search nodes…" autocomplete="off">
       <div id="search-suggestions" class="search-suggestions"></div>
+      <button id="btn-random" class="btn-random" title="Random artist">🎲 Random</button>
     </div>
     <div class="path-finder-panel">
       <details>
@@ -62,11 +63,32 @@
       </a>
     </div>
   </div>
+
+<div class="featured-section">
+  <h3>Featured Connections</h3>
+  <div class="featured-cards">
+    {{ $featured := slice
+      (dict "from" "nirvana" "to" "foo-fighters" "via" "Dave Grohl" "label" "Nirvana → Foo Fighters")
+      (dict "from" "pixies" "to" "nirvana" "via" "Kurt Cobain (fan/influence)" "label" "Pixies → Nirvana")
+      (dict "from" "radiohead" "to" "thom-yorke" "via" "Thom Yorke solo" "label" "Radiohead → Solo Work")
+      (dict "from" "soundgarden" "to" "audioslave" "via" "Chris Cornell" "label" "Soundgarden → Audioslave")
+    }}
+    {{ range $featured }}
+    <div class="featured-card">
+      <div class="featured-connection">
+        <a href="/artists/{{ .from }}/" class="featured-artist">{{ .from | title }}</a>
+        <span class="featured-via">via {{ .via }}</span>
+        <a href="/artists/{{ .to }}/" class="featured-artist">{{ .to | title }}</a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
 </div>
 
 {{ end }}
 
 {{ define "scripts" }}
-<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
 <script src="/js/graph.js"></script>
 {{ end }}

@@ -1,91 +1,90 @@
 ---
-title: "Noah Sebastian"
-slug: "noah-sebastian"
-roles: ["Vocalist"]
+title: Noah Sebastian
+slug: noah-sebastian
+roles:
+- Vocalist
 bands:
-  - slug: "bad-omens"
-    role: "Vocals"
+- slug: bad-omens
+  role: Vocals
 song_credits:
-  - slug: "glass-houses-bo"
-    title: "Glass Houses"
-    credit: "Vocals"
-  - slug: "exit-wounds-bo"
-    title: "Exit Wounds"
-    credit: "Vocals"
-  - slug: "stay-sick-bo"
-    title: "Stay Sick"
-    credit: "Vocals"
-  - slug: "broken-together-bo"
-    title: "Broken Together"
-    credit: "Vocals"
-  - slug: "the-worst-in-me-bo"
-    title: "The Worst in Me"
-    credit: "Vocals"
-  - slug: "all-i-have-bo"
-    title: "All I Have"
-    credit: "Vocals"
-  - slug: "nothing-left-bo"
-    title: "Nothing Left"
-    credit: "Vocals"
-  - slug: "mercy-bo"
-    title: "Mercy"
-    credit: "Vocals"
-  - slug: "one-last-breath-bo"
-    title: "One Last Breath"
-    credit: "Vocals"
-  - slug: "just-pretend-bo"
-    title: "Just Pretend"
-    credit: "Vocals"
-  - slug: "warning-signs-bo"
-    title: "Warning Signs"
-    credit: "Vocals"
-  - slug: "feet-don-t-fail-me-bo"
-    title: "Feet Don't Fail Me"
-    credit: "Vocals"
-  - slug: "the-death-of-peace-bo"
-    title: "The Death of Peace"
-    credit: "Vocals"
-  - slug: "nowhere-to-go-bo"
-    title: "Nowhere to Go"
-    credit: "Vocals"
-  - slug: "in-too-deep-bo"
-    title: "In Too Deep"
-    credit: "Vocals"
-  - slug: "tether-bo"
-    title: "Tether"
-    credit: "Vocals"
-  - slug: "limits-bo"
-    title: "Limits"
-    credit: "Vocals"
-  - slug: "dethrone-bo"
-    title: "Dethrone"
-    credit: "Vocals"
-  - slug: "concrete-jungle-bo"
-    title: "Concrete Jungle"
-    credit: "Vocals"
-  - slug: "just-pretend-2-bo"
-    title: "Just Pretend"
-    credit: "Vocals"
-  - slug: "the-death-of-peace-of-mind-song-bo"
-    title: "The Death of Peace of Mind"
-    credit: "Vocals"
-  - slug: "like-a-villain-bo"
-    title: "Like a Villain"
-    credit: "Vocals"
-  - slug: "bad-decisions-bo"
-    title: "Bad Decisions"
-    credit: "Vocals"
-  - slug: "take-me-first-bo"
-    title: "Take Me First"
-    credit: "Vocals"
-  - slug: "what-it-means-to-be-alive-bo"
-    title: "What It Means to Be Alive"
-    credit: "Vocals"
-  - slug: "suffer-survive-bo"
-    title: "Suffer Survive"
-    credit: "Vocals"
-  - slug: "the-grey-bo"
-    title: "The Grey"
-    credit: "Vocals"
+- slug: glass-houses-bo
+  title: Glass Houses
+  credit: Vocals
+- slug: exit-wounds-bo
+  title: Exit Wounds
+  credit: Vocals
+- slug: stay-sick-bo
+  title: Stay Sick
+  credit: Vocals
+- slug: broken-together-bo
+  title: Broken Together
+  credit: Vocals
+- slug: the-worst-in-me-bo
+  title: The Worst in Me
+  credit: Vocals
+- slug: all-i-have-bo
+  title: All I Have
+  credit: Vocals
+- slug: nothing-left-bo
+  title: Nothing Left
+  credit: Vocals
+- slug: mercy-bo
+  title: Mercy
+  credit: Vocals
+- slug: one-last-breath-bo
+  title: One Last Breath
+  credit: Vocals
+- slug: just-pretend-bo
+  title: Just Pretend
+  credit: Vocals
+- slug: warning-signs-bo
+  title: Warning Signs
+  credit: Vocals
+- slug: feet-don-t-fail-me-bo
+  title: Feet Don't Fail Me
+  credit: Vocals
+- slug: the-death-of-peace-bo
+  title: The Death of Peace
+  credit: Vocals
+- slug: nowhere-to-go-bo
+  title: Nowhere to Go
+  credit: Vocals
+- slug: in-too-deep-bo
+  title: In Too Deep
+  credit: Vocals
+- slug: tether-bo
+  title: Tether
+  credit: Vocals
+- slug: limits-bo
+  title: Limits
+  credit: Vocals
+- slug: dethrone-bo
+  title: Dethrone
+  credit: Vocals
+- slug: concrete-jungle-bo
+  title: Concrete Jungle
+  credit: Vocals
+- slug: the-death-of-peace-of-mind-song-bo
+  title: The Death of Peace of Mind
+  credit: Vocals
+- slug: like-a-villain-bo
+  title: Like a Villain
+  credit: Vocals
+- slug: bad-decisions-bo
+  title: Bad Decisions
+  credit: Vocals
+- slug: take-me-first-bo
+  title: Take Me First
+  credit: Vocals
+- slug: what-it-means-to-be-alive-bo
+  title: What It Means to Be Alive
+  credit: Vocals
+- slug: suffer-survive-bo
+  title: Suffer Survive
+  credit: Vocals
+- slug: the-grey-bo
+  title: The Grey
+  credit: Vocals
 draft: false
 ---
+

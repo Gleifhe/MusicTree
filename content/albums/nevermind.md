@@ -1,48 +1,52 @@
-﻿---
-title: "Nevermind"
-mbid: "1b022e01-4da6-387b-8658-8678046e4cef"
-artist: "Nirvana"
-artist_slug: "nirvana"
-year: 1991
-genres: ["alternative rock", "grunge"]
-songs:
-  - slug: "smells-like-teen-spirit"
-    title: "Smells Like Teen Spirit"
-    duration: "5:01"
-  - slug: "in-bloom"
-    title: "In Bloom"
-    duration: "4:14"
-  - slug: "come-as-you-are"
-    title: "Come as You Are"
-    duration: "3:38"
-  - slug: "breed"
-    title: "Breed"
-    duration: "3:03"
-  - slug: "lithium"
-    title: "Lithium"
-    duration: "4:17"
-  - slug: "polly"
-    title: "Polly"
-    duration: "2:57"
-  - slug: "territorial-pissings"
-    title: "Territorial Pissings"
-    duration: "2:22"
-  - slug: "drain-you"
-    title: "Drain You"
-    duration: "3:43"
-  - slug: "lounge-act"
-    title: "Lounge Act"
-    duration: "2:36"
-  - slug: "stay-away"
-    title: "Stay Away"
-    duration: "3:32"
-  - slug: "on-a-plain"
-    title: "On a Plain"
-    duration: "3:16"
-  - slug: "something-in-the-way"
-    title: "Something in the Way"
-    duration: "3:48"
-draft: false
 ---
+title: Nevermind
+mbid: 1b022e01-4da6-387b-8658-8678046e4cef
+artist: Nirvana
+artist_slug: nirvana
+year: 1991
+genres:
+- alternative rock
+- grunge
+songs:
+- slug: smells-like-teen-spirit
+  title: Smells Like Teen Spirit
+  duration: '5:01'
+- slug: in-bloom
+  title: In Bloom
+  duration: '4:14'
+- slug: come-as-you-are
+  title: Come as You Are
+  duration: '3:38'
+- slug: breed
+  title: Breed
+  duration: '3:03'
+- slug: lithium
+  title: Lithium
+  duration: '4:17'
+- slug: polly
+  title: Polly
+  duration: '2:57'
+- slug: territorial-pissings
+  title: Territorial Pissings
+  duration: '2:22'
+- slug: drain-you
+  title: Drain You
+  duration: '3:43'
+- slug: lounge-act
+  title: Lounge Act
+  duration: '2:36'
+- slug: stay-away
+  title: Stay Away
+  duration: '3:32'
+- slug: on-a-plain
+  title: On a Plain
+  duration: '3:16'
+- slug: something-in-the-way
+  title: Something in the Way
+  duration: '3:48'
+draft: false
+album_type: Studio
+---
+
 
 *Nevermind* is the second studio album by Nirvana, released on September 24, 1991 via DGC Records. Produced by Butch Vig, it marked the mainstream breakthrough of both the band and the grunge movement, eventually displacing Michael Jackson's *Dangerous* from the top of the Billboard 200.

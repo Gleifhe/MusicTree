@@ -1,63 +1,58 @@
 ---
-title: "Peter Silberman"
-slug: "peter-silberman-jb"
-roles: ["Producer"]
-bands:
-
+title: Peter Silberman
+slug: peter-silberman-jb
+roles:
+- Producer
+bands: null
 song_credits:
-  - slug: "in-heaven-jb"
-    title: "In Heaven"
-    credit: "Producer"
-  - slug: "everybody-wants-to-love-you-jb"
-    title: "Everybody Wants to Love You"
-    credit: "Producer"
-  - slug: "heft-jb"
-    title: "Heft"
-    credit: "Producer"
-  - slug: "the-woman-that-loves-you-jb"
-    title: "The Woman That Loves You"
-    credit: "Producer"
-  - slug: "soft-sounds-jb-song"
-    title: "Soft Sounds from Another Planet"
-    credit: "Producer"
-  - slug: "triple-dog-dare-jb"
-    title: "Triple Dog Dare"
-    credit: "Producer"
-  - slug: "this-house-jb"
-    title: "This House"
-    credit: "Producer"
-  - slug: "angelina-jb"
-    title: "Angelina"
-    credit: "Producer"
-  - slug: "jane-jb"
-    title: "Jane"
-    credit: "Producer"
-  - slug: "diving-woman-jb"
-    title: "Diving Woman"
-    credit: "Producer"
-  - slug: "machinist-jb"
-    title: "Machinist"
-    credit: "Producer"
-  - slug: "soft-sounds-song-jb"
-    title: "Soft Sounds from Another Planet"
-    credit: "Producer"
-  - slug: "road-head-jb"
-    title: "Road Head"
-    credit: "Producer"
-  - slug: "triple-dog-dare-2-jb"
-    title: "Triple Dog Dare"
-    credit: "Producer"
-  - slug: "this-house-2-jb"
-    title: "Till Death"
-    credit: "Producer"
-  - slug: "jimmy-fallon-jb"
-    title: "Jimmy Fallon Big"
-    credit: "Producer"
-  - slug: "boyish-jb"
-    title: "Boyish"
-    credit: "Producer"
-  - slug: "posing-in-bondage-jb"
-    title: "Posing in Bondage"
-    credit: "Producer"
+- slug: in-heaven-jb
+  title: In Heaven
+  credit: Producer
+- slug: everybody-wants-to-love-you-jb
+  title: Everybody Wants to Love You
+  credit: Producer
+- slug: heft-jb
+  title: Heft
+  credit: Producer
+- slug: the-woman-that-loves-you-jb
+  title: The Woman That Loves You
+  credit: Producer
+- slug: soft-sounds-song-jb
+  title: Soft Sounds from Another Planet
+  credit: Producer
+- slug: triple-dog-dare-jb
+  title: Triple Dog Dare
+  credit: Producer
+- slug: this-house-jb
+  title: This House
+  credit: Producer
+- slug: angelina-jb
+  title: Angelina
+  credit: Producer
+- slug: jane-jb
+  title: Jane
+  credit: Producer
+- slug: diving-woman-jb
+  title: Diving Woman
+  credit: Producer
+- slug: machinist-jb
+  title: Machinist
+  credit: Producer
+- slug: road-head-jb
+  title: Road Head
+  credit: Producer
+- slug: this-house-2-jb
+  title: Till Death
+  credit: Producer
+- slug: jimmy-fallon-jb
+  title: Jimmy Fallon Big
+  credit: Producer
+- slug: boyish-jb
+  title: Boyish
+  credit: Producer
+- slug: posing-in-bondage-jb
+  title: Posing in Bondage
+  credit: Producer
 draft: false
 ---
+

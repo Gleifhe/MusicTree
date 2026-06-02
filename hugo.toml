@@ -35,3 +35,7 @@ theme = 'musictree'
     name = 'Scenes'
     pageRef = '/scenes'
     weight = 60
+
+[caches]
+  [caches.getjson]
+    maxAge = "24h"

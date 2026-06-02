@@ -89,25 +89,11 @@
   // ── Simulation ──────────────────────────────────────────────────────────
   let simulation, gLink, gNode, linkEls, nodeEls;
 
+  // Called once after data loads — builds full graph for ALL nodes/links.
   function buildGraph() {
-    // Filter nodes by active types and search
-    const visibleNodes = allNodes.filter(n => {
-      if (!activeTypes.has(n.type)) return false;
-      if (searchTerm) return n.label.toLowerCase().includes(searchTerm);
-      return true;
-    });
-
-    const visibleIds = new Set(visibleNodes.map(n => n.id));
-
-    const visibleLinks = allLinks.filter(l => {
-      const srcId = typeof l.source === 'object' ? l.source.id : l.source;
-      const tgtId = typeof l.target === 'object' ? l.target.id : l.target;
-      return visibleIds.has(srcId) && visibleIds.has(tgtId);
-    });
-
-    // Reset to string IDs for re-simulation
-    const nodeData = visibleNodes.map(d => ({ ...d }));
-    const linkData = visibleLinks.map(d => ({
+    // Use all nodes; applyFilter() handles show/hide after build.
+    const nodeData = allNodes.map(d => ({ ...d }));
+    const linkData = allLinks.map(d => ({
       source: typeof d.source === 'object' ? d.source.id : d.source,
       target: typeof d.target === 'object' ? d.target.id : d.target,
       relation: d.relation,
@@ -278,6 +264,25 @@
     setTimeout(() => simulation && simulation.stop(), 8000);
   }
 
+  // Called on filter/search changes — just show/hide existing DOM elements.
+  function applyFilter() {
+    const visibleIds = new Set(
+      allNodes
+        .filter(n => activeTypes.has(n.type) && (!searchTerm || n.label.toLowerCase().includes(searchTerm)))
+        .map(n => n.id)
+    );
+    if (nodeEls) {
+      nodeEls.style('display', d => visibleIds.has(d.id) ? null : 'none');
+    }
+    if (linkEls) {
+      linkEls.style('display', d => {
+        const s = typeof d.source === 'object' ? d.source.id : d.source;
+        const t = typeof d.target === 'object' ? d.target.id : d.target;
+        return visibleIds.has(s) && visibleIds.has(t) ? null : 'none';
+      });
+    }
+  }
+
   // ── Drag ────────────────────────────────────────────────────────────────
   function dragStart(event, d) {
     if (!event.active) simulation.alphaTarget(0.3).restart();
@@ -319,6 +324,14 @@
       allLinks = rawData.links.map(d => ({ ...d }));
       buildGraph();
 
+      document.getElementById('btn-random')?.addEventListener('click', () => {
+        const artists = allNodes.filter(n => n.type === 'artist');
+        if (artists.length && artists[0].url) {
+          const pick = artists[Math.floor(Math.random() * artists.length)];
+          window.location.href = pick.url;
+        }
+      });
+
       // ── Filters ───────────────────────────────────────────────────────
       document.querySelectorAll('.filter-panel input[type=checkbox]').forEach(cb => {
         cb.addEventListener('change', () => {
@@ -327,7 +340,9 @@
               .filter(el => el.checked)
               .map(el => el.dataset.type)
           );
-          buildGraph();
+          applyFilter();
+          // Light restart so newly-visible nodes settle into position
+          if (simulation) simulation.alpha(0.15).restart();
         });
       });
 
@@ -335,7 +350,7 @@
       const suggestions = document.getElementById('search-suggestions');
       document.getElementById('graph-search').addEventListener('input', e => {
         searchTerm = e.target.value.trim().toLowerCase();
-        buildGraph();
+        applyFilter();
         if (suggestions && searchTerm.length >= 2) {
           const matches = allNodes
             .filter(n => n.label.toLowerCase().includes(searchTerm))

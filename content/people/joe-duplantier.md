@@ -1,334 +1,307 @@
 ---
-title: "Joe Duplantier"
-slug: "joe-duplantier"
-roles: ["Vocalist", "Guitarist"]
+title: Joe Duplantier
+slug: joe-duplantier
+roles:
+- Vocalist
+- Guitarist
 bands:
-  - slug: "gojira"
-    role: "Vocals, Guitar"
+- slug: gojira
+  role: Vocals, Guitar
 song_credits:
-  - slug: "clone-gj"
-    title: "Clone"
-    credit: "Vocals, Guitar"
-  - slug: "clone-gj"
-    title: "Clone"
-    credit: "Producer"
-  - slug: "the-link-song-gj"
-    title: "The Link"
-    credit: "Vocals, Guitar"
-  - slug: "the-link-song-gj"
-    title: "The Link"
-    credit: "Producer"
-  - slug: "the-art-of-dying-gj"
-    title: "The Art of Dying"
-    credit: "Vocals, Guitar"
-  - slug: "the-art-of-dying-gj"
-    title: "The Art of Dying"
-    credit: "Producer"
-  - slug: "where-dragons-dwell-gj"
-    title: "Where Dragons Dwell"
-    credit: "Vocals, Guitar"
-  - slug: "where-dragons-dwell-gj"
-    title: "Where Dragons Dwell"
-    credit: "Producer"
-  - slug: "the-heaviest-matter-of-the-universe-gj"
-    title: "The Heaviest Matter of the Universe"
-    credit: "Vocals, Guitar"
-  - slug: "the-heaviest-matter-of-the-universe-gj"
-    title: "The Heaviest Matter of the Universe"
-    credit: "Producer"
-  - slug: "flying-whales-gj"
-    title: "Flying Whales"
-    credit: "Vocals, Guitar"
-  - slug: "flying-whales-gj"
-    title: "Flying Whales"
-    credit: "Producer"
-  - slug: "in-the-wilderness-gj"
-    title: "In the Wilderness"
-    credit: "Vocals, Guitar"
-  - slug: "in-the-wilderness-gj"
-    title: "In the Wilderness"
-    credit: "Producer"
-  - slug: "world-to-come-gj"
-    title: "World to Come"
-    credit: "Vocals, Guitar"
-  - slug: "world-to-come-gj"
-    title: "World to Come"
-    credit: "Producer"
-  - slug: "l-enfant-sauvage-early-gj"
-    title: "L'Enfant Sauvage"
-    credit: "Vocals, Guitar"
-  - slug: "l-enfant-sauvage-early-gj"
-    title: "L'Enfant Sauvage"
-    credit: "Producer"
-  - slug: "ocean-planet-gj"
-    title: "Ocean Planet"
-    credit: "Vocals, Guitar"
-  - slug: "ocean-planet-gj"
-    title: "Ocean Planet"
-    credit: "Producer"
-  - slug: "backbone-gj"
-    title: "Backbone"
-    credit: "Vocals, Guitar"
-  - slug: "backbone-gj"
-    title: "Backbone"
-    credit: "Producer"
-  - slug: "from-the-sky-gj"
-    title: "From the Sky"
-    credit: "Vocals, Guitar"
-  - slug: "from-the-sky-gj"
-    title: "From the Sky"
-    credit: "Producer"
-  - slug: "wisdom-comes-gj"
-    title: "Wisdom Comes"
-    credit: "Vocals, Guitar"
-  - slug: "wisdom-comes-gj"
-    title: "Wisdom Comes"
-    credit: "Producer"
-  - slug: "the-heaviest-matter-gj"
-    title: "The Heaviest Matter of the Universe"
-    credit: "Vocals, Guitar"
-  - slug: "the-heaviest-matter-gj"
-    title: "The Heaviest Matter of the Universe"
-    credit: "Producer"
-  - slug: "flying-whales-2-gj"
-    title: "Flying Whales"
-    credit: "Vocals, Guitar"
-  - slug: "flying-whales-2-gj"
-    title: "Flying Whales"
-    credit: "Producer"
-  - slug: "in-the-wilderness-2-gj"
-    title: "In the Wilderness"
-    credit: "Vocals, Guitar"
-  - slug: "in-the-wilderness-2-gj"
-    title: "In the Wilderness"
-    credit: "Producer"
-  - slug: "world-to-come-2-gj"
-    title: "World to Come"
-    credit: "Vocals, Guitar"
-  - slug: "world-to-come-2-gj"
-    title: "World to Come"
-    credit: "Producer"
-  - slug: "from-mars-to-sirius-song-gj"
-    title: "From Mars to Sirius"
-    credit: "Vocals, Guitar"
-  - slug: "from-mars-to-sirius-song-gj"
-    title: "From Mars to Sirius"
-    credit: "Producer"
-  - slug: "oroborus-gj"
-    title: "Oroborus"
-    credit: "Vocals, Guitar"
-  - slug: "oroborus-gj"
-    title: "Oroborus"
-    credit: "Producer"
-  - slug: "toxic-garbage-island-gj"
-    title: "Toxic Garbage Island"
-    credit: "Vocals, Guitar"
-  - slug: "toxic-garbage-island-gj"
-    title: "Toxic Garbage Island"
-    credit: "Producer"
-  - slug: "a-sight-to-behold-gj"
-    title: "A Sight to Behold"
-    credit: "Vocals, Guitar"
-  - slug: "a-sight-to-behold-gj"
-    title: "A Sight to Behold"
-    credit: "Producer"
-  - slug: "yama-s-messengers-gj"
-    title: "Yama's Messengers"
-    credit: "Vocals, Guitar"
-  - slug: "yama-s-messengers-gj"
-    title: "Yama's Messengers"
-    credit: "Producer"
-  - slug: "the-way-of-all-flesh-song-gj"
-    title: "The Way of All Flesh"
-    credit: "Vocals, Guitar"
-  - slug: "the-way-of-all-flesh-song-gj"
-    title: "The Way of All Flesh"
-    credit: "Producer"
-  - slug: "vacuity-gj"
-    title: "Vacuity"
-    credit: "Vocals, Guitar"
-  - slug: "vacuity-gj"
-    title: "Vacuity"
-    credit: "Producer"
-  - slug: "wolf-down-the-earth-gj"
-    title: "Wolf Down the Earth"
-    credit: "Vocals, Guitar"
-  - slug: "wolf-down-the-earth-gj"
-    title: "Wolf Down the Earth"
-    credit: "Producer"
-  - slug: "the-forest-gj"
-    title: "The Forest"
-    credit: "Vocals, Guitar"
-  - slug: "the-forest-gj"
-    title: "The Forest"
-    credit: "Producer"
-  - slug: "esoteric-surgery-gj"
-    title: "Esoteric Surgery"
-    credit: "Vocals, Guitar"
-  - slug: "esoteric-surgery-gj"
-    title: "Esoteric Surgery"
-    credit: "Producer"
-  - slug: "explosia-gj"
-    title: "Explosia"
-    credit: "Vocals, Guitar"
-  - slug: "explosia-gj"
-    title: "Explosia"
-    credit: "Producer"
-  - slug: "lenfant-sauvage-song-gj"
-    title: "L'Enfant Sauvage"
-    credit: "Vocals, Guitar"
-  - slug: "lenfant-sauvage-song-gj"
-    title: "L'Enfant Sauvage"
-    credit: "Producer"
-  - slug: "the-axe-gj"
-    title: "The Axe"
-    credit: "Vocals, Guitar"
-  - slug: "the-axe-gj"
-    title: "The Axe"
-    credit: "Producer"
-  - slug: "vultures-gj"
-    title: "Vultures"
-    credit: "Vocals, Guitar"
-  - slug: "vultures-gj"
-    title: "Vultures"
-    credit: "Producer"
-  - slug: "pain-is-a-master-gj"
-    title: "Pain Is a Master"
-    credit: "Vocals, Guitar"
-  - slug: "pain-is-a-master-gj"
-    title: "Pain Is a Master"
-    credit: "Producer"
-  - slug: "born-in-winter-gj"
-    title: "Born in Winter"
-    credit: "Vocals, Guitar"
-  - slug: "born-in-winter-gj"
-    title: "Born in Winter"
-    credit: "Producer"
-  - slug: "the-wild-healer-gj"
-    title: "The Wild Healer"
-    credit: "Vocals, Guitar"
-  - slug: "the-wild-healer-gj"
-    title: "The Wild Healer"
-    credit: "Producer"
-  - slug: "the-gift-of-guilt-gj"
-    title: "The Gift of Guilt"
-    credit: "Vocals, Guitar"
-  - slug: "the-gift-of-guilt-gj"
-    title: "The Gift of Guilt"
-    credit: "Producer"
-  - slug: "wikid-skism-gj"
-    title: "Wikid Skism"
-    credit: "Vocals, Guitar"
-  - slug: "wikid-skism-gj"
-    title: "Wikid Skism"
-    credit: "Producer"
-  - slug: "the-shooting-star-gj"
-    title: "The Shooting Star"
-    credit: "Vocals, Guitar"
-  - slug: "the-shooting-star-gj"
-    title: "The Shooting Star"
-    credit: "Producer"
-  - slug: "silvera-gj"
-    title: "Silvera"
-    credit: "Vocals, Guitar"
-  - slug: "silvera-gj"
-    title: "Silvera"
-    credit: "Producer"
-  - slug: "the-cell-gj"
-    title: "The Cell"
-    credit: "Vocals, Guitar"
-  - slug: "the-cell-gj"
-    title: "The Cell"
-    credit: "Producer"
-  - slug: "stranded-gj"
-    title: "Stranded"
-    credit: "Vocals, Guitar"
-  - slug: "stranded-gj"
-    title: "Stranded"
-    credit: "Producer"
-  - slug: "yellow-stone-gj"
-    title: "Yellow Stone"
-    credit: "Vocals, Guitar"
-  - slug: "yellow-stone-gj"
-    title: "Yellow Stone"
-    credit: "Producer"
-  - slug: "magma-song-gj"
-    title: "Magma"
-    credit: "Vocals, Guitar"
-  - slug: "magma-song-gj"
-    title: "Magma"
-    credit: "Producer"
-  - slug: "pray-gj"
-    title: "Pray"
-    credit: "Vocals, Guitar"
-  - slug: "pray-gj"
-    title: "Pray"
-    credit: "Producer"
-  - slug: "only-pain-gj"
-    title: "Only Pain"
-    credit: "Vocals, Guitar"
-  - slug: "only-pain-gj"
-    title: "Only Pain"
-    credit: "Producer"
-  - slug: "low-lands-gj"
-    title: "Low Lands"
-    credit: "Vocals, Guitar"
-  - slug: "low-lands-gj"
-    title: "Low Lands"
-    credit: "Producer"
-  - slug: "born-for-one-thing-gj"
-    title: "Born for One Thing"
-    credit: "Vocals, Guitar"
-  - slug: "born-for-one-thing-gj"
-    title: "Born for One Thing"
-    credit: "Producer"
-  - slug: "amazonia-gj"
-    title: "Amazonia"
-    credit: "Vocals, Guitar"
-  - slug: "amazonia-gj"
-    title: "Amazonia"
-    credit: "Producer"
-  - slug: "hold-on-gj"
-    title: "Hold On"
-    credit: "Vocals, Guitar"
-  - slug: "hold-on-gj"
-    title: "Hold On"
-    credit: "Producer"
-  - slug: "new-found-gj"
-    title: "New Found"
-    credit: "Vocals, Guitar"
-  - slug: "new-found-gj"
-    title: "New Found"
-    credit: "Producer"
-  - slug: "into-the-storm-gj"
-    title: "Into the Storm"
-    credit: "Vocals, Guitar"
-  - slug: "into-the-storm-gj"
-    title: "Into the Storm"
-    credit: "Producer"
-  - slug: "fortitude-song-gj"
-    title: "Fortitude"
-    credit: "Vocals, Guitar"
-  - slug: "fortitude-song-gj"
-    title: "Fortitude"
-    credit: "Producer"
-  - slug: "the-chant-gj"
-    title: "The Chant"
-    credit: "Vocals, Guitar"
-  - slug: "the-chant-gj"
-    title: "The Chant"
-    credit: "Producer"
-  - slug: "another-world-gj"
-    title: "Another World"
-    credit: "Vocals, Guitar"
-  - slug: "another-world-gj"
-    title: "Another World"
-    credit: "Producer"
-  - slug: "grind-gj"
-    title: "Grind"
-    credit: "Vocals, Guitar"
-  - slug: "grind-gj"
-    title: "Grind"
-    credit: "Producer"
+- slug: clone-gj
+  title: Clone
+  credit: Vocals, Guitar
+- slug: clone-gj
+  title: Clone
+  credit: Producer
+- slug: the-link-song-gj
+  title: The Link
+  credit: Vocals, Guitar
+- slug: the-link-song-gj
+  title: The Link
+  credit: Producer
+- slug: the-art-of-dying-gj
+  title: The Art of Dying
+  credit: Vocals, Guitar
+- slug: the-art-of-dying-gj
+  title: The Art of Dying
+  credit: Producer
+- slug: where-dragons-dwell-gj
+  title: Where Dragons Dwell
+  credit: Vocals, Guitar
+- slug: where-dragons-dwell-gj
+  title: Where Dragons Dwell
+  credit: Producer
+- slug: the-heaviest-matter-of-the-universe-gj
+  title: The Heaviest Matter of the Universe
+  credit: Vocals, Guitar
+- slug: the-heaviest-matter-of-the-universe-gj
+  title: The Heaviest Matter of the Universe
+  credit: Producer
+- slug: flying-whales-gj
+  title: Flying Whales
+  credit: Vocals, Guitar
+- slug: flying-whales-gj
+  title: Flying Whales
+  credit: Producer
+- slug: in-the-wilderness-gj
+  title: In the Wilderness
+  credit: Vocals, Guitar
+- slug: in-the-wilderness-gj
+  title: In the Wilderness
+  credit: Producer
+- slug: world-to-come-gj
+  title: World to Come
+  credit: Vocals, Guitar
+- slug: world-to-come-gj
+  title: World to Come
+  credit: Producer
+- slug: lenfant-sauvage-song-gj
+  title: L'Enfant Sauvage
+  credit: Vocals, Guitar
+- slug: lenfant-sauvage-song-gj
+  title: L'Enfant Sauvage
+  credit: Producer
+- slug: ocean-planet-gj
+  title: Ocean Planet
+  credit: Vocals, Guitar
+- slug: ocean-planet-gj
+  title: Ocean Planet
+  credit: Producer
+- slug: backbone-gj
+  title: Backbone
+  credit: Vocals, Guitar
+- slug: backbone-gj
+  title: Backbone
+  credit: Producer
+- slug: from-the-sky-gj
+  title: From the Sky
+  credit: Vocals, Guitar
+- slug: from-the-sky-gj
+  title: From the Sky
+  credit: Producer
+- slug: wisdom-comes-gj
+  title: Wisdom Comes
+  credit: Vocals, Guitar
+- slug: wisdom-comes-gj
+  title: Wisdom Comes
+  credit: Producer
+- slug: from-mars-to-sirius-song-gj
+  title: From Mars to Sirius
+  credit: Vocals, Guitar
+- slug: from-mars-to-sirius-song-gj
+  title: From Mars to Sirius
+  credit: Producer
+- slug: oroborus-gj
+  title: Oroborus
+  credit: Vocals, Guitar
+- slug: oroborus-gj
+  title: Oroborus
+  credit: Producer
+- slug: toxic-garbage-island-gj
+  title: Toxic Garbage Island
+  credit: Vocals, Guitar
+- slug: toxic-garbage-island-gj
+  title: Toxic Garbage Island
+  credit: Producer
+- slug: a-sight-to-behold-gj
+  title: A Sight to Behold
+  credit: Vocals, Guitar
+- slug: a-sight-to-behold-gj
+  title: A Sight to Behold
+  credit: Producer
+- slug: yama-s-messengers-gj
+  title: Yama's Messengers
+  credit: Vocals, Guitar
+- slug: yama-s-messengers-gj
+  title: Yama's Messengers
+  credit: Producer
+- slug: the-way-of-all-flesh-song-gj
+  title: The Way of All Flesh
+  credit: Vocals, Guitar
+- slug: the-way-of-all-flesh-song-gj
+  title: The Way of All Flesh
+  credit: Producer
+- slug: vacuity-gj
+  title: Vacuity
+  credit: Vocals, Guitar
+- slug: vacuity-gj
+  title: Vacuity
+  credit: Producer
+- slug: wolf-down-the-earth-gj
+  title: Wolf Down the Earth
+  credit: Vocals, Guitar
+- slug: wolf-down-the-earth-gj
+  title: Wolf Down the Earth
+  credit: Producer
+- slug: the-forest-gj
+  title: The Forest
+  credit: Vocals, Guitar
+- slug: the-forest-gj
+  title: The Forest
+  credit: Producer
+- slug: esoteric-surgery-gj
+  title: Esoteric Surgery
+  credit: Vocals, Guitar
+- slug: esoteric-surgery-gj
+  title: Esoteric Surgery
+  credit: Producer
+- slug: explosia-gj
+  title: Explosia
+  credit: Vocals, Guitar
+- slug: explosia-gj
+  title: Explosia
+  credit: Producer
+- slug: the-axe-gj
+  title: The Axe
+  credit: Vocals, Guitar
+- slug: the-axe-gj
+  title: The Axe
+  credit: Producer
+- slug: vultures-gj
+  title: Vultures
+  credit: Vocals, Guitar
+- slug: vultures-gj
+  title: Vultures
+  credit: Producer
+- slug: pain-is-a-master-gj
+  title: Pain Is a Master
+  credit: Vocals, Guitar
+- slug: pain-is-a-master-gj
+  title: Pain Is a Master
+  credit: Producer
+- slug: born-in-winter-gj
+  title: Born in Winter
+  credit: Vocals, Guitar
+- slug: born-in-winter-gj
+  title: Born in Winter
+  credit: Producer
+- slug: the-wild-healer-gj
+  title: The Wild Healer
+  credit: Vocals, Guitar
+- slug: the-wild-healer-gj
+  title: The Wild Healer
+  credit: Producer
+- slug: the-gift-of-guilt-gj
+  title: The Gift of Guilt
+  credit: Vocals, Guitar
+- slug: the-gift-of-guilt-gj
+  title: The Gift of Guilt
+  credit: Producer
+- slug: wikid-skism-gj
+  title: Wikid Skism
+  credit: Vocals, Guitar
+- slug: wikid-skism-gj
+  title: Wikid Skism
+  credit: Producer
+- slug: the-shooting-star-gj
+  title: The Shooting Star
+  credit: Vocals, Guitar
+- slug: the-shooting-star-gj
+  title: The Shooting Star
+  credit: Producer
+- slug: silvera-gj
+  title: Silvera
+  credit: Vocals, Guitar
+- slug: silvera-gj
+  title: Silvera
+  credit: Producer
+- slug: the-cell-gj
+  title: The Cell
+  credit: Vocals, Guitar
+- slug: the-cell-gj
+  title: The Cell
+  credit: Producer
+- slug: stranded-gj
+  title: Stranded
+  credit: Vocals, Guitar
+- slug: stranded-gj
+  title: Stranded
+  credit: Producer
+- slug: yellow-stone-gj
+  title: Yellow Stone
+  credit: Vocals, Guitar
+- slug: yellow-stone-gj
+  title: Yellow Stone
+  credit: Producer
+- slug: magma-song-gj
+  title: Magma
+  credit: Vocals, Guitar
+- slug: magma-song-gj
+  title: Magma
+  credit: Producer
+- slug: pray-gj
+  title: Pray
+  credit: Vocals, Guitar
+- slug: pray-gj
+  title: Pray
+  credit: Producer
+- slug: only-pain-gj
+  title: Only Pain
+  credit: Vocals, Guitar
+- slug: only-pain-gj
+  title: Only Pain
+  credit: Producer
+- slug: low-lands-gj
+  title: Low Lands
+  credit: Vocals, Guitar
+- slug: low-lands-gj
+  title: Low Lands
+  credit: Producer
+- slug: born-for-one-thing-gj
+  title: Born for One Thing
+  credit: Vocals, Guitar
+- slug: born-for-one-thing-gj
+  title: Born for One Thing
+  credit: Producer
+- slug: amazonia-gj
+  title: Amazonia
+  credit: Vocals, Guitar
+- slug: amazonia-gj
+  title: Amazonia
+  credit: Producer
+- slug: hold-on-gj
+  title: Hold On
+  credit: Vocals, Guitar
+- slug: hold-on-gj
+  title: Hold On
+  credit: Producer
+- slug: new-found-gj
+  title: New Found
+  credit: Vocals, Guitar
+- slug: new-found-gj
+  title: New Found
+  credit: Producer
+- slug: into-the-storm-gj
+  title: Into the Storm
+  credit: Vocals, Guitar
+- slug: into-the-storm-gj
+  title: Into the Storm
+  credit: Producer
+- slug: fortitude-song-gj
+  title: Fortitude
+  credit: Vocals, Guitar
+- slug: fortitude-song-gj
+  title: Fortitude
+  credit: Producer
+- slug: the-chant-gj
+  title: The Chant
+  credit: Vocals, Guitar
+- slug: the-chant-gj
+  title: The Chant
+  credit: Producer
+- slug: another-world-gj
+  title: Another World
+  credit: Vocals, Guitar
+- slug: another-world-gj
+  title: Another World
+  credit: Producer
+- slug: grind-gj
+  title: Grind
+  credit: Vocals, Guitar
+- slug: grind-gj
+  title: Grind
+  credit: Producer
 draft: false
 ---
+
