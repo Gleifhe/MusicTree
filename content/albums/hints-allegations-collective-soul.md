@@ -1,6 +1,7 @@
 ---
 title: "Hints, Allegations and Things Left Unsaid"
 slug: hints-allegations-collective-soul
+artist_slug: collective-soul
 artist: collective-soul
 year: 1994
 producer: ed-roland

@@ -1,6 +1,7 @@
 ---
 title: "Sparkle and Fade"
 slug: sparkle-and-fade-everclear
+artist_slug: everclear
 artist: everclear
 year: 1995
 producer: rob-schnapf

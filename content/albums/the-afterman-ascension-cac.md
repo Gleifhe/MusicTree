@@ -1,6 +1,7 @@
 ---
 title: 'The Afterman: Ascension'
 slug: the-afterman-ascension-cac
+artist_slug: coheed-and-cambria
 artist: coheed-and-cambria
 year: 2012
 producer: claudio-sanchez

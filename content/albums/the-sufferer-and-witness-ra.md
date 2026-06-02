@@ -1,6 +1,7 @@
 ---
 title: The Sufferer & the Witness
 slug: the-sufferer-and-witness-ra
+artist_slug: rise-against
 artist: rise-against
 year: 2006
 producer: bill-stevenson

@@ -1,6 +1,7 @@
 ---
 title: Diary of a Madman
 slug: diary-of-a-madman
+artist_slug: ozzy-osbourne
 artist: ozzy-osbourne
 year: 1981
 producer: max-norman

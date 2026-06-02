@@ -1,6 +1,7 @@
 ---
 title: Ghost in the Machine
 slug: ghost-in-the-machine
+artist_slug: the-police
 artist: the-police
 year: 1981
 producer: hugh-padgham

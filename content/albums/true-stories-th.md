@@ -1,6 +1,7 @@
 ---
 title: True Stories
 slug: true-stories-th
+artist_slug: talking-heads
 artist: talking-heads
 year: 1986
 producer: david-byrne

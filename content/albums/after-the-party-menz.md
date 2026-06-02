@@ -1,6 +1,7 @@
 ---
 title: After the Party
 slug: after-the-party-menz
+artist_slug: the-menzingers
 artist: the-menzingers
 year: 2017
 producer: will-yip

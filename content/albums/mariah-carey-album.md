@@ -1,6 +1,7 @@
 ---
 title: "Mariah Carey"
 slug: mariah-carey-album
+artist_slug: mariah-carey
 artist: mariah-carey
 year: 1990
 producer: walter-afanasieff

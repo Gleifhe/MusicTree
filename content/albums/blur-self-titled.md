@@ -1,6 +1,7 @@
 ---
 title: "Blur"
 slug: blur-self-titled
+artist_slug: blur
 artist: blur
 year: 1997
 producer: stephen-street

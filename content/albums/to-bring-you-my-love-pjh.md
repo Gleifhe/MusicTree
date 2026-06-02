@@ -1,6 +1,7 @@
 ---
 title: "To Bring You My Love"
 slug: to-bring-you-my-love-pjh
+artist_slug: pj-harvey
 artist: pj-harvey
 year: 1995
 producer: flood-producer

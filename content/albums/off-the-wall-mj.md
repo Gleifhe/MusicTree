@@ -1,6 +1,7 @@
 ---
 title: Off the Wall
 slug: off-the-wall-mj
+artist_slug: michael-jackson
 artist: michael-jackson
 year: 1979
 producer: quincy-jones

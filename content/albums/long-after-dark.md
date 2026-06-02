@@ -1,6 +1,7 @@
 ---
 title: Long After Dark
 slug: long-after-dark
+artist_slug: tom-petty-heartbreakers
 artist: tom-petty-heartbreakers
 year: 1982
 producer: jimmy-iovine

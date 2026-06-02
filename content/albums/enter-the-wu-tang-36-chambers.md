@@ -1,6 +1,7 @@
 ---
 title: "Enter the Wu-Tang (36 Chambers)"
 slug: enter-the-wu-tang-36-chambers
+artist_slug: wu-tang-clan
 artist: wu-tang-clan
 year: 1993
 producer: rza

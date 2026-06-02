@@ -1,6 +1,7 @@
 ---
 title: The Smiths
 slug: the-smiths-album
+artist_slug: the-smiths
 artist: the-smiths
 year: 1984
 producer: john-porter

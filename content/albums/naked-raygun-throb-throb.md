@@ -1,6 +1,7 @@
 ---
 title: "Throb Throb"
 slug: naked-raygun-throb-throb
+artist_slug: naked-raygun
 artist: naked-raygun
 year: 1985
 songs:

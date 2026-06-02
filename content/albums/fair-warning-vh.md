@@ -1,6 +1,7 @@
 ---
 title: Fair Warning
 slug: fair-warning-vh
+artist_slug: van-halen
 artist: van-halen
 year: 1981
 producer: ted-templeman

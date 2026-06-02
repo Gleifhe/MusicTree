@@ -1,6 +1,7 @@
 ---
 title: "Schubert Dip"
 slug: schubert-dip-emf
+artist_slug: emf
 artist: emf
 year: 1991
 songs:

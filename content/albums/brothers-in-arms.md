@@ -1,6 +1,7 @@
 ---
 title: Brothers in Arms
 slug: brothers-in-arms
+artist_slug: dire-straits
 artist: dire-straits
 year: 1985
 producer: neil-dorfsman

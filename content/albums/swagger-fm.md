@@ -1,6 +1,7 @@
 ---
 title: Swagger
 slug: swagger-fm
+artist_slug: flogging-molly
 artist: flogging-molly
 year: 2000
 producer: dave-king-fm

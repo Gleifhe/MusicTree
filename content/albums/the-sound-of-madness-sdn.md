@@ -1,6 +1,7 @@
 ---
 title: The Sound of Madness
 slug: the-sound-of-madness-sdn
+artist_slug: shinedown
 artist: shinedown
 year: 2008
 producer: eric-bass

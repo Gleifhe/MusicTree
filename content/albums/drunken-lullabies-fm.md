@@ -1,6 +1,7 @@
 ---
 title: Drunken Lullabies
 slug: drunken-lullabies-fm
+artist_slug: flogging-molly
 artist: flogging-molly
 year: 2002
 producer: dave-king-fm

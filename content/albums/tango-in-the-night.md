@@ -1,6 +1,7 @@
 ---
 title: Tango in the Night
 slug: tango-in-the-night
+artist_slug: fleetwood-mac
 artist: fleetwood-mac
 year: 1987
 producer: lindsey-buckingham

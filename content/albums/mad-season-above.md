@@ -1,6 +1,7 @@
 ---
 title: "Above"
 slug: mad-season-above
+artist_slug: mad-season
 artist: mad-season
 year: 1995
 producer: brett-eliason

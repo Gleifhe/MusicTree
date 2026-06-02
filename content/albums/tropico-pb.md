@@ -1,6 +1,7 @@
 ---
 title: Tropico
 slug: tropico-pb
+artist_slug: pat-benatar
 artist: pat-benatar
 year: 1984
 producer: neil-giraldo

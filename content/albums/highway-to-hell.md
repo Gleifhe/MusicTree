@@ -1,6 +1,7 @@
 ---
 title: Highway to Hell
 slug: highway-to-hell
+artist_slug: ac-dc
 artist: ac-dc
 year: 1979
 producer: mutt-lange

@@ -1,6 +1,7 @@
 ---
 title: Actually
 slug: actually-psb
+artist_slug: pet-shop-boys
 artist: pet-shop-boys
 year: 1987
 producer: neil-tennant

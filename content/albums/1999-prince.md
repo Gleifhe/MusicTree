@@ -1,6 +1,7 @@
 ---
 title: "1999"
 slug: "1999-prince"
+artist_slug: prince
 artist: prince
 year: 1982
 producer: prince-person

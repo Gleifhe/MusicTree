@@ -1,6 +1,7 @@
 ---
 title: Good Trouble
 slug: good-trouble-reo
+artist_slug: reo-speedwagon
 artist: reo-speedwagon
 year: 1982
 producer: kevin-cronin

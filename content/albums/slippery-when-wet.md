@@ -1,6 +1,7 @@
 ---
 title: Slippery When Wet
 slug: slippery-when-wet
+artist_slug: bon-jovi
 artist: bon-jovi
 year: 1986
 producer: bruce-fairbairn

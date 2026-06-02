@@ -1,6 +1,7 @@
 ---
 title: The Hurting
 slug: the-hurting
+artist_slug: tears-for-fears
 artist: tears-for-fears
 year: 1983
 producer: chris-hughes-tff

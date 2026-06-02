@@ -1,6 +1,7 @@
 ---
 title: Duran Duran
 slug: duran-duran-93
+artist_slug: duran-duran
 artist: duran-duran
 year: 1993
 producer: john-taylor-dd

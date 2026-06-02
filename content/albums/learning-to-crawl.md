@@ -1,6 +1,7 @@
 ---
 title: Learning to Crawl
 slug: learning-to-crawl
+artist_slug: the-pretenders
 artist: the-pretenders
 year: 1984
 producer: chris-thomas-inxs

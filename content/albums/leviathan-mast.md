@@ -1,6 +1,7 @@
 ---
 title: Leviathan
 slug: leviathan-mast
+artist_slug: mastodon
 artist: mastodon
 year: 2004
 producer: brann-dailor

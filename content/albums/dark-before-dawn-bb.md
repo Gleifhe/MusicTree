@@ -1,6 +1,7 @@
 ---
 title: Dark Before Dawn
 slug: dark-before-dawn-bb
+artist_slug: breaking-benjamin
 artist: breaking-benjamin
 year: 2015
 producer: david-bendeth

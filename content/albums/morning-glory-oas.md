@@ -1,6 +1,7 @@
 ---
 title: "(What's the Story) Morning Glory?"
 slug: morning-glory-oas
+artist_slug: oasis
 artist: oasis
 year: 1995
 producer: owen-morris

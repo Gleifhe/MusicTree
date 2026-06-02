@@ -1,6 +1,7 @@
 ---
 title: Into the Fire
 slug: into-the-fire-ba
+artist_slug: bryan-adams
 artist: bryan-adams
 year: 1987
 producer: bob-clearmountain

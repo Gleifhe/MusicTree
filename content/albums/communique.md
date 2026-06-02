@@ -1,6 +1,7 @@
 ---
 title: Communique
 slug: communique
+artist_slug: dire-straits
 artist: dire-straits
 year: 1979
 producer: mark-knopfler

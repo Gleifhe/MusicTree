@@ -1,6 +1,7 @@
 ---
 title: The Meanest of Times
 slug: the-meanest-of-times-dkm
+artist_slug: dropkick-murphys
 artist: dropkick-murphys
 year: 2007
 producer: ted-hutt

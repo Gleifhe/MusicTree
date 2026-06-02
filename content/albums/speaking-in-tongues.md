@@ -1,6 +1,7 @@
 ---
 title: Speaking in Tongues
 slug: speaking-in-tongues
+artist_slug: talking-heads
 artist: talking-heads
 year: 1983
 producer: david-byrne

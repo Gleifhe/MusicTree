@@ -1,6 +1,7 @@
 ---
 title: Dire Straits
 slug: dire-straits-1978
+artist_slug: dire-straits
 artist: dire-straits
 year: 1978
 producer: mark-knopfler

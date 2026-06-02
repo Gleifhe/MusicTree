@@ -1,6 +1,7 @@
 ---
 title: Love Over Gold
 slug: love-over-gold
+artist_slug: dire-straits
 artist: dire-straits
 year: 1982
 producer: mark-knopfler

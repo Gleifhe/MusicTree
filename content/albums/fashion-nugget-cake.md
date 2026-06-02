@@ -1,6 +1,7 @@
 ---
 title: "Fashion Nugget"
 slug: fashion-nugget-cake
+artist_slug: cake
 artist: cake
 year: 1996
 producer: john-mccrea

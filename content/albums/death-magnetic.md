@@ -1,6 +1,7 @@
 ---
 title: Death Magnetic
 slug: death-magnetic
+artist_slug: metallica
 artist: metallica
 year: 2008
 producer: rick-rubin

@@ -1,6 +1,7 @@
 ---
 title: Into the Great Wide Open
 slug: into-the-great-wide-open
+artist_slug: tom-petty-heartbreakers
 artist: tom-petty-heartbreakers
 year: 1991
 producer: jeff-lynne

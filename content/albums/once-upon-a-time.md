@@ -1,6 +1,7 @@
 ---
 title: Once Upon a Time
 slug: once-upon-a-time
+artist_slug: simple-minds
 artist: simple-minds
 year: 1985
 producer: jimmy-iovine

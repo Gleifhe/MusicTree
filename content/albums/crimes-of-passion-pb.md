@@ -1,6 +1,7 @@
 ---
 title: Crimes of Passion
 slug: crimes-of-passion-pb
+artist_slug: pat-benatar
 artist: pat-benatar
 year: 1980
 producer: neil-giraldo

@@ -1,6 +1,7 @@
 ---
 title: "Under the Table and Dreaming"
 slug: under-the-table-dmb
+artist_slug: dave-matthews-band
 artist: dave-matthews-band
 year: 1994
 producer: steve-lillywhite

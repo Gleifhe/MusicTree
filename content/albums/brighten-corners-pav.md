@@ -1,6 +1,7 @@
 ---
 title: "Brighten the Corners"
 slug: brighten-corners-pav
+artist_slug: pavement
 artist: pavement
 year: 1997
 producer: stephen-malkmus

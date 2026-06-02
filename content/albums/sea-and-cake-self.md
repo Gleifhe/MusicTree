@@ -1,6 +1,7 @@
 ---
 title: "The Sea and Cake"
 slug: sea-and-cake-self
+artist_slug: the-sea-and-cake
 artist: the-sea-and-cake
 year: 1994
 songs:

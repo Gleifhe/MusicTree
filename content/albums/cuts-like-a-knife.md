@@ -1,6 +1,7 @@
 ---
 title: Cuts Like a Knife
 slug: cuts-like-a-knife
+artist_slug: bryan-adams
 artist: bryan-adams
 year: 1983
 producer: bob-clearmountain

@@ -1,6 +1,7 @@
 ---
 title: Full Moon Fever
 slug: full-moon-fever
+artist_slug: tom-petty-heartbreakers
 artist: tom-petty-heartbreakers
 year: 1989
 producer: jeff-lynne

@@ -1,6 +1,7 @@
 ---
 title: "Lived to Tell"
 slug: edd-lived-to-tell
+artist_slug: eleventh-dream-day
 artist: eleventh-dream-day
 year: 1991
 songs:

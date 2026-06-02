@@ -1,6 +1,7 @@
 ---
 title: Pretenders
 slug: pretenders-album
+artist_slug: the-pretenders
 artist: the-pretenders
 year: 1980
 producer: chris-thomas-inxs

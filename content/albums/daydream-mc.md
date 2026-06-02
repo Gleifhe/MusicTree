@@ -1,6 +1,7 @@
 ---
 title: "Daydream"
 slug: daydream-mc
+artist_slug: mariah-carey
 artist: mariah-carey
 year: 1995
 producer: walter-afanasieff

@@ -1,6 +1,7 @@
 ---
 title: "Crash"
 slug: crash-dmb
+artist_slug: dave-matthews-band
 artist: dave-matthews-band
 year: 1996
 producer: steve-lillywhite

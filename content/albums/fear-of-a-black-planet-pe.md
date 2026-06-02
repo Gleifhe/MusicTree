@@ -1,6 +1,7 @@
 ---
 title: "Fear of a Black Planet"
 slug: fear-of-a-black-planet-pe
+artist_slug: public-enemy
 artist: public-enemy
 year: 1990
 producer: hank-shocklee

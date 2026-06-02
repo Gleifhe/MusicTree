@@ -1,6 +1,7 @@
 ---
 title: "Post"
 slug: post-bjork
+artist_slug: bjork
 artist: bjork
 year: 1995
 producer: nellee-hooper

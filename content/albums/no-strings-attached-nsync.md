@@ -1,6 +1,7 @@
 ---
 title: "No Strings Attached"
 slug: no-strings-attached-nsync
+artist_slug: nsync
 artist: nsync
 year: 2000
 producer: max-martin

@@ -1,6 +1,7 @@
 ---
 title: True Colors
 slug: true-colors-album
+artist_slug: cyndi-lauper
 artist: cyndi-lauper
 year: 1986
 producer: rick-chertoff

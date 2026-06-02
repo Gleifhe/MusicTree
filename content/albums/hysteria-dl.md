@@ -1,6 +1,7 @@
 ---
 title: Hysteria
 slug: hysteria-dl
+artist_slug: def-leppard
 artist: def-leppard
 year: 1987
 producer: mutt-lange

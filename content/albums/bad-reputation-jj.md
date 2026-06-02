@@ -1,6 +1,7 @@
 ---
 title: Bad Reputation
 slug: bad-reputation-jj
+artist_slug: joan-jett
 artist: joan-jett
 year: 1980
 producer: kenny-laguna

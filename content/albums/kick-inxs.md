@@ -1,6 +1,7 @@
 ---
 title: Kick
 slug: kick-inxs
+artist_slug: inxs
 artist: inxs
 year: 1987
 producer: chris-thomas-inxs

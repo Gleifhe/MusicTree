@@ -1,6 +1,7 @@
 ---
 title: Born in the USA
 slug: born-in-the-usa
+artist_slug: bruce-springsteen
 artist: bruce-springsteen
 year: 1984
 producer: jon-landau

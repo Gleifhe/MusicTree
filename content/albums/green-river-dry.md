@@ -1,6 +1,7 @@
 ---
 title: "Dry as a Bone EP"
 slug: green-river-dry
+artist_slug: green-river
 artist: green-river
 year: 1987
 producer: jack-endino

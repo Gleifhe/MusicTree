@@ -1,6 +1,7 @@
 ---
 title: Women and Children First
 slug: women-and-children-first
+artist_slug: van-halen
 artist: van-halen
 year: 1980
 producer: ted-templeman

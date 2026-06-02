@@ -1,6 +1,7 @@
 ---
 title: Strangeways Here We Come
 slug: strangeways-here-we-come
+artist_slug: the-smiths
 artist: the-smiths
 year: 1987
 producer: stephen-street

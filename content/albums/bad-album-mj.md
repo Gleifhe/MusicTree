@@ -1,6 +1,7 @@
 ---
 title: Bad
 slug: bad-album-mj
+artist_slug: michael-jackson
 artist: michael-jackson
 year: 1987
 producer: quincy-jones

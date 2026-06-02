@@ -1,6 +1,7 @@
 ---
 title: Metallica
 slug: metallica-black-album
+artist_slug: metallica
 artist: metallica
 year: 1991
 producer: bob-rock-producer

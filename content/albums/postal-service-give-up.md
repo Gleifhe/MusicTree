@@ -1,6 +1,7 @@
 ---
 title: "Give Up"
 slug: postal-service-give-up
+artist_slug: the-postal-service
 artist: the-postal-service
 year: 2003
 songs:

@@ -1,6 +1,7 @@
 ---
 title: Lamb of God
 slug: lamb-of-god-2020
+artist_slug: lamb-of-god
 artist: lamb-of-god
 year: 2020
 producer: machine-producer

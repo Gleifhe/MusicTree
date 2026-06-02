@@ -1,6 +1,7 @@
 ---
 title: Hail to the King
 slug: hail-to-the-king-a7x
+artist_slug: avenged-sevenfold
 artist: avenged-sevenfold
 year: 2013
 producer: joe-barresi

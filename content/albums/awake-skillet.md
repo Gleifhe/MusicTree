@@ -1,6 +1,7 @@
 ---
 title: Awake
 slug: awake-skillet
+artist_slug: skillet
 artist: skillet
 year: 2009
 producer: john-cooper

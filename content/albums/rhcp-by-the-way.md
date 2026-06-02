@@ -1,6 +1,7 @@
 ---
 title: "By the Way"
 slug: rhcp-by-the-way
+artist_slug: red-hot-chili-peppers
 artist: red-hot-chili-peppers
 year: 2002
 producer: rick-rubin

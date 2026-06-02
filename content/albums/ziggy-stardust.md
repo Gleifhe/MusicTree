@@ -1,6 +1,7 @@
 ---
 title: The Rise and Fall of Ziggy Stardust
 slug: ziggy-stardust
+artist_slug: david-bowie
 artist: david-bowie
 year: 1972
 producer: david-bowie-person

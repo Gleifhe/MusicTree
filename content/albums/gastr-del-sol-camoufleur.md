@@ -1,6 +1,7 @@
 ---
 title: "Camoufleur"
 slug: gastr-del-sol-camoufleur
+artist_slug: gastr-del-sol
 artist: gastr-del-sol
 year: 1998
 producer: jim-orourke

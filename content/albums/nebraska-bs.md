@@ -1,6 +1,7 @@
 ---
 title: Nebraska
 slug: nebraska-bs
+artist_slug: bruce-springsteen
 artist: bruce-springsteen
 year: 1982
 producer: bruce-springsteen-person

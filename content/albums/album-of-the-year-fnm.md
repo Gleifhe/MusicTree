@@ -1,6 +1,7 @@
 ---
 title: "Album of the Year"
 slug: album-of-the-year-fnm
+artist_slug: faith-no-more
 artist: faith-no-more
 year: 1997
 producer: billy-gould

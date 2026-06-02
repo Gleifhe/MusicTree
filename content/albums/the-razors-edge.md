@@ -1,6 +1,7 @@
 ---
 title: "The Razor's Edge"
 slug: the-razors-edge
+artist_slug: ac-dc
 artist: ac-dc
 year: 1990
 producer: bruce-fairbairn

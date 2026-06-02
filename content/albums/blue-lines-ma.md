@@ -1,6 +1,7 @@
 ---
 title: "Blue Lines"
 slug: blue-lines-ma
+artist_slug: massive-attack
 artist: massive-attack
 year: 1991
 songs:

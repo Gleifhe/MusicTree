@@ -1,6 +1,7 @@
 ---
 title: "Mammoth WVH"
 slug: mammoth-wvh-album
+artist_slug: mammoth-wvh
 artist: mammoth-wvh
 year: 2021
 songs:

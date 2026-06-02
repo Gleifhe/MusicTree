@@ -1,6 +1,7 @@
 ---
 title: Soul to Soul
 slug: soul-to-soul-srv
+artist_slug: stevie-ray-vaughan
 artist: stevie-ray-vaughan
 year: 1985
 producer: richard-mullen

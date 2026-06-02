@@ -1,6 +1,7 @@
 ---
 title: Back in Black
 slug: back-in-black
+artist_slug: ac-dc
 artist: ac-dc
 year: 1980
 producer: mutt-lange

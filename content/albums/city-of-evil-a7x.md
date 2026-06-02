@@ -1,6 +1,7 @@
 ---
 title: City of Evil
 slug: city-of-evil-a7x
+artist_slug: avenged-sevenfold
 artist: avenged-sevenfold
 year: 2005
 producer: joe-barresi

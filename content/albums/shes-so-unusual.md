@@ -1,6 +1,7 @@
 ---
 title: "She's So Unusual"
 slug: shes-so-unusual
+artist_slug: cyndi-lauper
 artist: cyndi-lauper
 year: 1983
 producer: rick-chertoff

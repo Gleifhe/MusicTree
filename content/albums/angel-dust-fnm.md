@@ -1,6 +1,7 @@
 ---
 title: "Angel Dust"
 slug: angel-dust-fnm
+artist_slug: faith-no-more
 artist: faith-no-more
 year: 1992
 producer: matt-wallace

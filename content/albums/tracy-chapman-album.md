@@ -1,6 +1,7 @@
 ---
 title: Tracy Chapman
 slug: tracy-chapman-album
+artist_slug: tracy-chapman
 artist: tracy-chapman
 year: 1988
 producer: david-kershenbaum

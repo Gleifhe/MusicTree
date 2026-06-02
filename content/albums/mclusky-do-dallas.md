@@ -1,6 +1,7 @@
 ---
 title: "mclusky Do Dallas"
 slug: mclusky-do-dallas
+artist_slug: mclusky
 artist: mclusky
 year: 2002
 songs:

@@ -1,6 +1,7 @@
 ---
 title: "No Need to Argue"
 slug: no-need-to-argue-cranberries
+artist_slug: the-cranberries
 artist: the-cranberries
 year: 1994
 producer: stephen-street

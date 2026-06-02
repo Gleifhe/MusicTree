@@ -1,6 +1,7 @@
 ---
 title: "4"
 slug: foreigner-4
+artist_slug: foreigner
 artist: foreigner
 year: 1981
 producer: mutt-lange

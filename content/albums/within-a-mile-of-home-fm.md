@@ -1,6 +1,7 @@
 ---
 title: Within a Mile of Home
 slug: within-a-mile-of-home-fm
+artist_slug: flogging-molly
 artist: flogging-molly
 year: 2004
 producer: dave-king-fm

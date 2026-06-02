@@ -1,6 +1,7 @@
 ---
 title: Pyromania
 slug: pyromania
+artist_slug: def-leppard
 artist: def-leppard
 year: 1983
 producer: mutt-lange

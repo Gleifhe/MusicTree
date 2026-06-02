@@ -1,6 +1,7 @@
 ---
 title: "Sublime"
 slug: sublime-self-titled
+artist_slug: sublime
 artist: sublime
 year: 1996
 producer: david-kahne

@@ -1,6 +1,7 @@
 ---
 title: Meat Is Murder
 slug: meat-is-murder
+artist_slug: the-smiths
 artist: the-smiths
 year: 1985
 producer: john-porter

@@ -1,6 +1,7 @@
 ---
 title: British Steel
 slug: british-steel
+artist_slug: judas-priest
 artist: judas-priest
 year: 1980
 producer: tom-allom

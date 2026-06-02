@@ -1,6 +1,7 @@
 ---
 title: Ride the Lightning
 slug: ride-the-lightning
+artist_slug: metallica
 artist: metallica
 year: 1984
 producer: flemming-rasmussen

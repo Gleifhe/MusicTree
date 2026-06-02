@@ -1,6 +1,7 @@
 ---
 title: Southern Accents
 slug: southern-accents
+artist_slug: tom-petty-heartbreakers
 artist: tom-petty-heartbreakers
 year: 1985
 producer: dave-stewart-producer

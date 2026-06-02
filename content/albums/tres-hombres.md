@@ -1,6 +1,7 @@
 ---
 title: Tres Hombres
 slug: tres-hombres
+artist_slug: zz-top
 artist: zz-top
 year: 1973
 producer: bill-ham

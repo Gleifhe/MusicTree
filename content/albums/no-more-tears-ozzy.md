@@ -1,6 +1,7 @@
 ---
 title: No More Tears
 slug: no-more-tears-ozzy
+artist_slug: ozzy-osbourne
 artist: ozzy-osbourne
 year: 1991
 producer: duane-baron

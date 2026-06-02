@@ -1,6 +1,7 @@
 ---
 title: Agent Provocateur
 slug: agent-provocateur
+artist_slug: foreigner
 artist: foreigner
 year: 1984
 producer: alex-sadkin

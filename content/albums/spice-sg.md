@@ -1,6 +1,7 @@
 ---
 title: "Spice"
 slug: spice-sg
+artist_slug: spice-girls
 artist: spice-girls
 year: 1996
 producer: richard-stannard

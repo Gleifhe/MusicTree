@@ -1,6 +1,7 @@
 ---
 title: Tell All Your Friends
 slug: tell-all-your-friends-tbs
+artist_slug: taking-back-sunday
 artist: taking-back-sunday
 year: 2002
 producer: adam-lazzara

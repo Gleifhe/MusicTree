@@ -1,6 +1,7 @@
 ---
 title: Ray of Light
 slug: ray-of-light
+artist_slug: madonna
 artist: madonna
 year: 1998
 producer: william-orbit

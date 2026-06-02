@@ -1,6 +1,7 @@
 ---
 title: Like a Virgin
 slug: like-a-virgin-album
+artist_slug: madonna
 artist: madonna
 year: 1984
 producer: nile-rodgers

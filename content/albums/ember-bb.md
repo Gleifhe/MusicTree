@@ -1,6 +1,7 @@
 ---
 title: Ember
 slug: ember-bb
+artist_slug: breaking-benjamin
 artist: breaking-benjamin
 year: 2018
 producer: david-bendeth

@@ -1,6 +1,7 @@
 ---
 title: "C'mon, C'mon"
 slug: cmon-cmon-sc
+artist_slug: sheryl-crow
 artist: sheryl-crow
 year: 2002
 producer: sheryl-crow-person

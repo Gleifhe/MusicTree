@@ -1,6 +1,7 @@
 ---
 title: Painkiller
 slug: painkiller-jp
+artist_slug: judas-priest
 artist: judas-priest
 year: 1990
 producer: tom-allom

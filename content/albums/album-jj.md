@@ -1,6 +1,7 @@
 ---
 title: Album
 slug: album-jj
+artist_slug: joan-jett
 artist: joan-jett
 year: 1983
 producer: kenny-laguna

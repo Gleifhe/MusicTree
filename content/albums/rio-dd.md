@@ -1,6 +1,7 @@
 ---
 title: Rio
 slug: rio-dd
+artist_slug: duran-duran
 artist: duran-duran
 year: 1982
 producer: colin-thurston

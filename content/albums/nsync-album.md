@@ -1,6 +1,7 @@
 ---
 title: "NSYNC"
 slug: nsync-album
+artist_slug: nsync
 artist: nsync
 year: 1997
 producer: denniz-pop

@@ -1,6 +1,7 @@
 ---
 title: "Rock Steady"
 slug: rock-steady-nd
+artist_slug: no-doubt
 artist: no-doubt
 year: 2001
 producer: gwen-stefani

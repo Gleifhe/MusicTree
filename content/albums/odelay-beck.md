@@ -1,6 +1,7 @@
 ---
 title: "Odelay"
 slug: odelay-beck
+artist_slug: beck
 artist: beck
 year: 1996
 producer: the-dust-brothers

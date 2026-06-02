@@ -1,6 +1,7 @@
 ---
 title: Phobia
 slug: phobia-bb
+artist_slug: breaking-benjamin
 artist: breaking-benjamin
 year: 2006
 producer: david-bendeth

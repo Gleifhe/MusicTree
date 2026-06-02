@@ -1,6 +1,7 @@
 ---
 title: Thriller
 slug: thriller-album
+artist_slug: michael-jackson
 artist: michael-jackson
 year: 1982
 producer: quincy-jones

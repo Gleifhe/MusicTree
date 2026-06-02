@@ -1,6 +1,7 @@
 ---
 title: Wonder What's Next
 slug: wonder-whats-next-chv
+artist_slug: chevelle
 artist: chevelle
 year: 2002
 producer: joe-barresi

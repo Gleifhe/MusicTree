@@ -1,6 +1,7 @@
 ---
 title: Hello Exile
 slug: hello-exile-menz
+artist_slug: the-menzingers
 artist: the-menzingers
 year: 2019
 producer: will-yip

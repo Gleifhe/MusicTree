@@ -1,6 +1,7 @@
 ---
 title: Seventh Son of a Seventh Son
 slug: seventh-son
+artist_slug: iron-maiden
 artist: iron-maiden
 year: 1988
 producer: martin-birch

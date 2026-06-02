@@ -1,6 +1,7 @@
 ---
 title: "FanMail"
 slug: fanmail-tlc
+artist_slug: tlc
 artist: tlc
 year: 1999
 producer: dallas-austin

@@ -1,6 +1,7 @@
 ---
 title: "Parklife"
 slug: parklife-blur
+artist_slug: blur
 artist: blur
 year: 1994
 producer: stephen-street

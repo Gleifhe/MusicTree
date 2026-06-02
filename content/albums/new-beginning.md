@@ -1,6 +1,7 @@
 ---
 title: New Beginning
 slug: new-beginning
+artist_slug: tracy-chapman
 artist: tracy-chapman
 year: 1995
 producer: tracy-chapman-person

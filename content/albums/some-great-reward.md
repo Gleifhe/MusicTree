@@ -1,6 +1,7 @@
 ---
 title: Some Great Reward
 slug: some-great-reward
+artist_slug: depeche-mode
 artist: depeche-mode
 year: 1984
 producer: daniel-miller

@@ -1,6 +1,7 @@
 ---
 title: Songs from the Big Chair
 slug: songs-from-the-big-chair
+artist_slug: tears-for-fears
 artist: tears-for-fears
 year: 1985
 producer: chris-hughes-tff

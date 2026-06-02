@@ -1,6 +1,7 @@
 ---
 title: Load
 slug: load-met
+artist_slug: metallica
 artist: metallica
 year: 1996
 producer: bob-rock-producer

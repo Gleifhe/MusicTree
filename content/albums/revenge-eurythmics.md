@@ -1,6 +1,7 @@
 ---
 title: Revenge
 slug: revenge-eurythmics
+artist_slug: eurythmics
 artist: eurythmics
 year: 1986
 producer: dave-stewart

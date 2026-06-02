@@ -1,6 +1,7 @@
 ---
 title: "Slanted and Enchanted"
 slug: slanted-and-enchanted-pav
+artist_slug: pavement
 artist: pavement
 year: 1992
 producer: stephen-malkmus

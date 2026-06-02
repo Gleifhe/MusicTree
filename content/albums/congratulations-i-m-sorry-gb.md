@@ -1,6 +1,7 @@
 ---
 title: "Congratulations I'm Sorry"
 slug: congratulations-i-m-sorry-gb
+artist_slug: gin-blossoms
 artist: gin-blossoms
 year: 1996
 songs:

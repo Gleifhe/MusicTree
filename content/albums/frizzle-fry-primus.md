@@ -1,6 +1,7 @@
 ---
 title: "Frizzle Fry"
 slug: frizzle-fry-primus
+artist_slug: primus
 artist: primus
 year: 1990
 producer: les-claypool

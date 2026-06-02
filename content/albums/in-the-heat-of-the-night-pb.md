@@ -1,6 +1,7 @@
 ---
 title: In the Heat of the Night
 slug: in-the-heat-of-the-night-pb
+artist_slug: pat-benatar
 artist: pat-benatar
 year: 1979
 producer: peter-coleman

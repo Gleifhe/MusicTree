@@ -1,6 +1,7 @@
 ---
 title: "Guero"
 slug: guero-beck
+artist_slug: beck
 artist: beck
 year: 2005
 producer: the-dust-brothers

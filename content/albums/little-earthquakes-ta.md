@@ -1,6 +1,7 @@
 ---
 title: "Little Earthquakes"
 slug: little-earthquakes-ta
+artist_slug: tori-amos
 artist: tori-amos
 year: 1992
 producer: eric-rosse

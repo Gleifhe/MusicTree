@@ -1,6 +1,7 @@
 ---
 title: Power Corruption and Lies
 slug: power-corruption-and-lies
+artist_slug: new-order
 artist: new-order
 year: 1983
 producer: bernard-sumner

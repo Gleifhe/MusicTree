@@ -1,6 +1,7 @@
 ---
 title: "Feeling Strangely Fine"
 slug: feeling-strangely-fine-semisonic
+artist_slug: semisonic
 artist: semisonic
 year: 1998
 producer: nick-launay

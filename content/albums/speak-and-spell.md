@@ -1,6 +1,7 @@
 ---
 title: Speak and Spell
 slug: speak-and-spell
+artist_slug: depeche-mode
 artist: depeche-mode
 year: 1981
 producer: daniel-miller

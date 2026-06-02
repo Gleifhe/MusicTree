@@ -1,6 +1,7 @@
 ---
 title: Appetite for Destruction
 slug: appetite-for-destruction
+artist_slug: guns-n-roses
 artist: guns-n-roses
 year: 1987
 producer: mike-clink

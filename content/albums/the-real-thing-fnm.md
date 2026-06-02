@@ -1,6 +1,7 @@
 ---
 title: "The Real Thing"
 slug: the-real-thing-fnm
+artist_slug: faith-no-more
 artist: faith-no-more
 year: 1989
 producer: matt-wallace

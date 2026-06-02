@@ -1,6 +1,7 @@
 ---
 title: "Blue"
 slug: blue-teb
+artist_slug: third-eye-blind
 artist: third-eye-blind
 year: 1999
 producer: eric-valentine

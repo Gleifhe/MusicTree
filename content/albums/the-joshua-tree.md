@@ -1,6 +1,7 @@
 ---
 title: The Joshua Tree
 slug: the-joshua-tree
+artist_slug: u2
 artist: u2
 year: 1987
 producer: daniel-lanois

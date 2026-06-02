@@ -1,6 +1,7 @@
 ---
 title: "The Casual Dots"
 slug: casual-dots-self
+artist_slug: the-casual-dots
 artist: the-casual-dots
 year: 2004
 songs:

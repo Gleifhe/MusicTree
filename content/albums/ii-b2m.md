@@ -1,6 +1,7 @@
 ---
 title: "II"
 slug: ii-b2m
+artist_slug: boyz-ii-men
 artist: boyz-ii-men
 year: 1994
 producer: babyface

@@ -1,6 +1,7 @@
 ---
 title: "Stadium Arcadium"
 slug: rhcp-stadium-arcadium
+artist_slug: red-hot-chili-peppers
 artist: red-hot-chili-peppers
 year: 2006
 producer: rick-rubin

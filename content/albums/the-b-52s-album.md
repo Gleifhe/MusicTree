@@ -1,6 +1,7 @@
 ---
 title: The B-52s
 slug: the-b-52s-album
+artist_slug: the-b-52s
 artist: the-b-52s
 year: 1979
 producer: fred-schneider

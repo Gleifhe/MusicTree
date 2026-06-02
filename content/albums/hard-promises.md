@@ -1,6 +1,7 @@
 ---
 title: Hard Promises
 slug: hard-promises
+artist_slug: tom-petty-heartbreakers
 artist: tom-petty-heartbreakers
 year: 1981
 producer: jimmy-iovine

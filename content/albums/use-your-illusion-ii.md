@@ -1,6 +1,7 @@
 ---
 title: Use Your Illusion II
 slug: use-your-illusion-ii
+artist_slug: guns-n-roses
 artist: guns-n-roses
 year: 1991
 producer: mike-clink

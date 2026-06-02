@@ -1,6 +1,7 @@
 ---
 title: "Reasonable Doubt"
 slug: reasonable-doubt-jayz
+artist_slug: jay-z
 artist: jay-z
 year: 1996
 producer: dj-premier

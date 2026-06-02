@@ -1,6 +1,7 @@
 ---
 title: "Run Fast"
 slug: julie-ruin-run-fast
+artist_slug: the-julie-ruin
 artist: the-julie-ruin
 year: 2013
 songs:

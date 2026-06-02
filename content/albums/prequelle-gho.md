@@ -1,6 +1,7 @@
 ---
 title: Prequelle
 slug: prequelle-gho
+artist_slug: ghost
 artist: ghost
 year: 2018
 producer: klas-ahlund

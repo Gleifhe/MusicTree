@@ -1,6 +1,7 @@
 ---
 title: The Nashville Sound
 slug: the-nashville-sound-ji
+artist_slug: jason-isbell
 artist: jason-isbell
 year: 2017
 producer: dave-cobb

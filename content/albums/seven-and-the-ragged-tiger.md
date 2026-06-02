@@ -1,6 +1,7 @@
 ---
 title: Seven and the Ragged Tiger
 slug: seven-and-the-ragged-tiger
+artist_slug: duran-duran
 artist: duran-duran
 year: 1983
 producer: alex-sadkin

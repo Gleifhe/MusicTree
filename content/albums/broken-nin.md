@@ -1,6 +1,7 @@
 ---
 title: "Broken"
 slug: broken-nin
+artist_slug: nine-inch-nails
 artist: nine-inch-nails
 year: 1992
 producer: trent-reznor

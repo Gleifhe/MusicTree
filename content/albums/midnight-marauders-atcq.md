@@ -1,6 +1,7 @@
 ---
 title: "Midnight Marauders"
 slug: midnight-marauders-atcq
+artist_slug: a-tribe-called-quest
 artist: a-tribe-called-quest
 year: 1993
 producer: q-tip

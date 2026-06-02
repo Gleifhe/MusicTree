@@ -1,6 +1,7 @@
 ---
 title: "Be Here Now"
 slug: be-here-now-oas
+artist_slug: oasis
 artist: oasis
 year: 1997
 producer: owen-morris

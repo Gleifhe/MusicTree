@@ -1,6 +1,7 @@
 ---
 title: American Slang
 slug: american-slang-tga
+artist_slug: the-gaslight-anthem
 artist: the-gaslight-anthem
 year: 2010
 producer: ted-hutt

@@ -1,6 +1,7 @@
 ---
 title: "Comfort Eagle"
 slug: comfort-eagle-cake
+artist_slug: cake
 artist: cake
 year: 2001
 producer: john-mccrea

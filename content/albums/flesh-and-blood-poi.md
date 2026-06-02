@@ -1,6 +1,7 @@
 ---
 title: Flesh and Blood
 slug: flesh-and-blood-poi
+artist_slug: poison
 artist: poison
 year: 1990
 producer: bruce-fairbairn

@@ -1,6 +1,7 @@
 ---
 title: "Couldn't Stand the Weather"
 slug: couldnt-stand-the-weather
+artist_slug: stevie-ray-vaughan
 artist: stevie-ray-vaughan
 year: 1984
 producer: john-hammond-jr

@@ -1,6 +1,7 @@
 ---
 title: "Life Begins Again"
 slug: jcc-life-begins
+artist_slug: jimmy-chamberlin-complex
 artist: jimmy-chamberlin-complex
 year: 2005
 songs:

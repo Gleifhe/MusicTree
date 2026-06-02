@@ -1,6 +1,7 @@
 ---
 title: Escape
 slug: escape-journey
+artist_slug: journey
 artist: journey
 year: 1981
 producer: kevin-elson

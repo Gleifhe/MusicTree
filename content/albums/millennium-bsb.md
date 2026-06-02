@@ -1,6 +1,7 @@
 ---
 title: "Millennium"
 slug: millennium-bsb
+artist_slug: backstreet-boys
 artist: backstreet-boys
 year: 1999
 producer: max-martin

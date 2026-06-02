@@ -1,6 +1,7 @@
 ---
 title: "Backstreet Boys"
 slug: backstreet-boys-album
+artist_slug: backstreet-boys
 artist: backstreet-boys
 year: 1996
 producer: denniz-pop

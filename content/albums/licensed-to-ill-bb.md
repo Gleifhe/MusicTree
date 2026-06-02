@@ -1,6 +1,7 @@
 ---
 title: "Licensed to Ill"
 slug: licensed-to-ill-bb
+artist_slug: beastie-boys
 artist: beastie-boys
 year: 1986
 producer: rick-rubin

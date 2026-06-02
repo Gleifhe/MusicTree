@@ -1,6 +1,7 @@
 ---
 title: Blizzard of Ozz
 slug: blizzard-of-ozz
+artist_slug: ozzy-osbourne
 artist: ozzy-osbourne
 year: 1980
 producer: max-norman

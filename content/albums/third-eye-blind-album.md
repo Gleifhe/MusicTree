@@ -1,6 +1,7 @@
 ---
 title: "Third Eye Blind"
 slug: third-eye-blind-album
+artist_slug: third-eye-blind
 artist: third-eye-blind
 year: 1997
 producer: eric-valentine

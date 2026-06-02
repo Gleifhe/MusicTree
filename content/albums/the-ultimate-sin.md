@@ -1,6 +1,7 @@
 ---
 title: The Ultimate Sin
 slug: the-ultimate-sin
+artist_slug: ozzy-osbourne
 artist: ozzy-osbourne
 year: 1986
 producer: ron-nevison

@@ -1,6 +1,7 @@
 ---
 title: Going Out in Style
 slug: going-out-in-style-dkm
+artist_slug: dropkick-murphys
 artist: dropkick-murphys
 year: 2011
 producer: ted-hutt

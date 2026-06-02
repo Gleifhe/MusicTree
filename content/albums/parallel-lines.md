@@ -1,6 +1,7 @@
 ---
 title: Parallel Lines
 slug: parallel-lines
+artist_slug: blondie
 artist: blondie
 year: 1978
 producer: mike-chapman-prod

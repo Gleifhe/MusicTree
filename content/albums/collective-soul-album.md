@@ -1,6 +1,7 @@
 ---
 title: "Collective Soul"
 slug: collective-soul-album
+artist_slug: collective-soul
 artist: collective-soul
 year: 1995
 producer: ed-roland

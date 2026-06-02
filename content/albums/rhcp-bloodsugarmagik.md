@@ -1,6 +1,7 @@
 ---
 title: "Blood Sugar Sex Magik"
 slug: rhcp-bloodsugarmagik
+artist_slug: red-hot-chili-peppers
 artist: red-hot-chili-peppers
 year: 1991
 producer: rick-rubin

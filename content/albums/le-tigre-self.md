@@ -1,6 +1,7 @@
 ---
 title: "Le Tigre"
 slug: le-tigre-self
+artist_slug: le-tigre
 artist: le-tigre
 year: 1999
 songs:

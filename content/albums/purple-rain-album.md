@@ -1,6 +1,7 @@
 ---
 title: Purple Rain
 slug: purple-rain-album
+artist_slug: prince
 artist: prince
 year: 1984
 producer: prince-person

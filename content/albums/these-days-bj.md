@@ -1,6 +1,7 @@
 ---
 title: These Days
 slug: these-days-bj
+artist_slug: bon-jovi
 artist: bon-jovi
 year: 1995
 producer: peter-collins-producer

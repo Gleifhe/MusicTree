@@ -1,6 +1,7 @@
 ---
 title: Get Nervous
 slug: get-nervous-pb
+artist_slug: pat-benatar
 artist: pat-benatar
 year: 1982
 producer: neil-giraldo

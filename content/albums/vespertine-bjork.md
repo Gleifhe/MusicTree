@@ -1,6 +1,7 @@
 ---
 title: "Vespertine"
 slug: vespertine-bjork
+artist_slug: bjork
 artist: bjork
 year: 2001
 producer: mark-bell-bjork

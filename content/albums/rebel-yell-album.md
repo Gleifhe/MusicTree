@@ -1,6 +1,7 @@
 ---
 title: Rebel Yell
 slug: rebel-yell-album
+artist_slug: billy-idol
 artist: billy-idol
 year: 1983
 producer: keith-forsey

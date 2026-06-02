@@ -1,6 +1,7 @@
 ---
 title: War
 slug: war-u2
+artist_slug: u2
 artist: u2
 year: 1983
 producer: steve-lillywhite

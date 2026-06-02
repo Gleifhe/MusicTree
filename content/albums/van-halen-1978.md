@@ -1,6 +1,7 @@
 ---
 title: Van Halen
 slug: van-halen-1978
+artist_slug: van-halen
 artist: van-halen
 year: 1978
 producer: ted-templeman

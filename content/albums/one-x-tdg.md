@@ -1,6 +1,7 @@
 ---
 title: One-X
 slug: one-x-tdg
+artist_slug: three-days-grace
 artist: three-days-grace
 year: 2006
 producer: gavin-brown-prod

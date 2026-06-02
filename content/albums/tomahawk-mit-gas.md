@@ -1,6 +1,7 @@
 ---
 title: "Mit Gas"
 slug: tomahawk-mit-gas
+artist_slug: tomahawk
 artist: tomahawk
 year: 2003
 songs:

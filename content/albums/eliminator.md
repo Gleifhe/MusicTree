@@ -1,6 +1,7 @@
 ---
 title: Eliminator
 slug: eliminator
+artist_slug: zz-top
 artist: zz-top
 year: 1983
 producer: bill-ham

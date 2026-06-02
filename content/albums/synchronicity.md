@@ -1,6 +1,7 @@
 ---
 title: Synchronicity
 slug: synchronicity
+artist_slug: the-police
 artist: the-police
 year: 1983
 producer: hugh-padgham

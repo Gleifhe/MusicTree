@@ -1,6 +1,7 @@
 ---
 title: Autoamerican
 slug: autoamerican
+artist_slug: blondie
 artist: blondie
 year: 1980
 producer: mike-chapman-prod

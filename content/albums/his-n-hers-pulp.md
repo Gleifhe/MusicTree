@@ -1,6 +1,7 @@
 ---
 title: "His 'n' Hers"
 slug: his-n-hers-pulp
+artist_slug: pulp
 artist: pulp
 year: 1994
 producer: ed-buller

@@ -1,6 +1,7 @@
 ---
 title: The Number of the Beast
 slug: number-of-the-beast
+artist_slug: iron-maiden
 artist: iron-maiden
 year: 1982
 producer: martin-birch

@@ -1,6 +1,7 @@
 ---
 title: Sweet Dreams
 slug: sweet-dreams-album
+artist_slug: eurythmics
 artist: eurythmics
 year: 1983
 producer: dave-stewart

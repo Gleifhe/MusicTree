@@ -1,6 +1,7 @@
 ---
 title: "GN'R Lies"
 slug: gnr-lies
+artist_slug: guns-n-roses
 artist: guns-n-roses
 year: 1988
 producer: mike-clink

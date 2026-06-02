@@ -1,6 +1,7 @@
 ---
 title: "It Takes a Nation of Millions to Hold Us Back"
 slug: it-takes-a-nation-pe
+artist_slug: public-enemy
 artist: public-enemy
 year: 1988
 producer: hank-shocklee

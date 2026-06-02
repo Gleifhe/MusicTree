@@ -1,6 +1,7 @@
 ---
 title: Behind the Mask
 slug: behind-the-mask-fm
+artist_slug: fleetwood-mac
 artist: fleetwood-mac
 year: 1990
 producer: greg-ladanyi

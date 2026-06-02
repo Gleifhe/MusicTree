@@ -1,6 +1,7 @@
 ---
 title: "Ready to Die"
 slug: ready-to-die-big
+artist_slug: notorious-big
 artist: notorious-big
 year: 1994
 songs:

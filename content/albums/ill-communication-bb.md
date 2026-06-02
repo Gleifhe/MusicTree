@@ -1,6 +1,7 @@
 ---
 title: "Ill Communication"
 slug: ill-communication-bb
+artist_slug: beastie-boys
 artist: beastie-boys
 year: 1994
 songs:

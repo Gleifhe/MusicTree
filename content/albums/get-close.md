@@ -1,6 +1,7 @@
 ---
 title: Get Close
 slug: get-close
+artist_slug: the-pretenders
 artist: the-pretenders
 year: 1986
 producer: jimmy-iovine

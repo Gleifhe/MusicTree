@@ -1,6 +1,7 @@
 ---
 title: Like a Prayer
 slug: like-a-prayer-album
+artist_slug: madonna
 artist: madonna
 year: 1989
 producer: patrick-leonard

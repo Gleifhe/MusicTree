@@ -1,6 +1,7 @@
 ---
 title: "Prolonging the Magic"
 slug: prolonging-the-magic-cake
+artist_slug: cake
 artist: cake
 year: 1998
 producer: john-mccrea

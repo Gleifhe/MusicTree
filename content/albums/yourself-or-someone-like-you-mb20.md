@@ -1,6 +1,7 @@
 ---
 title: "Yourself or Someone Like You"
 slug: yourself-or-someone-like-you-mb20
+artist_slug: matchbox-twenty
 artist: matchbox-twenty
 year: 1996
 producer: matt-serletic

@@ -1,6 +1,7 @@
 ---
 title: Making Movies
 slug: making-movies
+artist_slug: dire-straits
 artist: dire-straits
 year: 1980
 producer: jimmy-iovine

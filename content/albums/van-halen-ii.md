@@ -1,6 +1,7 @@
 ---
 title: Van Halen II
 slug: van-halen-ii
+artist_slug: van-halen
 artist: van-halen
 year: 1979
 producer: ted-templeman

@@ -1,6 +1,7 @@
 ---
 title: Born to Run
 slug: born-to-run
+artist_slug: bruce-springsteen
 artist: bruce-springsteen
 year: 1975
 producer: jon-landau

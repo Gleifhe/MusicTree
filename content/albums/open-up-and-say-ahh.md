@@ -1,6 +1,7 @@
 ---
 title: Open Up and Say Ahh
 slug: open-up-and-say-ahh
+artist_slug: poison
 artist: poison
 year: 1988
 producer: tom-werman

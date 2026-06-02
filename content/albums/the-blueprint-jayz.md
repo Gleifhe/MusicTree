@@ -1,6 +1,7 @@
 ---
 title: "The Blueprint"
 slug: the-blueprint-jayz
+artist_slug: jay-z
 artist: jay-z
 year: 2001
 producer: kanye-west-prod

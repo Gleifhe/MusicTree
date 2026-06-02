@@ -1,6 +1,7 @@
 ---
 title: Precious Time
 slug: precious-time-pb
+artist_slug: pat-benatar
 artist: pat-benatar
 year: 1981
 producer: neil-giraldo

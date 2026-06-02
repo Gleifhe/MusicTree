@@ -1,6 +1,7 @@
 ---
 title: "So Much for the Afterglow"
 slug: so-much-for-afterglow-everclear
+artist_slug: everclear
 artist: everclear
 year: 1997
 producer: rob-schnapf

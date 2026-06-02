@@ -1,6 +1,7 @@
 ---
 title: Seven the Hard Way
 slug: seven-the-hard-way-pb
+artist_slug: pat-benatar
 artist: pat-benatar
 year: 1985
 producer: neil-giraldo

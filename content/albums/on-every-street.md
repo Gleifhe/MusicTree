@@ -1,6 +1,7 @@
 ---
 title: On Every Street
 slug: on-every-street
+artist_slug: dire-straits
 artist: dire-straits
 year: 1991
 producer: mark-knopfler

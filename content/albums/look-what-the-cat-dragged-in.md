@@ -1,6 +1,7 @@
 ---
 title: Look What the Cat Dragged In
 slug: look-what-the-cat-dragged-in
+artist_slug: poison
 artist: poison
 year: 1986
 producer: ric-browde

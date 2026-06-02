@@ -1,6 +1,7 @@
 ---
 title: Reckless
 slug: reckless-ba
+artist_slug: bryan-adams
 artist: bryan-adams
 year: 1984
 producer: bob-clearmountain

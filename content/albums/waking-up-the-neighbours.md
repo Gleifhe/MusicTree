@@ -1,6 +1,7 @@
 ---
 title: Waking Up the Neighbours
 slug: waking-up-the-neighbours
+artist_slug: bryan-adams
 artist: bryan-adams
 year: 1991
 producer: robert-john-lange

@@ -1,6 +1,7 @@
 ---
 title: "World of Noise"
 slug: world-of-noise-everclear
+artist_slug: everclear
 artist: everclear
 year: 1993
 producer: rob-schnapf

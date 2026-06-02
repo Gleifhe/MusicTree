@@ -1,6 +1,7 @@
 ---
 title: "Between the Eyes"
 slug: love-battery-between
+artist_slug: love-battery
 artist: love-battery
 year: 1992
 producer: jack-endino

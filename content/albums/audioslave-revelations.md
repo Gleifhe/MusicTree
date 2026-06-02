@@ -1,6 +1,7 @@
 ---
 title: "Revelations"
 slug: audioslave-revelations
+artist_slug: audioslave
 artist: audioslave
 year: 2006
 producer: rick-rubin

@@ -1,6 +1,7 @@
 ---
 title: Boom Boom Room (Side A)
 slug: boom-boom-room-side-a
+artist_slug: palaye-royale
 artist: palaye-royale
 year: 2016
 producer: zakk-cervini

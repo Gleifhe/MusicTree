@@ -1,6 +1,7 @@
 ---
 title: "Loose Fur"
 slug: loose-fur-self
+artist_slug: loose-fur
 artist: loose-fur
 year: 2003
 songs:

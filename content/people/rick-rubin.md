@@ -9,7 +9,7 @@ bands:
 - slug: red-hot-chili-peppers
   role: Producer
 song_credits:
-- slug: sabotage
+- slug: sabotage-bb
   title: Sabotage
   credit: Producer
 - slug: under-the-bridge-rhcp

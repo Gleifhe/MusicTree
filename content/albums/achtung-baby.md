@@ -1,6 +1,7 @@
 ---
 title: Achtung Baby
 slug: achtung-baby
+artist_slug: u2
 artist: u2
 year: 1991
 producer: daniel-lanois

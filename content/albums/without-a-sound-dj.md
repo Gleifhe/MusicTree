@@ -1,6 +1,7 @@
 ---
 title: "Without a Sound"
 slug: without-a-sound-dj
+artist_slug: dinosaur-jr
 artist: dinosaur-jr
 year: 1994
 producer: j-mascis

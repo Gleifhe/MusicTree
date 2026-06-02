@@ -1,6 +1,7 @@
 ---
 title: "Before These Crowded Streets"
 slug: before-these-crowded-streets-dmb
+artist_slug: dave-matthews-band
 artist: dave-matthews-band
 year: 1998
 producer: steve-lillywhite

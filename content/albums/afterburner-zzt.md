@@ -1,6 +1,7 @@
 ---
 title: Afterburner
 slug: afterburner-zzt
+artist_slug: zz-top
 artist: zz-top
 year: 1985
 producer: bill-ham

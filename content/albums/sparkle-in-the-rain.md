@@ -1,6 +1,7 @@
 ---
 title: Sparkle in the Rain
 slug: sparkle-in-the-rain
+artist_slug: simple-minds
 artist: simple-minds
 year: 1984
 producer: steve-hillage

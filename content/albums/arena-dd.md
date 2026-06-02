@@ -1,6 +1,7 @@
 ---
 title: Arena
 slug: arena-dd
+artist_slug: duran-duran
 artist: duran-duran
 year: 1984
 producer: alex-sadkin

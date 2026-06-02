@@ -1,6 +1,7 @@
 ---
 title: "All Rise"
 slug: naked-raygun-all-rise
+artist_slug: naked-raygun
 artist: naked-raygun
 year: 1986
 songs:

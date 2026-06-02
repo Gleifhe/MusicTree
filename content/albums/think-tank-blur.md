@@ -1,6 +1,7 @@
 ---
 title: "Think Tank"
 slug: think-tank-blur
+artist_slug: blur
 artist: blur
 year: 2003
 producer: norman-cook

@@ -1,6 +1,7 @@
 ---
 title: "Survivor"
 slug: survivor-dc
+artist_slug: destinys-child
 artist: destinys-child
 year: 2001
 songs:

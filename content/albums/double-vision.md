@@ -1,6 +1,7 @@
 ---
 title: Double Vision
 slug: double-vision
+artist_slug: foreigner
 artist: foreigner
 year: 1978
 producer: keith-olsen

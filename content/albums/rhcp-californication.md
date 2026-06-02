@@ -1,6 +1,7 @@
 ---
 title: "Californication"
 slug: rhcp-californication
+artist_slug: red-hot-chili-peppers
 artist: red-hot-chili-peppers
 year: 1999
 producer: rick-rubin

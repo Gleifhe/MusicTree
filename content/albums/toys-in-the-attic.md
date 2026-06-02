@@ -1,6 +1,7 @@
 ---
 title: Toys in the Attic
 slug: toys-in-the-attic
+artist_slug: aerosmith
 artist: aerosmith
 year: 1975
 producer: jack-douglas

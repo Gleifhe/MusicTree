@@ -1,6 +1,7 @@
 ---
 title: amo
 slug: amo-bmth
+artist_slug: bring-me-the-horizon
 artist: bring-me-the-horizon
 year: 2019
 producer: oliver-sykes

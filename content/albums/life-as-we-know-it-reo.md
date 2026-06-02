@@ -1,6 +1,7 @@
 ---
 title: Life as We Know It
 slug: life-as-we-know-it-reo
+artist_slug: reo-speedwagon
 artist: reo-speedwagon
 year: 1987
 producer: kevin-cronin

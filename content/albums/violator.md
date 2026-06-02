@@ -1,6 +1,7 @@
 ---
 title: Violator
 slug: violator
+artist_slug: depeche-mode
 artist: depeche-mode
 year: 1990
 producer: flood-producer

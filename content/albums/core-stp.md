@@ -1,6 +1,7 @@
 ---
 title: "Core"
 slug: core-stp
+artist_slug: stone-temple-pilots
 artist: stone-temple-pilots
 year: 1992
 producer: brendan-obrien

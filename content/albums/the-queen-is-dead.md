@@ -1,6 +1,7 @@
 ---
 title: The Queen Is Dead
 slug: the-queen-is-dead
+artist_slug: the-smiths
 artist: the-smiths
 year: 1986
 producer: stephen-street

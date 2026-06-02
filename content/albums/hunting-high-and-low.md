@@ -1,6 +1,7 @@
 ---
 title: Hunting High and Low
 slug: hunting-high-and-low
+artist_slug: a-ha
 artist: a-ha
 year: 1985
 producer: alan-tarney

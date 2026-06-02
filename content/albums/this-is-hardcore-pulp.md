@@ -1,6 +1,7 @@
 ---
 title: "This Is Hardcore"
 slug: this-is-hardcore-pulp
+artist_slug: pulp
 artist: pulp
 year: 1998
 producer: chris-thomas-pulp

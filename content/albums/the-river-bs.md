@@ -1,6 +1,7 @@
 ---
 title: The River
 slug: the-river-bs
+artist_slug: bruce-springsteen
 artist: bruce-springsteen
 year: 1980
 producer: jon-landau

@@ -1,6 +1,7 @@
 ---
 title: "Everything Will Cost You Nothing"
 slug: postal-service-everything
+artist_slug: the-postal-service
 artist: the-postal-service
 year: 2024
 songs:

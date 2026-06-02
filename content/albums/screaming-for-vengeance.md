@@ -1,6 +1,7 @@
 ---
 title: Screaming for Vengeance
 slug: screaming-for-vengeance
+artist_slug: judas-priest
 artist: judas-priest
 year: 1982
 producer: tom-allom

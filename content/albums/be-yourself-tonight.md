@@ -1,6 +1,7 @@
 ---
 title: Be Yourself Tonight
 slug: be-yourself-tonight
+artist_slug: eurythmics
 artist: eurythmics
 year: 1985
 producer: dave-stewart

@@ -1,6 +1,7 @@
 ---
 title: October
 slug: october-u2
+artist_slug: u2
 artist: u2
 year: 1981
 producer: steve-lillywhite

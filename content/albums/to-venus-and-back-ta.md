@@ -1,6 +1,7 @@
 ---
 title: "To Venus and Back"
 slug: to-venus-and-back-ta
+artist_slug: tori-amos
 artist: tori-amos
 year: 1999
 producer: tori-amos-person

@@ -1,6 +1,7 @@
 ---
 title: Slip of the Tongue
 slug: slip-of-the-tongue
+artist_slug: whitesnake
 artist: whitesnake
 year: 1989
 producer: keith-olsen

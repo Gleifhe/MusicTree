@@ -1,6 +1,7 @@
 ---
 title: Zenyatta Mondatta
 slug: zenyatta-mondatta
+artist_slug: the-police
 artist: the-police
 year: 1980
 producer: nigel-gray

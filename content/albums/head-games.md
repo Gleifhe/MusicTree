@@ -1,6 +1,7 @@
 ---
 title: Head Games
 slug: head-games
+artist_slug: foreigner
 artist: foreigner
 year: 1979
 producer: roy-thomas-baker

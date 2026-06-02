@@ -1,6 +1,7 @@
 ---
 title: In Step
 slug: in-step-srv
+artist_slug: stevie-ray-vaughan
 artist: stevie-ray-vaughan
 year: 1989
 producer: jim-gaines

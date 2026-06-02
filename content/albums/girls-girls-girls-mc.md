@@ -1,6 +1,7 @@
 ---
 title: "Girls, Girls, Girls"
 slug: girls-girls-girls-mc
+artist_slug: motley-crue
 artist: motley-crue
 year: 1987
 producer: tom-werman

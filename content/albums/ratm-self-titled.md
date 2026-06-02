@@ -1,6 +1,7 @@
 ---
 title: "Rage Against the Machine"
 slug: ratm-self-titled
+artist_slug: rage-against-the-machine
 artist: rage-against-the-machine
 year: 1992
 producer: brendan-obrien

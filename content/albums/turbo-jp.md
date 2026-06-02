@@ -1,6 +1,7 @@
 ---
 title: Turbo
 slug: turbo-jp
+artist_slug: judas-priest
 artist: judas-priest
 year: 1986
 producer: tom-allom

@@ -1,6 +1,7 @@
 ---
 title: "Draw Breath"
 slug: ncs-draw-breath
+artist_slug: nels-cline-singers
 artist: nels-cline-singers
 year: 2009
 songs:

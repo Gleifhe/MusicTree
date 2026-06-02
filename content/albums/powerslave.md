@@ -1,6 +1,7 @@
 ---
 title: Powerslave
 slug: powerslave
+artist_slug: iron-maiden
 artist: iron-maiden
 year: 1984
 producer: martin-birch

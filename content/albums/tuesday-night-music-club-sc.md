@@ -1,6 +1,7 @@
 ---
 title: "Tuesday Night Music Club"
 slug: tuesday-night-music-club-sc
+artist_slug: sheryl-crow
 artist: sheryl-crow
 year: 1993
 producer: bill-bottrell

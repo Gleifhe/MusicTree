@@ -1,6 +1,7 @@
 ---
 title: "Debut"
 slug: debut-bjork
+artist_slug: bjork
 artist: bjork
 year: 1993
 producer: nellee-hooper

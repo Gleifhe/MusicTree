@@ -1,6 +1,7 @@
 ---
 title: "Different Class"
 slug: different-class-pulp
+artist_slug: pulp
 artist: pulp
 year: 1995
 producer: ed-buller

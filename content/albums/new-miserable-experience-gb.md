@@ -1,6 +1,7 @@
 ---
 title: "New Miserable Experience"
 slug: new-miserable-experience-gb
+artist_slug: gin-blossoms
 artist: gin-blossoms
 year: 1992
 songs:

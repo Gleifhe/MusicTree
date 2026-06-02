@@ -1,6 +1,7 @@
 ---
 title: "The Unstable Molecule"
 slug: isotope-217-unstable
+artist_slug: isotope-217
 artist: isotope-217
 year: 1997
 songs:

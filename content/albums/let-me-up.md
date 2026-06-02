@@ -1,6 +1,7 @@
 ---
 title: Let Me Up
 slug: let-me-up
+artist_slug: tom-petty-heartbreakers
 artist: tom-petty-heartbreakers
 year: 1987
 producer: tom-petty

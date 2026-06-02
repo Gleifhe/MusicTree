@@ -1,6 +1,7 @@
 ---
 title: Adrenalize
 slug: adrenalize
+artist_slug: def-leppard
 artist: def-leppard
 year: 1992
 producer: mutt-lange

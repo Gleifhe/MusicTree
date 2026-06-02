@@ -1,6 +1,7 @@
 ---
 title: "Ten Minute Warning"
 slug: ten-minute-warning-self
+artist_slug: ten-minute-warning
 artist: ten-minute-warning
 year: 1989
 songs:

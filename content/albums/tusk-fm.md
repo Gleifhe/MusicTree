@@ -1,6 +1,7 @@
 ---
 title: Tusk
 slug: tusk-fm
+artist_slug: fleetwood-mac
 artist: fleetwood-mac
 year: 1979
 producer: lindsey-buckingham

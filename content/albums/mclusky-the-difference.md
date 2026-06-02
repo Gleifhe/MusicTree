@@ -1,6 +1,7 @@
 ---
 title: "The Difference Between You and Me Is That I'm Not on Fire"
 slug: mclusky-the-difference
+artist_slug: mclusky
 artist: mclusky
 year: 2004
 songs:

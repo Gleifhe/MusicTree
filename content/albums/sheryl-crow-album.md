@@ -1,6 +1,7 @@
 ---
 title: "Sheryl Crow"
 slug: sheryl-crow-album
+artist_slug: sheryl-crow
 artist: sheryl-crow
 year: 1996
 producer: sheryl-crow-person

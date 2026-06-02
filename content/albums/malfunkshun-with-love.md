@@ -1,6 +1,7 @@
 ---
 title: "With Love from Annalena"
 slug: malfunkshun-with-love
+artist_slug: malfunkshun
 artist: malfunkshun
 year: 1995
 producer: jack-endino

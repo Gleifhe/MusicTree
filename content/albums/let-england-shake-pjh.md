@@ -1,6 +1,7 @@
 ---
 title: "Let England Shake"
 slug: let-england-shake-pjh
+artist_slug: pj-harvey
 artist: pj-harvey
 year: 2011
 producer: john-parish

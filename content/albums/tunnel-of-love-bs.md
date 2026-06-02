@@ -1,6 +1,7 @@
 ---
 title: Tunnel of Love
 slug: tunnel-of-love-bs
+artist_slug: bruce-springsteen
 artist: bruce-springsteen
 year: 1987
 producer: jon-landau

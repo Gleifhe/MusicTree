@@ -1,6 +1,7 @@
 ---
 title: Defenders of the Faith
 slug: defenders-of-the-faith
+artist_slug: judas-priest
 artist: judas-priest
 year: 1984
 producer: tom-allom

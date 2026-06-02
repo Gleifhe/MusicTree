@@ -1,6 +1,7 @@
 ---
 title: "Viewlinear"
 slug: pullman-viewlinear
+artist_slug: pullman
 artist: pullman
 year: 2001
 songs:

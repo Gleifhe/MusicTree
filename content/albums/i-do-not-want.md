@@ -1,6 +1,7 @@
 ---
 title: "I Do Not Want What I Haven't Got"
 slug: i-do-not-want
+artist_slug: sinead-oconnor
 artist: sinead-oconnor
 year: 1990
 producer: sinead-oconnor-person

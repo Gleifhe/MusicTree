@@ -1,6 +1,7 @@
 ---
 title: "Kill 'Em All"
 slug: kill-em-all
+artist_slug: metallica
 artist: metallica
 year: 1983
 producer: paul-curcio

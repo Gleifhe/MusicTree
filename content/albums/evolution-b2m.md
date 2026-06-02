@@ -1,6 +1,7 @@
 ---
 title: "Evolution"
 slug: evolution-b2m
+artist_slug: boyz-ii-men
 artist: boyz-ii-men
 year: 1997
 producer: babyface

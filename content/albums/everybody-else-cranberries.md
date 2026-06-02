@@ -1,6 +1,7 @@
 ---
 title: "Everybody Else Is Doing It, So Why Can't We?"
 slug: everybody-else-cranberries
+artist_slug: the-cranberries
 artist: the-cranberries
 year: 1993
 producer: stephen-street

@@ -1,6 +1,7 @@
 ---
 title: "...And Justice for All"
 slug: and-justice-for-all
+artist_slug: metallica
 artist: metallica
 year: 1988
 producer: flemming-rasmussen

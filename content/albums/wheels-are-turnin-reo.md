@@ -1,6 +1,7 @@
 ---
 title: "Wheels Are Turnin'"
 slug: wheels-are-turnin-reo
+artist_slug: reo-speedwagon
 artist: reo-speedwagon
 year: 1984
 producer: alan-gratzer

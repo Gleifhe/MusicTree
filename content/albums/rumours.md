@@ -1,6 +1,7 @@
 ---
 title: Rumours
 slug: rumours
+artist_slug: fleetwood-mac
 artist: fleetwood-mac
 year: 1977
 producer: ken-caillat

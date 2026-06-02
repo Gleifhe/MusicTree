@@ -1,6 +1,7 @@
 ---
 title: The '59 Sound
 slug: the-59-sound
+artist_slug: the-gaslight-anthem
 artist: the-gaslight-anthem
 year: 2008
 producer: ted-hutt

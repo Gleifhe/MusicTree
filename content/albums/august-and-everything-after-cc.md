@@ -1,6 +1,7 @@
 ---
 title: "August and Everything After"
 slug: august-and-everything-after-cc
+artist_slug: counting-crows
 artist: counting-crows
 year: 1993
 producer: t-bone-burnett

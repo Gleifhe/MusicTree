@@ -1,6 +1,7 @@
 ---
 title: "CrazySexyCool"
 slug: crazysexycool-tlc
+artist_slug: tlc
 artist: tlc
 year: 1994
 producer: dallas-austin

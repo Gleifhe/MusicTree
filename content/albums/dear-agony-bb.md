@@ -1,6 +1,7 @@
 ---
 title: Dear Agony
 slug: dear-agony-bb
+artist_slug: breaking-benjamin
 artist: breaking-benjamin
 year: 2009
 producer: david-bendeth

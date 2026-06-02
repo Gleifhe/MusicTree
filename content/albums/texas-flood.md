@@ -1,6 +1,7 @@
 ---
 title: Texas Flood
 slug: texas-flood
+artist_slug: stevie-ray-vaughan
 artist: stevie-ray-vaughan
 year: 1983
 producer: john-hammond-jr

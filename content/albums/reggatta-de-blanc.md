@@ -1,6 +1,7 @@
 ---
 title: Reggatta de Blanc
 slug: reggatta-de-blanc
+artist_slug: the-police
 artist: the-police
 year: 1979
 producer: nigel-gray

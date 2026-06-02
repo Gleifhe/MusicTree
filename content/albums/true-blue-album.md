@@ -1,6 +1,7 @@
 ---
 title: True Blue
 slug: true-blue-album
+artist_slug: madonna
 artist: madonna
 year: 1986
 producer: madonna-person

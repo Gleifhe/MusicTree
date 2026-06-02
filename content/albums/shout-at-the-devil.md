@@ -1,6 +1,7 @@
 ---
 title: Shout at the Devil
 slug: shout-at-the-devil
+artist_slug: motley-crue
 artist: motley-crue
 year: 1983
 producer: tom-werman

@@ -1,6 +1,7 @@
 ---
 title: Pump
 slug: pump-aero
+artist_slug: aerosmith
 artist: aerosmith
 year: 1989
 producer: bruce-fairbairn

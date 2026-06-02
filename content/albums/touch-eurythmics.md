@@ -1,6 +1,7 @@
 ---
 title: Touch
 slug: touch-eurythmics
+artist_slug: eurythmics
 artist: eurythmics
 year: 1983
 producer: dave-stewart

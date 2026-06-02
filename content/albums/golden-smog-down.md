@@ -1,6 +1,7 @@
 ---
 title: "Down by the Old Mainstream"
 slug: golden-smog-down
+artist_slug: golden-smog
 artist: golden-smog
 year: 1995
 songs:

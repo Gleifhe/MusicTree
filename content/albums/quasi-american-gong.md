@@ -1,6 +1,7 @@
 ---
 title: "American Gong"
 slug: quasi-american-gong
+artist_slug: quasi
 artist: quasi
 year: 2009
 songs:

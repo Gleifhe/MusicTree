@@ -1,6 +1,7 @@
 ---
 title: "Live Through This"
 slug: live-through-this-hole
+artist_slug: hole
 artist: hole
 year: 1994
 producer: paul-q-kolderie

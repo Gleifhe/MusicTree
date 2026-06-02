@@ -1,6 +1,7 @@
 ---
 title: "Leisure"
 slug: leisure-blur
+artist_slug: blur
 artist: blur
 year: 1991
 producer: stephen-street

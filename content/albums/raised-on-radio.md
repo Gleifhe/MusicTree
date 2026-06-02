@@ -1,6 +1,7 @@
 ---
 title: Raised on Radio
 slug: raised-on-radio
+artist_slug: journey
 artist: journey
 year: 1986
 producer: kevin-elson

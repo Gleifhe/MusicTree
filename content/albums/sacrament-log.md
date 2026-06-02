@@ -1,6 +1,7 @@
 ---
 title: Sacrament
 slug: sacrament-log
+artist_slug: lamb-of-god
 artist: lamb-of-god
 year: 2006
 producer: machine-producer

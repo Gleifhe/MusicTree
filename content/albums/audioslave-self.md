@@ -1,6 +1,7 @@
 ---
 title: "Audioslave"
 slug: audioslave-self
+artist_slug: audioslave
 artist: audioslave
 year: 2002
 producer: rick-rubin

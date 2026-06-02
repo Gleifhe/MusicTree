@@ -1,6 +1,7 @@
 ---
 title: Master of Puppets
 slug: master-of-puppets-met
+artist_slug: metallica
 artist: metallica
 year: 1986
 producer: flemming-rasmussen

@@ -1,6 +1,7 @@
 ---
 title: "Rehab Doll"
 slug: green-river-rehab
+artist_slug: green-river
 artist: green-river
 year: 1988
 producer: jack-endino

@@ -1,6 +1,7 @@
 ---
 title: "Whitney Houston"
 slug: whitney-houston-album
+artist_slug: whitney-houston
 artist: whitney-houston
 year: 1985
 songs:

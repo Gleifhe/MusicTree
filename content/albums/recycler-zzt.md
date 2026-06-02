@@ -1,6 +1,7 @@
 ---
 title: Recycler
 slug: recycler-zzt
+artist_slug: zz-top
 artist: zz-top
 year: 1990
 producer: bill-ham

@@ -1,6 +1,7 @@
 ---
 title: Whitesnake
 slug: whitesnake-1987
+artist_slug: whitesnake
 artist: whitesnake
 year: 1987
 producer: keith-olsen

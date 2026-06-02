@@ -1,6 +1,7 @@
 ---
 title: "People's Instinctive Travels and the Paths of Rhythm"
 slug: peoples-instinctive-travels-atcq
+artist_slug: a-tribe-called-quest
 artist: a-tribe-called-quest
 year: 1990
 producer: q-tip

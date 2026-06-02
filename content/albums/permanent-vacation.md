@@ -1,6 +1,7 @@
 ---
 title: Permanent Vacation
 slug: permanent-vacation
+artist_slug: aerosmith
 artist: aerosmith
 year: 1987
 producer: bruce-fairbairn

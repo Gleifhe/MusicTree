@@ -1,6 +1,7 @@
 ---
 title: "Pretty Hate Machine"
 slug: pretty-hate-machine-nin
+artist_slug: nine-inch-nails
 artist: nine-inch-nails
 year: 1989
 producer: trent-reznor

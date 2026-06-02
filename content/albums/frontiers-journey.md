@@ -1,6 +1,7 @@
 ---
 title: Frontiers
 slug: frontiers-journey
+artist_slug: journey
 artist: journey
 year: 1983
 producer: kevin-elson

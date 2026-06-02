@@ -1,6 +1,7 @@
 ---
 title: "Where You Been"
 slug: where-you-been-dj
+artist_slug: dinosaur-jr
 artist: dinosaur-jr
 year: 1993
 producer: j-mascis

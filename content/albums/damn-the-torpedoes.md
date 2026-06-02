@@ -1,6 +1,7 @@
 ---
 title: Damn the Torpedoes
 slug: damn-the-torpedoes
+artist_slug: tom-petty-heartbreakers
 artist: tom-petty-heartbreakers
 year: 1979
 producer: jimmy-iovine

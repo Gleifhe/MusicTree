@@ -1,6 +1,7 @@
 ---
 title: "Me Against the World"
 slug: me-against-the-world-tupac
+artist_slug: tupac-shakur
 artist: tupac-shakur
 year: 1995
 songs:

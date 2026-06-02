@@ -1,6 +1,7 @@
 ---
 title: Isolate and Medicate
 slug: isolate-and-medicate-seether
+artist_slug: seether
 artist: seether
 year: 2014
 producer: shaun-morgan

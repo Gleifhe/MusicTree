@@ -1,6 +1,7 @@
 ---
 title: Fallen
 slug: fallen-ev
+artist_slug: evanescence
 artist: evanescence
 year: 2003
 producer: dave-fortman

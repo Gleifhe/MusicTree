@@ -1,6 +1,7 @@
 ---
 title: "Scratch Acid EP"
 slug: scratch-acid-self
+artist_slug: scratch-acid
 artist: scratch-acid
 year: 1984
 songs:

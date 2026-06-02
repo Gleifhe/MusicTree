@@ -1,6 +1,7 @@
 ---
 title: New Gold Dream
 slug: new-gold-dream
+artist_slug: simple-minds
 artist: simple-minds
 year: 1982
 producer: jim-kerr

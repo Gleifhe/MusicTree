@@ -1,6 +1,7 @@
 ---
 title: Somewhere in Time
 slug: somewhere-in-time
+artist_slug: iron-maiden
 artist: iron-maiden
 year: 1986
 producer: martin-birch

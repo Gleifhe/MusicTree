@@ -1,6 +1,7 @@
 ---
 title: The Head on the Door
 slug: the-head-on-the-door
+artist_slug: the-cure
 artist: the-cure
 year: 1985
 producer: robert-smith-cure

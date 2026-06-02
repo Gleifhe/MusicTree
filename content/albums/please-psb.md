@@ -1,6 +1,7 @@
 ---
 title: Please
 slug: please-psb
+artist_slug: pet-shop-boys
 artist: pet-shop-boys
 year: 1986
 producer: stephen-hague

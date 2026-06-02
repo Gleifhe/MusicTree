@@ -1,6 +1,7 @@
 ---
 title: Hi Infidelity
 slug: hi-infidelity
+artist_slug: reo-speedwagon
 artist: reo-speedwagon
 year: 1980
 producer: kevin-cronin

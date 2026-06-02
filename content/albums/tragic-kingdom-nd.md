@@ -1,6 +1,7 @@
 ---
 title: "Tragic Kingdom"
 slug: tragic-kingdom-nd
+artist_slug: no-doubt
 artist: no-doubt
 year: 1995
 producer: matthew-wilder

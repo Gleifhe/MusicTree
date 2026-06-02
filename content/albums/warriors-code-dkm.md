@@ -1,6 +1,7 @@
 ---
 title: The Warrior's Code
 slug: warriors-code-dkm
+artist_slug: dropkick-murphys
 artist: dropkick-murphys
 year: 2005
 producer: ted-hutt

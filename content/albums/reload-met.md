@@ -1,6 +1,7 @@
 ---
 title: Reload
 slug: reload-met
+artist_slug: metallica
 artist: metallica
 year: 1997
 producer: bob-rock-producer

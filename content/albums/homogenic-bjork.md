@@ -1,6 +1,7 @@
 ---
 title: "Homogenic"
 slug: homogenic-bjork
+artist_slug: bjork
 artist: bjork
 year: 1997
 producer: mark-bell-bjork

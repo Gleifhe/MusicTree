@@ -1,6 +1,7 @@
 ---
 title: Rocks
 slug: rocks-aero
+artist_slug: aerosmith
 artist: aerosmith
 year: 1976
 producer: jack-douglas

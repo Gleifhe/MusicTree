@@ -1,6 +1,7 @@
 ---
 title: "Berserker"
 slug: scratch-acid-berserker
+artist_slug: scratch-acid
 artist: scratch-acid
 year: 1986
 songs:

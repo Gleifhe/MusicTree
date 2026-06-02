@@ -1,6 +1,7 @@
 ---
 title: Cosmic Thing
 slug: cosmic-thing
+artist_slug: the-b-52s
 artist: the-b-52s
 year: 1989
 producer: don-was

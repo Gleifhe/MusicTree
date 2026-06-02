@@ -1,6 +1,7 @@
 ---
 title: New Jersey
 slug: new-jersey-bj
+artist_slug: bon-jovi
 artist: bon-jovi
 year: 1988
 producer: bruce-fairbairn

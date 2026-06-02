@@ -1,6 +1,7 @@
 ---
 title: "Everyday"
 slug: everyday-dmb
+artist_slug: dave-matthews-band
 artist: dave-matthews-band
 year: 2001
 producer: glen-ballard

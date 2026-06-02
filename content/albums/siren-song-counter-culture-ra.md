@@ -1,6 +1,7 @@
 ---
 title: Siren Song of the Counter Culture
 slug: siren-song-counter-culture-ra
+artist_slug: rise-against
 artist: rise-against
 year: 2004
 producer: bill-stevenson

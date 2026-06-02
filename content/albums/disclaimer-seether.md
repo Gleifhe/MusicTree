@@ -1,6 +1,7 @@
 ---
 title: Disclaimer
 slug: disclaimer-seether
+artist_slug: seether
 artist: seether
 year: 2002
 producer: shaun-morgan

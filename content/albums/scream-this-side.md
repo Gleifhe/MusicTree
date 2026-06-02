@@ -1,6 +1,7 @@
 ---
 title: "This Side Up"
 slug: scream-this-side
+artist_slug: scream
 artist: scream
 year: 1983
 songs:

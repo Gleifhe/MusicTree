@@ -1,6 +1,7 @@
 ---
 title: "Celebrity Skin"
 slug: celebrity-skin-hole
+artist_slug: hole
 artist: hole
 year: 1998
 producer: michael-beinhorn
