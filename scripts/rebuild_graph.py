@@ -169,3 +169,15 @@ static_data = Path("static") / "data"
 static_data.mkdir(parents=True, exist_ok=True)
 (static_data / "graph.json").write_text(graph_json, encoding="utf-8")
 print(f"graph.json: {len(nodes)} nodes, {len(links)} links")
+
+# ── Slim graph (no songs) for homepage ────────────────────────────────────────
+slim_node_ids = {nid for nid, n in nodes.items() if n["type"] != "song"}
+slim_nodes = [n for n in nodes.values() if n["type"] != "song"]
+slim_links = [
+    l for l in links
+    if l["source"] in slim_node_ids and l["target"] in slim_node_ids
+]
+slim_out = {"nodes": slim_nodes, "links": slim_links}
+slim_json = json.dumps(slim_out, indent=2, ensure_ascii=False)
+(static_data / "graph-slim.json").write_text(slim_json, encoding="utf-8")
+print(f"graph-slim.json: {len(slim_nodes)} nodes, {len(slim_links)} links (songs excluded)")

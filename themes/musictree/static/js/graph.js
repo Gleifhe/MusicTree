@@ -34,10 +34,8 @@
   const width  = container.clientWidth;
   const height = container.clientHeight;
 
-  // Clone data so simulation can mutate it
-  const rawData = window.GRAPH_DATA || { nodes: [], links: [] };
-  const allNodes = rawData.nodes.map(d => ({ ...d }));
-  const allLinks = rawData.links.map(d => ({ ...d }));
+  let allNodes = [];
+  let allLinks = [];
 
   let activeTypes = new Set(['artist', 'person', 'album', 'song']);
   let searchTerm = '';
@@ -238,14 +236,17 @@
       });
     }
 
+    let posById = {};
     simulation = d3.forceSimulation(nodeData)
       .force('link', d3.forceLink(linkData).id(d => d.id).distance(d => {
-        return d.relation === 'appears-on' ? 70 : 110;
+        return d.relation === 'appears-on' ? 60 : 90;
       }))
-      .force('charge', d3.forceManyBody().strength(-220))
-      .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius(d => (NODE_RADIUS[d.type] || 12) + 18))
+      .force('charge', d3.forceManyBody().strength(-180).distanceMax(300).theta(0.9))
+      .force('center', d3.forceCenter(width / 2, height / 2).strength(0.05))
+      .force('collision', d3.forceCollide().radius(d => (NODE_RADIUS[d.type] || 12) + 14))
       .force('sceneCluster', sceneClusterForce)
+      .alphaDecay(0.03)
+      .velocityDecay(0.4)
       .on('tick', () => {
         linkEls
           .attr('x1', d => d.source.x)
@@ -260,8 +261,6 @@
         nodeEls.attr('transform', d => `translate(${d.x},${d.y})`);
 
         // Move artist cluster labels to artist node positions
-        const posById = {};
-        nodeData.forEach(n => { posById[n.id] = n; });
         gArtistLabels.selectAll('text')
           .attr('x', d => { const n = posById[d.id]; return n ? n.x : 0; })
           .attr('y', d => { const n = posById[d.id]; return n ? n.y + 24 : 0; });
@@ -271,6 +270,12 @@
           .attr('x', d => sceneCenters[d.scene] ? sceneCenters[d.scene].x : 0)
           .attr('y', d => sceneCenters[d.scene] ? sceneCenters[d.scene].y : 0);
       });
+
+    // Build posById once so the tick handler doesn't rebuild it every frame
+    nodeData.forEach(n => { posById[n.id] = n; });
+
+    // Stop simulation after 8s to prevent runaway CPU usage
+    setTimeout(() => simulation && simulation.stop(), 8000);
   }
 
   // ── Drag ────────────────────────────────────────────────────────────────
@@ -306,27 +311,170 @@
   }
   function hideTooltip() { tooltip.classList.add('hidden'); }
 
-  // ── Filters ─────────────────────────────────────────────────────────────
-  document.querySelectorAll('.filter-panel input[type=checkbox]').forEach(cb => {
-    cb.addEventListener('change', () => {
-      activeTypes = new Set(
-        [...document.querySelectorAll('.filter-panel input[type=checkbox]')]
-          .filter(el => el.checked)
-          .map(el => el.dataset.type)
-      );
+  // ── Fetch data, then wire everything up ─────────────────────────────────
+  fetch('/data/graph-slim.json')
+    .then(r => r.json())
+    .then(rawData => {
+      allNodes = rawData.nodes.map(d => ({ ...d }));
+      allLinks = rawData.links.map(d => ({ ...d }));
       buildGraph();
-    });
-  });
 
-  document.getElementById('graph-search').addEventListener('input', e => {
-    searchTerm = e.target.value.trim().toLowerCase();
-    buildGraph();
-  });
+      // ── Filters ───────────────────────────────────────────────────────
+      document.querySelectorAll('.filter-panel input[type=checkbox]').forEach(cb => {
+        cb.addEventListener('change', () => {
+          activeTypes = new Set(
+            [...document.querySelectorAll('.filter-panel input[type=checkbox]')]
+              .filter(el => el.checked)
+              .map(el => el.dataset.type)
+          );
+          buildGraph();
+        });
+      });
 
-  // ── Init ────────────────────────────────────────────────────────────────
-  buildGraph();
+      // ── Search ────────────────────────────────────────────────────────
+      const suggestions = document.getElementById('search-suggestions');
+      document.getElementById('graph-search').addEventListener('input', e => {
+        searchTerm = e.target.value.trim().toLowerCase();
+        buildGraph();
+        if (suggestions && searchTerm.length >= 2) {
+          const matches = allNodes
+            .filter(n => n.label.toLowerCase().includes(searchTerm))
+            .sort((a, b) => {
+              const order = { artist: 0, person: 1, album: 2, song: 3 };
+              return (order[a.type] || 9) - (order[b.type] || 9);
+            })
+            .slice(0, 8);
+          if (matches.length) {
+            suggestions.innerHTML = matches.map(n =>
+              `<a href="${n.url}" class="suggestion-item suggestion-${n.type}">
+                <span class="suggestion-type">${n.type}</span>
+                <span class="suggestion-label">${n.label}</span>
+              </a>`
+            ).join('');
+            suggestions.style.display = 'block';
+          } else {
+            suggestions.style.display = 'none';
+          }
+        } else if (suggestions) {
+          suggestions.style.display = 'none';
+        }
+      });
 
-  // Responsive resize
+      document.getElementById('graph-search').addEventListener('keydown', e => {
+        if (e.key === 'Enter') {
+          const term = e.target.value.trim().toLowerCase();
+          const matches = allNodes.filter(n => n.label.toLowerCase().includes(term));
+          if (matches.length === 1 && matches[0].url) {
+            window.location.href = matches[0].url;
+          } else if (matches.length > 0) {
+            const artistMatch = matches.find(n => n.type === 'artist');
+            const best = artistMatch || matches[0];
+            if (best.url) window.location.href = best.url;
+          }
+        }
+      });
+
+      document.addEventListener('click', e => {
+        if (suggestions && !e.target.closest('.search-panel')) {
+          suggestions.style.display = 'none';
+        }
+      });
+
+      // ── Path Finder ───────────────────────────────────────────────────
+      function findPath(fromId, toId) {
+        if (fromId === toId) return [fromId];
+        const adj = {};
+        allLinks.forEach(l => {
+          const s = typeof l.source === 'object' ? l.source.id : l.source;
+          const t = typeof l.target === 'object' ? l.target.id : l.target;
+          (adj[s] = adj[s] || []).push(t);
+          (adj[t] = adj[t] || []).push(s);
+        });
+        const prev = { [fromId]: null };
+        const queue = [fromId];
+        while (queue.length) {
+          const cur = queue.shift();
+          if (cur === toId) {
+            const path = [];
+            let node = toId;
+            while (node !== null) { path.unshift(node); node = prev[node]; }
+            return path;
+          }
+          for (const nb of (adj[cur] || [])) {
+            if (!(nb in prev)) { prev[nb] = cur; queue.push(nb); }
+          }
+        }
+        return null;
+      }
+
+      function nodeById(id) { return allNodes.find(n => n.id === id); }
+
+      function setupPathFinder() {
+        const fromInput = document.getElementById('path-from');
+        const toInput   = document.getElementById('path-to');
+        const btn       = document.getElementById('btn-find-path');
+        const result    = document.getElementById('path-result');
+        if (!btn) return;
+
+        function makeAutocomplete(input) {
+          const dropdown = document.createElement('div');
+          dropdown.className = 'search-suggestions';
+          dropdown.style.minWidth = '200px';
+          input.parentNode.style.position = 'relative';
+          input.insertAdjacentElement('afterend', dropdown);
+          input.addEventListener('input', () => {
+            const q = input.value.trim().toLowerCase();
+            if (q.length < 2) { dropdown.style.display = 'none'; return; }
+            const matches = allNodes
+              .filter(n => (n.type === 'artist' || n.type === 'person') && n.label.toLowerCase().includes(q))
+              .slice(0, 6);
+            if (!matches.length) { dropdown.style.display = 'none'; return; }
+            dropdown.innerHTML = matches.map(n =>
+              `<div class="suggestion-item suggestion-${n.type}" data-id="${n.id}" data-label="${n.label}" style="cursor:pointer">
+                <span class="suggestion-type">${n.type}</span>
+                <span class="suggestion-label">${n.label}</span>
+              </div>`
+            ).join('');
+            dropdown.style.display = 'block';
+            dropdown.querySelectorAll('[data-id]').forEach(el => {
+              el.addEventListener('click', () => {
+                input.value = el.dataset.label;
+                input.dataset.selectedId = el.dataset.id;
+                dropdown.style.display = 'none';
+              });
+            });
+          });
+        }
+
+        makeAutocomplete(fromInput);
+        makeAutocomplete(toInput);
+
+        btn.addEventListener('click', () => {
+          const fromId = fromInput.dataset.selectedId ||
+            (allNodes.find(n => n.label.toLowerCase() === fromInput.value.toLowerCase()) || {}).id;
+          const toId = toInput.dataset.selectedId ||
+            (allNodes.find(n => n.label.toLowerCase() === toInput.value.toLowerCase()) || {}).id;
+          if (!fromId || !toId) {
+            result.innerHTML = '<span style="color:#e15759">Could not find one or both names. Try selecting from the dropdown.</span>';
+            return;
+          }
+          const path = findPath(fromId, toId);
+          if (!path) {
+            result.innerHTML = '<span style="color:#e15759">No connection found between these two.</span>';
+            return;
+          }
+          const steps = path.map(id => {
+            const n = nodeById(id);
+            return n ? `<a href="${n.url}" class="path-node path-node-${n.type}">${n.label}</a>` : id;
+          }).join('<span class="path-sep"> → </span>');
+          result.innerHTML = `<div class="path-steps"><strong>${path.length - 1} degree${path.length - 1 !== 1 ? 's' : ''} of separation</strong><br><div class="path-chain">${steps}</div></div>`;
+        });
+      }
+      setupPathFinder();
+    })
+    .catch(err => console.error('MusicTree: failed to load graph-slim.json', err));
+
+  // ── Responsive resize ────────────────────────────────────────────────────
   window.addEventListener('resize', () => {
     const w = container.clientWidth;
     const h = container.clientHeight;

@@ -8,6 +8,14 @@
         {{- with .Params.artist }}<a href="/artists/{{ $.Params.artist_slug }}/" class="meta-link">{{ . }}</a>{{ end }}
         {{- with .Params.year }}<span class="meta-item">{{ . }}</span>{{ end }}
         {{- with .Params.genres }}<span class="meta-item">{{ delimit . " · " }}</span>{{ end }}
+        {{- with .Params.producer }}
+        {{- $producerPage := $.Site.GetPage (printf "/people/%s" .) }}
+        <span class="meta-item">Produced by
+          <a href="/people/{{ . }}/" class="meta-link">
+            {{- if $producerPage }}{{ $producerPage.Title }}{{ else }}{{ . }}{{ end -}}
+          </a>
+        </span>
+        {{- end }}
       </div>
       {{- with .Params.mbid }}
       <a class="mb-link" href="https://musicbrainz.org/release-group/{{ . }}" target="_blank" rel="noopener">MusicBrainz ↗</a>

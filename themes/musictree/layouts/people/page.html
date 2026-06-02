@@ -11,11 +11,6 @@
           <span class="meta-item">b. {{ . }}{{- with $.Params.died }} – {{ . }}{{ end }}</span>
         {{- end }}
       </div>
-      {{- with .Params.artist_slug }}
-      <a href="/artists/{{ . }}/" class="meta-link">
-        {{- with $.Params.artist }}{{ . }}{{ else }}View Artist{{ end }} →
-      </a>
-      {{- end }}
       {{- with .Params.mbid }}
       <a class="mb-link" href="https://musicbrainz.org/artist/{{ . }}" target="_blank" rel="noopener">MusicBrainz ↗</a>
       {{- end }}
@@ -24,18 +19,65 @@
 
   {{ with .Content }}<div class="content-body">{{ . }}</div>{{ end }}
 
-  {{- with .Params.credits }}
+  {{- with .Params.bands }}
   <section class="rel-section">
-    <h2>Credits</h2>
+    <h2>Bands & Artists</h2>
+    <div class="rel-grid">
+      {{- range . }}
+      {{- $artistPage := $.Site.GetPage (printf "/artists/%s" .slug) }}
+      <a href="/artists/{{ .slug }}/" class="rel-card rel-artist">
+        <span class="rel-icon">🎸</span>
+        <div class="rel-info">
+          <strong>{{- if $artistPage }}{{ $artistPage.Title }}{{ else }}{{ .slug }}{{ end -}}</strong>
+          {{- with .role }}<span class="rel-role">{{ . }}</span>{{ end }}
+        </div>
+      </a>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  {{- with .Params.song_credits }}
+  <section class="rel-section">
+    <h2>Song Credits</h2>
     <div class="credits-table">
       {{- range . }}
       <div class="credit-row">
-        <a href="{{ with .song_slug }}/songs/{{ . }}/{{ else }}{{ with .album_slug }}/albums/{{ . }}/{{ end }}{{ end }}" class="credit-person">
-          {{ .title }}
-        </a>
-        <span class="credit-role">{{ .role }}</span>
-        {{- with .artist }}<span class="credit-artist">{{ . }}</span>{{ end }}
+        <a href="/songs/{{ .slug }}/" class="credit-person">{{ .title }}</a>
+        <span class="credit-role">{{ .credit }}</span>
       </div>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  {{- $workedWith := slice }}
+  {{- range .Params.song_credits }}
+    {{- $songPage := $.Site.GetPage (printf "/songs/%s" .slug) }}
+    {{- if $songPage }}
+      {{- $artistSlug := $songPage.Params.artist }}
+      {{- if $artistSlug }}
+        {{- $alreadyBand := false }}
+        {{- range $.Params.bands }}{{ if eq .slug $artistSlug }}{{ $alreadyBand = true }}{{ end }}{{ end }}
+        {{- if not $alreadyBand }}
+          {{- $workedWith = $workedWith | append $artistSlug }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  {{- $uniqueArtists := $workedWith | uniq }}
+  {{- if $uniqueArtists }}
+  <section class="rel-section">
+    <h2>Also Worked With</h2>
+    <div class="rel-grid">
+      {{- range $uniqueArtists }}
+      {{- $ap := $.Site.GetPage (printf "/artists/%s" .) }}
+      {{- if $ap }}
+      <a href="/artists/{{ . }}/" class="rel-card rel-artist">
+        <span class="rel-icon">🎸</span>
+        <div class="rel-info"><strong>{{ $ap.Title }}</strong></div>
+      </a>
+      {{- end }}
       {{- end }}
     </div>
   </section>

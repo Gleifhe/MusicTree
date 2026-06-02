@@ -522,3 +522,177 @@ footer {
   .rel-grid { grid-template-columns: 1fr; }
 }
 
+/* ── Section page controls ──────────────────────── */
+.section-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+.section-search-input {
+  background: var(--color-bg2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  min-width: 200px;
+}
+.section-sort-select {
+  background: var(--color-bg2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+}
+.section-count {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
+
+/* ── Scene browse page ───────────────────────────── */
+.scene-section {
+  margin-bottom: 2.5rem;
+}
+.scene-title {
+  font-size: 1.4rem;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.scene-count {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+/* ── Search suggestions dropdown ─────────────── */
+.search-panel {
+  position: relative;
+}
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--color-bg2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  z-index: 100;
+  max-height: 320px;
+  overflow-y: auto;
+  display: none;
+  box-shadow: var(--shadow);
+  margin-top: 2px;
+}
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.8rem;
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.9rem;
+}
+.suggestion-item:last-child { border-bottom: none; }
+.suggestion-item:hover { background: var(--color-bg3); }
+.suggestion-type {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  min-width: 45px;
+  text-align: center;
+}
+.suggestion-artist .suggestion-type { background: #4e79a722; color: #4e79a7; }
+.suggestion-person .suggestion-type  { background: #59a14f22; color: #59a14f; }
+.suggestion-album .suggestion-type   { background: #b07aa122; color: #b07aa1; }
+.suggestion-song .suggestion-type    { background: #f28e2b22; color: #f28e2b; }
+
+/* ── Path Finder ─────────────────────────────── */
+.path-finder-panel {
+  margin-top: 0.75rem;
+}
+.path-finder-toggle {
+  cursor: pointer;
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  user-select: none;
+}
+.path-finder-inputs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+}
+.path-finder-inputs input {
+  background: var(--color-bg2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  min-width: 180px;
+}
+.path-arrow { color: var(--color-muted); font-size: 1.2rem; }
+.btn-find-path {
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.btn-find-path:hover { opacity: 0.85; }
+.path-result { margin-top: 0.75rem; font-size: 0.9rem; }
+.path-steps { line-height: 1.8; }
+.path-chain { margin-top: 0.4rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.2rem; }
+.path-node {
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.path-node-artist { background: #4e79a722; color: #4e79a7; }
+.path-node-person  { background: #59a14f22; color: #59a14f; }
+.path-node-album   { background: #b07aa122; color: #b07aa1; }
+.path-node-song    { background: #f28e2b22; color: #f28e2b; }
+.path-sep { color: var(--color-muted); }
+
+@media (max-width: 768px) {
+  #graph-container {
+    height: 60vw !important;
+    min-height: 280px;
+  }
+  .graph-controls {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .filter-panel {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .mini-graph {
+    height: 320px !important;
+  }
+  .section-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .section-search-input, .section-sort-select {
+    width: 100%;
+  }
+  .item-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}
+

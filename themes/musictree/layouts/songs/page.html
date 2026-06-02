@@ -23,8 +23,12 @@
     <h2>Credits</h2>
     <div class="credits-table">
       {{- range . }}
+      {{- $slug := .person_slug }}
+      {{- $personPage := $.Site.GetPage (printf "/people/%s" $slug) }}
       <div class="credit-row">
-        <a href="/people/{{ .person_slug }}/" class="credit-person">{{ .person }}</a>
+        <a href="/people/{{ $slug }}/" class="credit-person">
+          {{- if $personPage }}{{ $personPage.Title }}{{ else }}{{ $slug }}{{ end -}}
+        </a>
         <span class="credit-role">{{ .role }}</span>
       </div>
       {{- end }}

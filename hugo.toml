@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://gleifhe.github.io/MusicTree/'
 languageCode = 'en-us'
 title = 'MusicTree'
 theme = 'musictree'
@@ -31,3 +31,7 @@ theme = 'musictree'
     name = 'People'
     pageRef = '/people'
     weight = 50
+  [[menus.main]]
+    name = 'Scenes'
+    pageRef = '/scenes'
+    weight = 60

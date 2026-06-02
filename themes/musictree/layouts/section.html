@@ -3,10 +3,36 @@
   <div class="section-header">
     <h1>{{ .Title }}</h1>
     {{ with .Content }}<div class="section-desc">{{ . }}</div>{{ end }}
+    <div class="section-controls">
+      <input type="text" id="section-search" placeholder="Search…" class="section-search-input" autocomplete="off">
+      <select id="section-sort" class="section-sort-select">
+        <option value="title-asc">A → Z</option>
+        <option value="title-desc">Z → A</option>
+        {{- if eq .Section "albums" }}<option value="year-desc">Newest first</option><option value="year-asc">Oldest first</option>{{ end }}
+        {{- if eq .Section "artists" }}<option value="scene">By Scene</option>{{ end }}
+      </select>
+      {{- if eq .Section "artists" }}
+      <select id="section-scene" class="section-sort-select">
+        <option value="">All Scenes</option>
+        {{- $scenes := slice }}
+        {{- range .Pages }}
+          {{- with .Params.scene }}{{- $scenes = $scenes | append . }}{{- end }}
+        {{- end }}
+        {{- range ($scenes | uniq | sort) }}
+        <option value="{{ . }}">{{ . }}</option>
+        {{- end }}
+      </select>
+      {{- end }}
+      <span class="section-count" id="section-count"></span>
+    </div>
   </div>
-  <div class="item-grid">
+  <div class="item-grid" id="item-grid">
     {{ range .Pages }}
-    <a href="{{ .RelPermalink }}" class="item-card item-{{ .Section }}">
+    <a href="{{ .RelPermalink }}" class="item-card item-{{ .Section }}"
+       data-title="{{ .Title | lower }}"
+       data-year="{{ .Params.year }}"
+       data-scene="{{ .Params.scene }}"
+       data-genre="{{ with .Params.genres }}{{ index . 0 }}{{ end }}">
       <div class="item-card-inner">
         {{- $icon := "🎵" }}
         {{- if eq .Section "artists" }}{{ $icon = "🎸" }}{{ end }}
@@ -15,6 +41,7 @@
         <span class="item-icon">{{ $icon }}</span>
         <div class="item-info">
           <h2 class="item-title">{{ .Title }}</h2>
+          {{- with .Params.scene }}<p class="item-meta item-scene">{{ . }}</p>{{ end }}
           {{- with .Params.genres }}<p class="item-meta">{{ delimit . ", " }}</p>{{ end }}
           {{- with .Params.roles }}<p class="item-meta">{{ delimit . ", " }}</p>{{ end }}
           {{- with .Params.artist }}<p class="item-meta">{{ . }}</p>{{ end }}
@@ -25,4 +52,44 @@
     {{ end }}
   </div>
 </div>
+<script>
+(function() {
+  const grid = document.getElementById('item-grid');
+  const cards = [...grid.querySelectorAll('.item-card')];
+  const searchEl = document.getElementById('section-search');
+  const sortEl = document.getElementById('section-sort');
+  const sceneEl = document.getElementById('section-scene');
+  const countEl = document.getElementById('section-count');
+
+  function update() {
+    const q = searchEl ? searchEl.value.trim().toLowerCase() : '';
+    const scene = sceneEl ? sceneEl.value : '';
+    const sort = sortEl ? sortEl.value : 'title-asc';
+
+    let visible = cards.filter(c => {
+      if (q && !c.dataset.title.includes(q)) return false;
+      if (scene && c.dataset.scene !== scene) return false;
+      return true;
+    });
+
+    visible.sort((a, b) => {
+      if (sort === 'title-asc') return a.dataset.title.localeCompare(b.dataset.title);
+      if (sort === 'title-desc') return b.dataset.title.localeCompare(a.dataset.title);
+      if (sort === 'year-desc') return (b.dataset.year || 0) - (a.dataset.year || 0);
+      if (sort === 'year-asc') return (a.dataset.year || 9999) - (b.dataset.year || 9999);
+      if (sort === 'scene') return (a.dataset.scene || '').localeCompare(b.dataset.scene || '');
+      return 0;
+    });
+
+    cards.forEach(c => c.style.display = 'none');
+    visible.forEach(c => { c.style.display = ''; grid.appendChild(c); });
+    if (countEl) countEl.textContent = visible.length + ' items';
+  }
+
+  if (searchEl) searchEl.addEventListener('input', update);
+  if (sortEl) sortEl.addEventListener('change', update);
+  if (sceneEl) sceneEl.addEventListener('change', update);
+  update();
+})();
+</script>
 {{ end }}

@@ -23,10 +23,11 @@
     <h2>Members / Key Contributors</h2>
     <div class="rel-grid">
       {{- range . }}
+      {{- $personPage := $.Site.GetPage (printf "/people/%s" .slug) }}
       <a href="/people/{{ .slug }}/" class="rel-card rel-person">
         <span class="rel-icon">🧑‍🎤</span>
         <div class="rel-info">
-          <strong>{{ .name }}</strong>
+          <strong>{{- if $personPage }}{{ $personPage.Title }}{{ else }}{{ .slug }}{{ end -}}</strong>
           {{- with .role }}<span class="rel-role">{{ . }}</span>{{ end }}
         </div>
       </a>

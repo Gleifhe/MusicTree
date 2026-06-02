@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="section-page">
+  <div class="section-header">
+    <h1>Music Scenes</h1>
+    <p class="section-desc">Browse artists grouped by their musical scene or geographic origin.</p>
+  </div>
+  {{- $sceneMap := dict }}
+  {{- range (where .Site.Pages "Section" "artists") }}
+    {{- $scene := .Params.scene | default "Unknown" }}
+    {{- $existing := index $sceneMap $scene | default slice }}
+    {{- $sceneMap = merge $sceneMap (dict $scene ($existing | append .)) }}
+  {{- end }}
+  {{- range $scene, $artists := $sceneMap }}
+  <section class="scene-section">
+    <h2 class="scene-title">{{ $scene }} <span class="scene-count">{{ len $artists }} artists</span></h2>
+    <div class="rel-grid">
+      {{- range sort $artists "Title" }}
+      <a href="{{ .RelPermalink }}" class="rel-card rel-artist">
+        <span class="rel-icon">🎸</span>
+        <div class="rel-info">
+          <strong>{{ .Title }}</strong>
+          {{- with .Params.genres }}<span class="rel-role">{{ index . 0 }}</span>{{ end }}
+        </div>
+      </a>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+</div>
+{{ end }}

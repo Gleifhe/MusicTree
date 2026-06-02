@@ -13,6 +13,19 @@
     </div>
     <div class="search-panel">
       <input type="text" id="graph-search" placeholder="Search nodes…" autocomplete="off">
+      <div id="search-suggestions" class="search-suggestions"></div>
+    </div>
+    <div class="path-finder-panel">
+      <details>
+        <summary class="path-finder-toggle">🔗 Find Connection (degrees of separation)</summary>
+        <div class="path-finder-inputs">
+          <input type="text" id="path-from" placeholder="From: artist or person…" autocomplete="off">
+          <span class="path-arrow">→</span>
+          <input type="text" id="path-to" placeholder="To: artist or person…" autocomplete="off">
+          <button id="btn-find-path" class="btn-find-path">Find</button>
+        </div>
+        <div id="path-result" class="path-result"></div>
+      </details>
     </div>
   </div>
 
@@ -51,9 +64,6 @@
   </div>
 </div>
 
-<script>
-window.GRAPH_DATA = {{ site.Data.graph | jsonify | safeJS }};
-</script>
 {{ end }}
 
 {{ define "scripts" }}
