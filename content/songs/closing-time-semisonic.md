@@ -1,0 +1,12 @@
+---
+title: "Closing Time"
+slug: closing-time-semisonic
+artist: semisonic
+album: feeling-strangely-fine-semisonic
+year: 1998
+credits:
+  - person_slug: dan-wilson
+    role: Vocals
+  - person_slug: nick-launay
+    role: Producer
+---

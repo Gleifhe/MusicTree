@@ -4,6 +4,22 @@
  * neighbourhood of FOCUS_NODE — prioritising close hops, capped at MAX_NODES.
  */
 (function () {
+  // HTML-escape untrusted strings before inserting into innerHTML / D3 .html().
+  function esc(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#x27;');
+  }
+
+  // Only allow same-origin relative paths; block javascript: and data: URLs.
+  function safeUrl(u) {
+    if (!u) return '#';
+    if (/^\/[^/]/i.test(u) || u === '/') return u;
+    return '#';
+  }
   const NODE_COLORS = {
     artist: '#4e79a7',
     person: '#59a14f',
@@ -123,7 +139,7 @@
     .data(nodeData, d => d.id)
     .join('g')
       .attr('cursor', d => d.url ? 'pointer' : 'default')
-      .on('click', (event, d) => { if (d.url) window.open(d.url, '_blank', 'noopener'); });
+      .on('click', (event, d) => { if (d.url) window.open(safeUrl(d.url), '_blank', 'noopener'); });
 
   // Tooltip
   const tip = d3.select(container).append('div')
@@ -141,7 +157,7 @@
   gNode
     .on('mouseover', (event, d) => {
       tip.style('display', 'block')
-         .html(`<strong>${d.label}</strong><br><span style="color:#8888aa;font-size:10px">${d.type}${d.meta ? ' · ' + d.meta : ''}</span>`);
+         .html(`<strong>${esc(d.label)}</strong><br><span style="color:#8888aa;font-size:10px">${esc(d.type)}${d.meta ? ' · ' + esc(d.meta) : ''}</span>`);
     })
     .on('mousemove', (event) => {
       const rect = container.getBoundingClientRect();

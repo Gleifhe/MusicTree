@@ -3,6 +3,23 @@
  * Uses global GRAPH_DATA injected by Hugo template.
  */
 (function () {
+  // HTML-escape untrusted strings before inserting into innerHTML.
+  function esc(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#x27;');
+  }
+
+  // Only allow same-origin relative paths and https:// URLs.
+  function safeUrl(u) {
+    if (!u) return '#';
+    if (/^https?:\/\//i.test(u)) return u;
+    if (/^\/[^/]/i.test(u) || u === '/') return u;
+    return '#';
+  }
   const NODE_COLORS = {
     artist: '#4e79a7',
     person: '#59a14f',
@@ -171,7 +188,7 @@
           .on('drag',  dragged)
           .on('end',   dragEnd))
         .on('click', (event, d) => {
-          if (d.url) window.location.href = d.url;
+          if (d.url) window.location.href = safeUrl(d.url);
         })
         .on('mouseover', (event, d) => showTooltip(event, d))
         .on('mousemove', (event, d) => moveTooltip(event))
@@ -298,9 +315,9 @@
   function showTooltip(event, d) {
     tooltip.classList.remove('hidden');
     tooltip.innerHTML = `
-      <div class="tooltip-type">${d.type}</div>
-      <div class="tooltip-title">${d.label}</div>
-      ${d.meta ? `<div style="font-size:0.78rem;color:#8888aa;margin-top:0.2rem">${d.meta}</div>` : ''}
+      <div class="tooltip-type">${esc(d.type)}</div>
+      <div class="tooltip-title">${esc(d.label)}</div>
+      ${d.meta ? `<div style="font-size:0.78rem;color:#8888aa;margin-top:0.2rem">${esc(d.meta)}</div>` : ''}
       ${d.url ? `<div style="font-size:0.75rem;color:#7c6af5;margin-top:0.3rem">Click to view ↗</div>` : ''}
     `;
     moveTooltip(event);
@@ -328,7 +345,7 @@
         const artists = allNodes.filter(n => n.type === 'artist');
         if (artists.length && artists[0].url) {
           const pick = artists[Math.floor(Math.random() * artists.length)];
-          window.location.href = pick.url;
+          window.location.href = safeUrl(pick.url);
         }
       });
 
@@ -361,9 +378,9 @@
             .slice(0, 8);
           if (matches.length) {
             suggestions.innerHTML = matches.map(n =>
-              `<a href="${n.url}" class="suggestion-item suggestion-${n.type}">
-                <span class="suggestion-type">${n.type}</span>
-                <span class="suggestion-label">${n.label}</span>
+              `<a href="${esc(safeUrl(n.url))}" class="suggestion-item suggestion-${esc(n.type)}">
+                <span class="suggestion-type">${esc(n.type)}</span>
+                <span class="suggestion-label">${esc(n.label)}</span>
               </a>`
             ).join('');
             suggestions.style.display = 'block';
@@ -380,11 +397,11 @@
           const term = e.target.value.trim().toLowerCase();
           const matches = allNodes.filter(n => n.label.toLowerCase().includes(term));
           if (matches.length === 1 && matches[0].url) {
-            window.location.href = matches[0].url;
+            window.location.href = safeUrl(matches[0].url);
           } else if (matches.length > 0) {
             const artistMatch = matches.find(n => n.type === 'artist');
             const best = artistMatch || matches[0];
-            if (best.url) window.location.href = best.url;
+            if (best.url) window.location.href = safeUrl(best.url);
           }
         }
       });
@@ -445,9 +462,9 @@
               .slice(0, 6);
             if (!matches.length) { dropdown.style.display = 'none'; return; }
             dropdown.innerHTML = matches.map(n =>
-              `<div class="suggestion-item suggestion-${n.type}" data-id="${n.id}" data-label="${n.label}" style="cursor:pointer">
-                <span class="suggestion-type">${n.type}</span>
-                <span class="suggestion-label">${n.label}</span>
+              `<div class="suggestion-item suggestion-${esc(n.type)}" data-id="${esc(n.id)}" data-label="${esc(n.label)}" style="cursor:pointer">
+                <span class="suggestion-type">${esc(n.type)}</span>
+                <span class="suggestion-label">${esc(n.label)}</span>
               </div>`
             ).join('');
             dropdown.style.display = 'block';
@@ -480,9 +497,9 @@
           }
           const steps = path.map(id => {
             const n = nodeById(id);
-            return n ? `<a href="${n.url}" class="path-node path-node-${n.type}">${n.label}</a>` : id;
+            return n ? `<a href="${esc(safeUrl(n.url))}" class="path-node path-node-${esc(n.type)}">${esc(n.label)}</a>` : esc(id);
           }).join('<span class="path-sep"> → </span>');
-          result.innerHTML = `<div class="path-steps"><strong>${path.length - 1} degree${path.length - 1 !== 1 ? 's' : ''} of separation</strong><br><div class="path-chain">${steps}</div></div>`;
+          result.innerHTML = `<div class="path-steps"><strong>${esc(String(path.length - 1))} degree${path.length - 1 !== 1 ? 's' : ''} of separation</strong><br><div class="path-chain">${steps}</div></div>`;
         });
       }
       setupPathFinder();
